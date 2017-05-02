@@ -1,6 +1,52 @@
 var db = [
 	
 	{
+		title: "let's get breakfast",
+		image: "let's get breakfast",
+		association: "#BitsyJam",
+		tags:["software","games","bitsy"],
+		date: "April 2017",
+		tagline: "you pick the place",
+		description: "A short adventure game about breakfast.",
+		links:[
+			["itch","https://seansleblanc.itch.io/lets-get-breakfast"]
+		]
+	},{
+		title: "AS Mall World",
+		image: "AS Mall World",
+		association: "Ludum Dare 38",
+		tags:["software","games","Unity"],
+		date: "April 2017",
+		tagline: "Ancient Secrets: Mall World",
+		description: "Our lovable protagonist Conway Selecta has crash-landed on a mysterious planet with a dark secret. Journey through Mall World, purchase powerful artifacts, and maybe even solve the mystery of true love.",
+		links:[
+			["itch","https://sweetheartsquad.itch.io/as-mall-world"]
+		]
+	},{
+		title: "you can do this",
+		image: "you can do this",
+		association: "Personal Project",
+		tags:["software","games","bitsy"],
+		date: "April 2017",
+		tagline: "probably",
+		description: "A short adventure game about a night out.",
+		links:[
+			["itch","https://seansleblanc.itch.io/you-can-do-this"],
+			["git","https://github.com/seleb/you-can-do-this"]
+		]
+	},{
+		title: "sarah goes to her friend's house",
+		image: "sarah goes to her friend's house",
+		association: "#paintjam",
+		tags:["software","games","PixiJS"],
+		date: "March 2017",
+		tagline: "and meets some people along the way",
+		description: "A short adventure game with artwork made exclusively in MS Paint.",
+		links:[
+			["itch","https://seansleblanc.itch.io/sarah-goes-to-her-friends-house"],
+			["git","https://github.com/seleb/paintjam"]
+		]
+	},{
 		title: "Duck Duck Plays the Blues",
 		image: "Duck Duck Plays the Blues",
 		association: "Personal Project",
