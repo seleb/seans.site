@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			"<h4>", entry.association, "<br>", entry.date, "</h4>",
 			"<p>", entry.description, "</p>",
 			"<h4>tags:</h4> ", getTags(entry.tags),
-			"<div class=\"links\">"
+			"<nav class=\"links\">"
 		);
 		for(l in entry.links){
 			var link = entry.links[l];
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		}
 		s.push(
 			"></a>",
-			"</div>",
+			"</nav>",
 			"</li>"
 		);
 	}

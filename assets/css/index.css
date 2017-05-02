@@ -137,8 +137,8 @@ ul.entries{
 	font-style: italic;
 	color:#999;
 }
-.entry .links{
-	height:32px;
+.entry nav.links{
+	margin-top:0.25em;
 }
 .entry a{
 	white-space: nowrap; 
