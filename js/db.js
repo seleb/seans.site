@@ -81,7 +81,7 @@ var db = [
 		tags:["software","PICO-8"],
 		date: "December 2016",
 		tagline: "&#9776;&#9777;&#9779;&#9783;",
-		description: "PICO-8 falling hazards.",
+		description: "A fantastic trilogy PICO-8 falling hazards.",
 		links:[
 			["itch","https://seansleblanc.itch.io/stairs"],
 			["itch","https://seansleblanc.itch.io/stairs2"],
