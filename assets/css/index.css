@@ -74,13 +74,17 @@ ul.entries{
 	transition: opacity 0.2s ease-out, border-radius 0.2s ease-out;
 }
 .entry figcaption{
-	display:block;
-	left:10%;
-	right:10%;
-	top:20%;
-	position:absolute;
-	text-align: center;
-	color:#FFF;
+	display: block;
+    left: 10%;
+    right: 10%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: #FFF;
+    z-index: 1;
+    margin: auto;
+    height: 2em;
 }
 .entry h3{
 	white-space: nowrap;

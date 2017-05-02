@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		s.push(
 			"<li class=\"entry\">",
 			"<figure>",
-			"<img class=\"static\" src=\"assets/images/thumbnails/", entry.image, ".png\" alt=\"", entry.title, " - thumbnail\" />",
-			"<img class=\"animated\" src=\"assets/images/thumbnails/", entry.image, ".gif\" alt=\"", entry.title, " - animated thumbnail\" />",
+				"<img class=\"static\" src=\"assets/images/thumbnails/", entry.image, ".png\" alt=\"", entry.title, " - thumbnail\" />",
+				"<img class=\"animated\" src=\"assets/images/thumbnails/", entry.image, ".gif\" alt=\"", entry.title, " - animated thumbnail\" />",
+				"<figcaption>", entry.tagline, "</figcaption>",
 			"</figure>",
-			"<figcaption>", entry.tagline, "</figcaption>",
 			"<h3>", entry.title, "</h3>",
 			"<h4>", entry.association, "<br>", entry.date, "</h4>",
 			"<p>", entry.description, "</p>",
