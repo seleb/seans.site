@@ -49,10 +49,9 @@ ul.entries{
 	display: inline-block; /* shrink wrap */
 	margin-left: 0.5em;
 
-	width: 16em;
-	height: 32em;
+	width: 21.334em;
+	height: 39em;
 
-	padding-bottom: 0.5em;
 	margin-bottom: 0.5em;
 	border-bottom: solid 1px #BBB;
 }
@@ -63,8 +62,8 @@ ul.entries{
 .entry figure img {
 	display:block;
 	position: relative;
-	width: 16em;
-	height: 16em;
+	width: 21.334em;
+	height: 21.334em;
 	background: white;
 
 	border-radius: 50%;
