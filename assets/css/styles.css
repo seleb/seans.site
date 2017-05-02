@@ -3,6 +3,8 @@ html{
 	font-size: 75%;
 	background-color: #EFEFEF;
 	color:#171516;
+	letter-spacing: -0.05em;
+	word-spacing: 0.05em;
 }
 
 html, body, h1,h2,h3,h4,h5{

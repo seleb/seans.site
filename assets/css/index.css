@@ -49,11 +49,18 @@ ul.entries{
 	display: inline-block; /* shrink wrap */
 	margin-left: 0.5em;
 
-	width: 21.334em;
-	height: 39em;
+	width: 16em;
+	height: 33em;
 
 	margin-bottom: 0.5em;
 	border-bottom: solid 1px #BBB;
+}
+.entry h3{
+	height:1.3rem;
+	line-height:1.3rem;
+}
+.entry h3.small{
+	font-size:0.85em;
 }
 .entry figure{
 	margin:0;
@@ -62,8 +69,8 @@ ul.entries{
 .entry figure img {
 	display:block;
 	position: relative;
-	width: 21.334em;
-	height: 21.334em;
+	width: 16em;
+	height: 16em;
 	background: white;
 
 	border-radius: 50%;
@@ -74,8 +81,8 @@ ul.entries{
 }
 .entry figcaption{
 	display: block;
-    left: 20%;
-    right: 20%;
+    left: 10%;
+    right: 10%;
     top: 0;
     bottom: 0;
     position: absolute;
@@ -84,11 +91,6 @@ ul.entries{
     z-index: 1;
     margin: auto;
     height: 2em;
-}
-.entry h3{
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	overflow: hidden;
 }
 .entry figure img.animated{
 	margin-top:-100%;

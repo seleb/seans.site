@@ -18,7 +18,7 @@ var db = [
 		tags:["software","games","Unity"],
 		date: "April 2017",
 		tagline: "Ancient Secrets: Mall World",
-		description: "Our lovable protagonist Conway Selecta has crash-landed on a mysterious planet with a dark secret. Journey through Mall World, purchase powerful artifacts, and maybe even solve the mystery of true love.",
+		description: "Journey through Mall World, purchase powerful artifacts, and maybe even solve the mystery of true love.",
 		links:[
 			["itch","https://sweetheartsquad.itch.io/as-mall-world"]
 		]
@@ -127,7 +127,7 @@ var db = [
 		tags:["software","PICO-8"],
 		date: "December 2016",
 		tagline: "&#9776;&#9777;&#9779;&#9783;",
-		description: "A fantastic trilogy PICO-8 falling hazards.",
+		description: "A fantastic trilogy of PICO-8 falling hazards.",
 		links:[
 			["itch","https://seansleblanc.itch.io/stairs"],
 			["itch","https://seansleblanc.itch.io/stairs2"],
