@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		document.getElementById("current-tag").innerHTML = vars["tag"];
 	}
 
-	$(".entries").html("");
+	var s = [];
 	for(entry in db){
 		entry = db[entry];
 
@@ -35,35 +35,38 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			}
 		}
 
-		var s = "<li class=\"entry\">";
-		s += "<img class=\"static\" src=\"assets/images/thumbnails/" + entry.image + ".png\" alt=\"" + entry.title + " - thumbnail\" width=\"100%\" height=\"100%\"/>";
-		s += "<img class=\"staticOverlay\" src=\"data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=\" width=\"100%\" height=\"100%\"/>";
-
-		s += "<img class=\"animated\" src=\"assets/images/thumbnails/" + entry.image + ".gif\" alt=\"" + entry.title + " - thumbnail\" width=\"100%\" height=\"100%\"/>";
-		s += "<span>" + entry.tagline + "</span>";
-		s += "<h3>" + entry.title + "</h3>";
-		s += "<h4>" + entry.association + "<br>" + entry.date + "</h4>";
-		s += "<p>" + entry.description + "</p>";
-		s += "<h4>tags: " + getTags(entry.tags) + "</h4>";
-		s += "<div class=\"links\">";
+		s.push(
+			"<li class=\"entry\">",
+			"<figure>",
+			"<img class=\"static\" src=\"assets/images/thumbnails/", entry.image, ".png\" alt=\"", entry.title, " - thumbnail\" />",
+			"<img class=\"animated\" src=\"assets/images/thumbnails/", entry.image, ".gif\" alt=\"", entry.title, " - animated thumbnail\" />",
+			"</figure>",
+			"<figcaption>", entry.tagline, "</figcaption>",
+			"<h3>", entry.title, "</h3>",
+			"<h4>", entry.association, "<br>", entry.date, "</h4>",
+			"<p>", entry.description, "</p>",
+			"<h4>tags:</h4> ", getTags(entry.tags),
+			"<div class=\"links\">"
+		);
 		for(l in entry.links){
 			var link = entry.links[l];
-			s += "<a target=\"_blank\" href=\"" + link[1] + "\" class=\"icon "+link[0]+"mark\"";
+			s.push("<a target=\"_blank\" href=\"", link[1], "\" class=\"icon ", link[0], "mark\"");
 			if(link[1] == ""){
-				s+= "style='visibility:hidden;'"
+				s.push("style='visibility:hidden;'");
 			}
-			s += "></a>";	
+			s.push("></a>");
 		}
-		s += "<a target=\"_blank\" href=\"" + entry.gitsource + "\" class=\"icon gitmark\"";
+		s.push("<a target=\"_blank\" href=\"", entry.gitsource, "\" class=\"icon gitmark\"");
 		if(!entry.gitsource || entry.gitsource == ""){
-			s+= "style='visibility:hidden;'"
+			s.push("style='visibility:hidden;'");
 		}
-		s += "></a>";
-		s += "</div>";
-		s += "<hr>";
-		s += "</li>";
-		$(".entries").append(s);
+		s.push(
+			"></a>",
+			"</div>",
+			"</li>"
+		);
 	}
+	document.getElementById("entries").innerHTML = s.join('');
 });
 
 

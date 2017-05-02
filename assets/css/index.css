@@ -51,17 +51,29 @@ ul.entries{
 
 	width: 16em;
 	height: 32em;
+
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+	border-bottom: solid 1px #BBB;
 }
-.entry img {
-	border-radius: 50%;
+.entry figure{
+	margin:0;
+	position: relative;
+}
+.entry figure img {
+	display:block;
+	position: relative;
 	width: 16em;
 	height: 16em;
-	display:block;
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+	background: white;
+
+	border-radius: 50%;
+
+	-webkit-transition: opacity 0.2s ease-out, border-radius 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out, border-radius 0.2s ease-out;
+	transition: opacity 0.2s ease-out, border-radius 0.2s ease-out;
 }
-.entry span{
+.entry figcaption{
 	display:block;
 	left:10%;
 	right:10%;
@@ -70,23 +82,47 @@ ul.entries{
 	text-align: center;
 	color:#FFF;
 }
-.entry img.animated{
+.entry h3{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.entry figure img.animated{
 	margin-top:-100%;
 	opacity: 0;
 }
+.entry figure:after{
+	content:' ';
+	display:block;
+	width:100%;
+	height:100%;
+	background: black;
+	opacity: 0.75;
+    position: absolute;
+    top: 0;
+    left: 0;
+	border-radius:50%;
+
+	-webkit-transition: opacity 0.2s ease-out, border-radius 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out, border-radius 0.2s ease-out;
+	transition: opacity 0.2s ease-out, border-radius 0.2s ease-out;
+}
+
+/* hover */
 .entry:hover img.animated,
 .entry:active img.animated{
 	opacity: 1;
 }
-.entry:hover img.staticOverlay,
-.entry:hover span{
+.entry:hover figure:after,
+.entry:hover figcaption{
 	opacity: 0;
+	border-radius:0%;
 }.entry:hover img{
 	border-radius:0%;
 }
-.entry img.staticOverlay{
-	margin-top:-100%;
-}
+
+
+
 .entry p{
 	display:block;
 	margin:0;
