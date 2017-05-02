@@ -9,7 +9,7 @@ $(document).ready(function(){
 		}
 	}
 
-	var tags = vars["tag"] !== undefined && vars["tag"] !== "all";
+	var tags = vars["tag"] && vars["tag"] !== "all";
 
 	if(tags){
 		document.getElementById("current-tag").innerHTML = vars["tag"];
