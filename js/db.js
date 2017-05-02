@@ -184,7 +184,7 @@ var db = [
 	{
 		title: "In Transit",
 		image: "In Transit",
-		association: "Ludum Dare 26",
+		association: "#fermijam",
 		tags:["software","games","PixiJS"],
 		date: "September 2016",
 		tagline: "Relax and watch a probe search for life.",
