@@ -5,7 +5,7 @@ $(document).ready(function(){
 	for(var i=0; i < parts.length; ++i){
 		var v = parts[i].split("=");
 		if(v.length >= 2){
-			vars[v[0]] = v[1].toLowerCase();
+			vars[v[0]] = v[1];
 		}
 	}
 
@@ -25,7 +25,7 @@ $(document).ready(function(){
 			var include = false;
 			var tags=entry.tags;
 			for(var i=0;i<tags.length;++i){
-				if(tags[i].toLowerCase() == vars["tag"]){
+				if(tags[i].toLowerCase() === vars["tag"].toLowerCase()){
 					include = true;
 					break;
 				}
