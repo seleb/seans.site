@@ -41,8 +41,10 @@ ul.contact li{
 
 ul.entries{
 	padding:0;
+	text-align: center;
 }
 .entry{
+	text-align: left;
 	position: relative;
 	display: inline-block; /* shrink wrap */
 	margin-left: 0.5em;
