@@ -41,8 +41,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				"<img class=\"static\" src=\"assets/images/thumbnails/", entry.image, ".png\" alt=\"", entry.title, " - thumbnail\" />",
 				"<img class=\"animated\" src=\"assets/images/thumbnails/", entry.image, ".gif\" alt=\"", entry.title, " - animated thumbnail\" />",
 				"<figcaption>", entry.tagline, "</figcaption>",
-			"</figure>",
-			"<h3>", entry.title, "</h3>",
+			"</figure>"
+		);
+		if(entry.title.length > 25){
+			s.push("<h3 class=\"small\">", entry.title, "</h3>");
+		}else{
+			s.push("<h3>", entry.title, "</h3>");
+		}
+		s.push(
 			"<h4>", entry.association, "<br>", entry.date, "</h4>",
 			"<p>", entry.description, "</p>",
 			"<h4>tags:</h4> ", getTags(entry.tags),

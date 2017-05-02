@@ -107,13 +107,13 @@ var db = [
 		]
 	},
 	{
-		title: "BBwtBBB",
+		title: "Bouncing Balls with the Boing Boing Boys",
 		image: "Bouncing Balls with the Boing Boing Boys",
 		association: "Ludum Dare 37",
 		tags:["software","games","PixiJS"],
 		date: "December 2016",
 		tagline: "Bouncy Battles for 2-4 Buddies",
-		description: "Bouncing Balls with the Boing Boing Boys: Local multiplayer deathmatch for 2-4 players. Made with Pixi.js.",
+		description: "Chaotic local multiplayer deathmatch for 2-4 players. Made with Pixi.js.",
 		links:[
 			["itch","https://sweetheartsquad.itch.io/bouncing-balls-with-the-boing-boing-boys"],
 			["git","https://github.com/sweetheartsquad/LDJAM37"],
