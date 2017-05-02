@@ -109,9 +109,7 @@ ul.entries{
 }
 
 
-
-
-@media all and (max-width : 860px) {
+@media all and (max-width : 1100px) {
 	body{
 
 	}
