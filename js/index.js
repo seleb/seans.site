@@ -1,4 +1,4 @@
-$(document).ready(function(){
+document.addEventListener("DOMContentLoaded", function(event) { 
 	var vars={};
 	var parts = window.location.search.substring(1).split("&");
 
