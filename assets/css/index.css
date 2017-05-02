@@ -104,6 +104,9 @@ ul.entries{
 .entry .links{
 	height:32px;
 }
+.entry a{
+	white-space: nowrap; 
+}
 
 
 
