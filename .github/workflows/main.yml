@@ -21,4 +21,6 @@ jobs:
         server: ${{ secrets.server }}
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
+        local-dir: ./public/
+        server-dir: ./public_html/
         dry-run: true
