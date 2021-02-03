@@ -1,0 +1,67 @@
+.link-list {
+	display: block;
+	margin: 0;
+	padding: 0;
+
+	> li {
+		display: inline-block;
+	}
+	> li > a {
+		color: transparent;
+		font-size: 0;
+
+		&:before {
+			content: "";
+			width: 32px;
+			height: 32px;
+			display: inline-block;
+			border-radius: 50%;
+			vertical-align: middle;
+			margin-right: 0.5rem;
+			image-rendering: pixelated;
+			background-color: var(--bg);
+			transition: opacity 0.1s ease-in-out;
+			mask-position: center;
+			mask-repeat: no-repeat;
+			mask-size: cover;
+		}
+		
+		&:hover:not(:active):before {
+			opacity: 0.5;
+		}
+
+		&.github:before {
+			mask-image: url(../images/icons/GitHub-Mark-32px.png);
+		}
+		
+		&.email:before {
+			mask-image: url(../images/icons/email.png);
+		}
+		
+		&.twitter:before {
+			mask-image: url(../images/icons/twitter.png);
+		}
+		
+		&.linkedin:before {
+			mask-image: url(../images/icons/linkedin.png);
+		}
+		
+		&.itch:before {
+			mask-image: url(../images/icons/itch.png);
+		}
+		
+		&.tumblr:before {
+			mask-image: url(../images/icons/tumblr.png);
+		}
+
+		&.pico8:before {
+			mask-image: url(../images/icons/pico8.png);
+		}
+		
+		&.generic:before {
+			mask-image: url(../images/icons/linkbutton.png);
+		}
+	}
+}
+
+

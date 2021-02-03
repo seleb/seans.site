@@ -1,0 +1,87 @@
+.project-page {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	position: relative;
+	overflow: hidden;
+
+	> .preview {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		transform: scale(1.1);
+		transform-origin: bottom center;
+		filter: blur(2rem);
+	}
+
+	> a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 1rem;
+		text-decoration: none;
+		font-weight: normal;
+		font-size: 200%;
+	}
+
+	> main {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		max-height: 100%;
+		overflow: auto;
+
+		
+		> * {
+			margin: 0.5rem 0;
+			animation: slide-in 1s cubic-bezier(0.18, 0.89, 0.32, 1.28) both;
+
+			@for $i from 1 through 5 {
+				&:nth-child(#{$i}n) {
+					animation-delay: #{$i * 150}ms;
+				}
+			}
+		}
+		
+		> h1 {
+			font-size: 350%;
+		}
+
+		> h3 {
+			font-weight: normal;
+			font-style: italic;
+		}
+
+		> p {
+			max-width: 60em;
+		}
+
+		.link-list > li > a:before {
+			background-color: var(--fg);
+		}
+		.link-list > li {
+			animation: slide-in 1s cubic-bezier(0.18, 0.89, 0.32, 1.28) both;
+
+			@for $i from 1 through 5 {
+				&:nth-child(#{$i}n) {
+					animation-delay: #{500 + $i * 200}ms;
+				}
+			}
+		}
+	}
+}
+
+@keyframes slide-in {
+	from {
+		opacity: 0;
+		transform: translateY(-2rem);
+	}
+}
