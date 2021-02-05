@@ -14,7 +14,7 @@ exports.onCreateNode = ({
 		createNodeField
 	} = actions
 	if (node.internal.type === `DbJson`) {
-		const slug = `/project/${sanitizeFilename(node.title)}`;
+		const slug = `/project/${sanitizeFilename(node.title).trim()}`;
 		createNodeField({
 			node,
 			name: `slug`,
