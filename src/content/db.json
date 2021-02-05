@@ -1,575 +1,576 @@
-[{
-	"title": "Fortune's Fervour",
-	"thumbnail": "./thumbnails/Fortune's Fervour.png",
-	"preview": "./thumbnails/Fortune's Fervour.gif",
-	"association": "bitsy divination jam",
-	"date": "May 2019",
-	"tagline": "What does your future hold?",
-	"description": "Explore and learn your fate. A diviner made with artwork generated within 24h by <a href='https://twitter.com/SpritesByBitsy'>@SpritesByBitsy</a>.",
-	"links": [
-		"https://sweetheartsquad.itch.io/fortunes-fervour"
-	]
-}, {
-	"title": "WHY DO BEES",
-	"thumbnail": "./thumbnails/WHY DO BEES.png",
-	"preview": "./thumbnails/WHY DO BEES.gif",
-	"association": "#BitsyJam",
-	"date": "DATE",
-	"tagline": "?",
-	"description": "made for the bees",
-	"links": [
-		"https://seansleblanc.itch.io/why-do-bees"
-	]
-}, {
-	"title": "ache",
-	"thumbnail": "./thumbnails/ache.png",
-	"preview": "./thumbnails/ache.gif",
-	"association": "#BitsyJam",
-	"date": "April 2019",
-	"tagline": "oh",
-	"description": "made for the teeth",
-	"links": [
-		"https://seansleblanc.itch.io/ache"
-	]
-}, {
-	"title": "TINAR-L",
-	"thumbnail": "./thumbnails/TINAR-L.png",
-	"preview": "./thumbnails/TINAR-L.gif",
-	"association": "#7DRL2019",
-	"date": "March 2019",
-	"tagline": "This is not a rogue-like.",
-	"description": "An attempted rogue-like that wasn't.",
-	"links": [
-		"https://seansleblanc.itch.io/tinar-l"
-	]
-}, {
-	"title": "a snail's journey",
-	"thumbnail": "./thumbnails/a snail's journey.png",
-	"preview": "./thumbnails/a snail's journey.gif",
-	"association": "#BitsyJam",
-	"date": "March 2019",
-	"tagline": "",
-	"description": "made for the snails",
-	"links": [
-		"https://seansleblanc.itch.io/a-snails-journey"
-	]
-}, {
-	"title": "blue as the sky",
-	"thumbnail": "./thumbnails/blue as the sky.png",
-	"preview": "./thumbnails/blue as the sky.gif",
-	"association": "Personal Project",
-	"date": "February 2019",
-	"tagline": "#0052cc",
-	"description": "A small tech demo demonstrating a cross-engine communication layer, focused on twine and bitsy.",
-	"links": [
-		"https://seansleblanc.itch.io/blue-as-the-sky",
-		"https://github.com/seleb/bitsy-hacks/blob/master/dist/twine-bitsy-comms.js"
-	]
-}, {
-	"title": "Salvage Duty",
-	"thumbnail": "./thumbnails/Salvage Duty.png",
-	"preview": "./thumbnails/Salvage Duty.gif",
-	"association": "#BitsyJam",
-	"date": "February 2019",
-	"tagline": "ruins / memories",
-	"description": "Loosely based on a short playthrough of <a href='https://seaexcursion.itch.io/alone-in-the-station-remnants'>Alone in the Station Remnants</a>.",
-	"links": [
-		"https://seansleblanc.itch.io/salvage-duty"
-	]
-}, {
-	"title": "Homeward Bound",
-	"thumbnail": "./thumbnails/Homeward Bound.png",
-	"preview": "./thumbnails/Homeward Bound.gif",
-	"association": "#GGJ2019/#1923JAM",
-	"date": "January 2019",
-	"tagline": "You wake up in an endless ocean...",
-	"description": "A group of seven people find themselves on a ship in the middle of an endless ocean, with no recollection of how they got there. Based on the <a href='https://www.imdb.com/title/tt0014138/'>1923 film</a> of the same name.",
-	"links": [
-		"https://sweetheartsquad.itch.io/homeward-bound",
-		"https://github.com/SweetheartSquad/GGJ2019",
-		"https://globalgamejam.org/2019/games/homeward-bound-3"
-	]
-}, {
-	"title": "Goodbye BURGER CITY",
-	"thumbnail": "./thumbnails/Goodbye BURGER CITY.png",
-	"preview": "./thumbnails/Goodbye BURGER CITY.gif",
-	"association": "BURGER CITY JAM",
-	"date": "January 2019",
-	"tagline": "city of burgers",
-	"description": "I never saw American Graffiti.",
-	"links": [
-		"https://sweetheartsquad.itch.io/goodbye-burger-city"
-	]
-}, {
-	"title": "bitsy hacks",
-	"thumbnail": "./thumbnails/bitsy hacks.png",
-	"preview": "./thumbnails/bitsy hacks.gif",
-	"association": "Personal Project",
-	"date": "Active Development",
-	"tagline": "a collection of re-usable scripts for bitsy game maker",
-	"description": "An open source collection of re-usable scripts for <a href='https://twitter.com/adamledoux'>Adam Le Doux</a>'s <a href='https://ledoux.itch.io/bitsy'>Bitsy Game Maker</a>, adding a variety of features.",
-	"links": [
-		"https://github.com/seleb/bitsy-hacks",
-		"https://www.npmjs.com/package/@bitsy/hecks"
-	]
-}, {
-	"title": "judgement",
-	"thumbnail": "./thumbnails/judgement.png",
-	"preview": "./thumbnails/judgement.gif",
-	"association": "#BitsyJam",
-	"date": "December 2018",
-	"tagline": "let's play tarot",
-	"description": "made for tarot",
-	"links": [
-		"https://seansleblanc.itch.io/judgement"
-	]
-}, {
-	"title": "a holiday yarn",
-	"thumbnail": "./thumbnails/a holiday yarn.png",
-	"preview": "./thumbnails/a holiday yarn.gif",
-	"association": "Bitsy community secret santa",
-	"date": "December 2018",
-	"tagline": "more of a cross-stitch, really",
-	"description": "Made for <a href='https://brandonmakesthings.itch.io/'>Brandon Thread</a> as a secret santa gift.",
-	"links": [
-		"https://seansleblanc.itch.io/a-holiday-yarn"
-	]
-}, {
-	"title": "Super Snow Shoveler",
-	"thumbnail": "./thumbnails/Super Snow Shoveler.png",
-	"preview": "./thumbnails/Super Snow Shoveler.gif",
-	"association": "Pico-8 Advent Calendar",
-	"date": "December 2018",
-	"tagline": "~a winter classic~",
-	"description": "a battle between efficiency & exhaustion",
-	"links": [
-		"https://seansleblanc.itch.io/super-snow-shoveler",
-		"https://www.lexaloffle.com/bbs/?tid=32388"
-	]
-}, {
-	"title": "ghosts aren't real",
-	"thumbnail": "./thumbnails/ghost's aren't real.png",
-	"preview": "./thumbnails/ghost's aren't real.gif",
-	"association": "#BitsyJam",
-	"date": "November 2018",
-	"tagline": "",
-	"description": "",
-	"links": [
-		"https://seansleblanc.itch.io/ghosts-arent-real"
-	]
-}, {
-	"title": "daily",
-	"thumbnail": "./thumbnails/daily.png",
-	"preview": "./thumbnails/daily.gif",
-	"association": "#BitsyJam",
-	"date": "November 2018",
-	"tagline": "every day",
-	"description": "made for the ritual",
-	"links": [
-		"https://seansleblanc.itch.io/daily"
-	]
-}, {
-	"title": "on the hunt",
-	"thumbnail": "./thumbnails/on the hunt.png",
-	"preview": "./thumbnails/on the hunt.gif",
-	"association": "#twitsybotjam",
-	"date": "October 2018",
-	"tagline": "exploring a pastel universe the best way possible",
-	"description": "A tiny tribute to my favourite twitter bot, <a href='https://twitter.com/FermiPasteladox'>A Pastel Universe</a>.",
-	"links": [
-		"https://seansleblanc.itch.io/on-the-hunt"
-	]
-}, {
-	"title": "boxboxhtml",
-	"thumbnail": "./thumbnails/boxboxhtml.png",
-	"preview": "./thumbnails/boxboxhtml.gif",
-	"association": "Personal Project",
-	"date": "September 2018",
-	"tagline": "a basic WYSIWYG editor for html/css layouts",
-	"description": "A simple tool for creating html/css layouts, similar to the basics of Unity's UI editor.",
-	"links": [
-		"https://seansleblanc.itch.io/boxboxhtml",
-		"https://github.com/seleb/boxboxhtml"
-	]
-}, {
-	"title": "lunar cultivation",
-	"thumbnail": "./thumbnails/lunar cultivation.png",
-	"preview": "./thumbnails/lunar cultivation.gif",
-	"association": "#BitsyJam",
-	"date": "September 2018",
-	"tagline": "oh i think i remember that game",
-	"description": "a half-remembrance made for the harvest",
-	"links": [
-		"https://seansleblanc.itch.io/lunar-cultivation"
-	]
-}, {
-	"title": "a retrospective",
-	"thumbnail": "./thumbnails/a retrospective.png",
-	"preview": "./thumbnails/a retrospective.gif",
-	"association": "#BitsyJam",
-	"date": "September 2018",
-	"tagline": "there have been 16 bitsy jams",
-	"description": "an autobiographical mixtape",
-	"links": [
-		"https://seansleblanc.itch.io/a-retrospective"
-	]
-}, {
-	"title": "Fontsy",
-	"thumbnail": "./thumbnails/Fontsy.png",
-	"preview": "./thumbnails/Fontsy.gif",
-	"association": "Personal Project",
-	"date": "August 2018",
-	"tagline": "Bitsy Font Tool",
-	"description": "With the release of Bitsy 5 came a brand-new font system. The new system is far more customizable than the old one: among other features, it includes a spec for a .bitsyfont format which can be used to make custom fonts. Since the format is plaintext, it's relatively easy to make custom fonts by typing them out in a text editor, but from a creative perspective, it's a bit hard to draw characters that way. To help with this, Fontsy provides a way to convert back-and-forth between .bitsyfont and .bitsyfont.png files, which can be used to draw fonts in a more traditional image editor.",
-	"links": [
-		"https://seansleblanc.itch.io/fontsy",
-		"https://github.com/seleb/Fontsy"
-	]
-}, {
-	"title": "🔦",
-	"thumbnail": "./thumbnails/torch.png",
-	"preview": "./thumbnails/torch.gif",
-	"association": "#LOWREZJAM",
-	"date": "August 2018",
-	"tagline": "A raytraced lighting tech demo",
-	"description": "",
-	"links": [
-		"https://seansleblanc.itch.io/torch",
-		"https://github.com/seleb/LOWREZJAM2018",
-		"https://seansleblanc.itch.io/torch/devlog/44317/ok-wait-but-howd-you-do-that-in-bitsy"
-	]
-}, {
-	"title": "Pretty Print",
-	"thumbnail": "./thumbnails/Pretty Print.png",
-	"preview": "./thumbnails/Pretty Print.gif",
-	"association": "#BitsyJam",
-	"date": "August 2018",
-	"tagline": "",
-	"description": "made for the sublime",
-	"links": [
-		"https://seansleblanc.itch.io/pretty-print"
-	]
-}, {
-	"title": "PCM tool",
-	"thumbnail": "./thumbnails/PCM tool.png",
-	"preview": "./thumbnails/PCM tool.gif",
-	"association": "Personal Project",
-	"date": "July 2018",
-	"tagline": "Helper for generating generative PCM snippets",
-	"description": "Helper for generating generative PCM snippets. Output is a self-contained script which starts the audio on mousedown. Click on output to copy to clipboard.",
-	"links": [
-		"https://seansleblanc.itch.io/pcm-tool",
-		"https://github.com/seleb/PCM-tool"
-	]
-}, {
-	"title": "PICO-8 fillp tool",
-	"thumbnail": "./thumbnails/PICO-8 fillp tool.png",
-	"preview": "./thumbnails/PICO-8 fillp tool.gif",
-	"association": "Personal Project",
-	"date": "July 2018",
-	"tagline": "Helper for creating PICO-8 fillp patterns",
-	"description": "A little helper tool for generating fillp patterns. Output is provided as hexadecimal sum (most compact), binary sum (easiest to read), and decimal addition (verbose; matches PICO-8 example).",
-	"links": [
-		"https://seansleblanc.itch.io/pico-8-fillp-tool",
-		"https://github.com/seleb/fillp-tool"
-	]
-}, {
-	"title": "There once",
-	"thumbnail": "./thumbnails/There once.png",
-	"preview": "./thumbnails/There once.gif",
-	"association": "#BitsyJam",
-	"date": "June 2018",
-	"tagline": "A branching limerick",
-	"description": "made for the space whales",
-	"links": [
-		"https://seansleblanc.itch.io/there-once"
-	]
-}, {
-	"title": "i've never seen the ocean",
-	"thumbnail": "./thumbnails/i've never seen the ocean.png",
-	"preview": "./thumbnails/i've never seen the ocean.gif",
-	"association": "#BitsyJam",
-	"date": "June 2018",
-	"tagline": "A thought",
-	"description": "made for the ocean",
-	"links": [
-		"https://seansleblanc.itch.io/ive-never-seen-the-ocean"
-	]
-}, {
-	"title": "a night (was had) on the town",
-	"thumbnail": "./thumbnails/a night (was had) on the town.png",
-	"preview": "./thumbnails/a night (was had) on the town.gif",
-	"association": "tipsy jam",
-	"date": "May 2018",
-	"tagline": "now i'm home",
-	"description": "",
-	"links": [
-		"https://seansleblanc.itch.io/a-night-was-had-on-the-town"
-	]
-}, {
-	"title": "MATCH3+CONNECT4",
-	"thumbnail": "./thumbnails/MATCH3+CONNECT4.png",
-	"preview": "./thumbnails/MATCH3+CONNECT4.gif",
-	"association": "Ludum Dare 41",
-	"date": "April 2018",
-	"tagline": "harder than it sounds",
-	"description": "It's like match 3, but also like connect 4.",
-	"links": [
-		"https://seansleblanc.itch.io/match3connect4",
-		"https://github.com/seleb/LDJAM41",
-		"https://ldjam.com/events/ludum-dare/41/match3connect4",
-		"https://www.lexaloffle.com/bbs/?tid=31166"
-	]
-}, {
-	"title": "here are my cats",
-	"thumbnail": "./thumbnails/here are my cats.png",
-	"preview": "./thumbnails/here are my cats.gif",
-	"association": "#BitsyJam",
-	"date": "April 2018",
-	"tagline": "",
-	"description": "made for the cats",
-	"links": [
-		"https://seansleblanc.itch.io/here-are-my-cats"
-	]
-}, {
-	"title": "This is not a Bitsy game",
-	"thumbnail": "./thumbnails/This is not a Bitsy game.png",
-	"preview": "./thumbnails/This is not a Bitsy game.gif",
-	"association": "Personal Project",
-	"date": "April 2018",
-	"tagline": "",
-	"description": "Not made with bitsy.",
-	"links": [
-		"https://seansleblanc.itch.io/this-is-not-a-bitsy-game"
-	]
-}, {
-	"title": "Archeology 101",
-	"thumbnail": "./thumbnails/Archeology 101.png",
-	"preview": "./thumbnails/Archeology 101.gif",
-	"association": "#BitsyJam",
-	"date": "March 2018",
-	"tagline": "I'm late for my archeology final!",
-	"description": "made for the archeology",
-	"links": [
-		"https://seansleblanc.itch.io/archeology-101"
-	]
-}, {
-	"title": "This seems bad.",
-	"thumbnail": "./thumbnails/This seems bad.png",
-	"preview": "./thumbnails/This seems bad.gif",
-	"association": "Bitsy hack jam",
-	"date": "March 2018",
-	"tagline": "T-minus 1 minute to landing.",
-	"description": "",
-	"links": [
-		"https://seansleblanc.itch.io/this-seems-bad"
-	]
-}, {
-	"title": "bitsnake",
-	"thumbnail": "./thumbnails/bitsnake.png",
-	"preview": "./thumbnails/bitsnake.gif",
-	"association": "Personal Project",
-	"date": "March 2018",
-	"tagline": "what if bitsy but also snake??",
-	"description": "*chomp*",
-	"links": [
-		"https://seansleblanc.itch.io/bitsnake"
-	]
-}, {
-	"title": "Tea for Two",
-	"thumbnail": "./thumbnails/Tea for Two.png",
-	"preview": "./thumbnails/Tea for Two.gif",
-	"association": "#BitsyJam",
-	"date": "February 2018",
-	"tagline": "Two for Tea",
-	"description": "made for the oh no",
-	"links": [
-		"https://seansleblanc.itch.io/tea-for-two"
-	]
-}, {
-	"title": "Objective: cross the room.",
-	"thumbnail": "./thumbnails/Objective cross the room.png",
-	"preview": "./thumbnails/Objective cross the room.gif",
-	"association": "Personal Project",
-	"date": "February 2018",
-	"tagline": "Bitsy games can be reset with \"Ctrl+r\"",
-	"description": "Not as easy as it sounds.",
-	"links": [
-		"https://seansleblanc.itch.io/objective-cross-the-room"
-	]
-}, {
-	"title": "aubergine",
-	"thumbnail": "./thumbnails/aubergine.png",
-	"preview": "./thumbnails/aubergine.gif",
-	"association": "Bitsy Game Swap",
-	"date": "February 2018",
-	"tagline": "i had that <em>dream</em> again",
-	"description": "Made for <a href='https://twitter.com/jctwood'>jctwood</a>.",
-	"links": [
-		"https://seansleblanc.itch.io/aubergine"
-	]
-}, {
-	"title": "midnight",
-	"thumbnail": "./thumbnails/midnight.png",
-	"preview": "./thumbnails/midnight.gif",
-	"association": "#BitsyJam",
-	"date": "January 2018",
-	"tagline": "i'm sure the wait will pay off eventually",
-	"description": "made for the midnight",
-	"links": [
-		"https://seansleblanc.itch.io/midnight"
-	]
-}, {
-	"title": "÷",
-	"thumbnail": "./thumbnails/c3b7.png",
-	"preview": "./thumbnails/c3b7.gif",
-	"association": "Personal Project",
-	"date": "January 2018",
-	"tagline": "",
-	"description": "",
-	"links": [
-		"https://seansleblanc.itch.io/c3b7"
-	]
-}, {
-	"title": "you are the coin master",
-	"thumbnail": "./thumbnails/you are the coin master.png",
-	"preview": "./thumbnails/you are the coin master.gif",
-	"association": "Ludum Dare 40",
-	"date": "December 2017",
-	"tagline": "the more you have, the worse it is",
-	"description": "Can you collect all the coins? You just have to have them, no matter the cost!",
-	"links": [
-		"https://seansleblanc.itch.io/you-are-the-coin-master",
-		"https://ldjam.com/events/ludum-dare/40/you-are-the-coin-master"
-	]
-}, {
-	"title": "the little field in the park between home and the bus stop",
-	"thumbnail": "./thumbnails/the little field in the park between home and the bus stop.png",
-	"preview": "./thumbnails/the little field in the park between home and the bus stop.gif",
-	"association": "#BitsyJam",
-	"date": "December 2017",
-	"tagline": "",
-	"description": "made for the snow",
-	"links": [
-		"https://seansleblanc.itch.io/the-little-field-in-the-park-between-home-and-the-bus-stop"
-	]
-}, {
-	"title": "BONZEN",
-	"thumbnail": "./thumbnails/BONZEN.png",
-	"preview": "./thumbnails/BONZEN.gif",
-	"association": "#selfcarejam 2",
-	"date": "November 2017",
-	"tagline": "Shape a sense of zen.",
-	"description": "Nothing grows in space, at least not with some help. Join an old man in his quest to bring back beautiful greenery that once covered his lost planet. Take a step back from space drama and a step into his biodome to cultivate tiny bonsai trees and find some inner peace.",
-	"links": [
-		"https://sweetheartsquad.itch.io/bonzen"
-	]
-}, {
-	"title": "a day on the town",
-	"thumbnail": "./thumbnails/a day on the town.png",
-	"preview": "./thumbnails/a day on the town.gif",
-	"association": "#BitsyJam",
-	"date": "November 2017",
-	"tagline": "it's gonna be a good day!",
-	"description": "made for the bric-a-brac",
-	"links": [
-		"https://seansleblanc.itch.io/a-day-on-the-town"
-	]
-}, {
-	"title": "castles",
-	"thumbnail": "./thumbnails/castles.png",
-	"preview": "./thumbnails/castles.gif",
-	"association": "#BitsyJam",
-	"date": "November 2017",
-	"tagline": "ruins",
-	"description": "",
-	"links": [
-		"https://seansleblanc.itch.io/castles"
-	]
-}, {
-	"title": "running late",
-	"thumbnail": "./thumbnails/running late.png",
-	"preview": "./thumbnails/running late.gif",
-	"association": "#BitsyJam",
-	"date": "October 2017",
-	"tagline": "I'm running late!",
-	"description": "made for the traintracks",
-	"links": [
-		"https://seansleblanc.itch.io/running-late"
-	]
-}, {
-	"title": "Rōshigumi",
-	"thumbnail": "./thumbnails/roshigumi.png",
-	"preview": "./thumbnails/roshigumi.gif",
-	"association": "#AGBIC",
-	"date": "September 2017",
-	"tagline": "A traitor threatens the Shogun in this tense shoot-em-up.",
-	"description": "You are a ronin, hired by the Rōshigumi to protect the Shogun on his visit to Kyoto. The only problem is, there's a traitor in your midst. Cut down <strike>enemies, find</strike> the <strike>traitor, and keep the</strike> Shogun <strike>safe</strike>.",
-	"links": [
-		"https://sweetheartsquad.itch.io/roshigumi",
-		"https://github.com/SweetheartSquad/AGBIC2017-Roshigumi",
-		"http://network.winnitron.com/games/roshigumi"
-	]
-}, {
-	"title": "|| I-,`'-' \\=I 'I '--I -' |",
-	"thumbnail": "./thumbnails/They've got a secret.png",
-	"preview": "./thumbnails/They've got a secret.gif",
-	"association": "#BitsyJam",
-	"date": "August 2017",
-	"tagline": "They've got a secret!",
-	"description": "made for a secret",
-	"links": [
-		"https://seansleblanc.itch.io/theyve-got-a-secret"
-	]
-}, {
-	"title": "-A MOTH STORY-",
-	"thumbnail": "./thumbnails/-A MOTH STORY-.png",
-	"preview": "./thumbnails/-A MOTH STORY-.gif",
-	"association": "#BitsyJam",
-	"date": "July 2017",
-	"tagline": "well, it's more moth-adjacent",
-	"description": "made for the moth",
-	"links": [
-		"https://seansleblanc.itch.io/a-moth-story"
-	]
-}, {
-	"title": "I wonder...",
-	"thumbnail": "./thumbnails/I wonder.png",
-	"preview": "./thumbnails/I wonder.gif",
-	"association": "#BitsyJam",
-	"date": "July 2017",
-	"tagline": "I wonder when the next bus comes by...",
-	"description": "made for the daydream",
-	"links": [
-		"https://seansleblanc.itch.io/i-wonder"
-	]
-}, {
-	"title": "A Visitor On Venus",
-	"thumbnail": "./thumbnails/A Visitor On Venus.png",
-	"preview": "./thumbnails/A Visitor On Venus.gif",
-	"association": "#CGAJAM",
-	"date": "June 2017",
-	"tagline": "A low-rez FMV visual novel about a vacation gone wrong.",
-	"description": "On your way to Charon for a well-deserved vacation, your ship crash-lands on Venus -- a planet owned entirely by an eccentric quadrillionaire. Explore his lavish estate and find parts to repair your ship.",
-	"links": [
-		"https://sweetheartsquad.itch.io/a-visitor-on-venus",
-		"https://github.com/SweetheartSquad/CGAJAM"
-	]
-}, {
-	"title": "rain",
-	"thumbnail": "./thumbnails/rain.png",
-	"preview": "./thumbnails/rain.gif",
-	"association": "#BitsyJam",
-	"date": "May 2017",
-	"tagline": "looks a bit damp out today",
-	"description": "made for the radio silence",
-	"links": [
-		"https://seansleblanc.itch.io/rain"
-	]
-}, {
+[
+	{
+		"title": "Fortune's Fervour",
+		"thumbnail": "thumbnails/Fortune's Fervour.png",
+		"preview": "thumbnails/Fortune's Fervour.gif",
+		"association": "bitsy divination jam",
+		"date": "May 2019",
+		"tagline": "What does your future hold?",
+		"description": "Explore and learn your fate. A diviner made with artwork generated within 24h by <a href='https://twitter.com/SpritesByBitsy'>@SpritesByBitsy</a>.",
+		"links": [
+			"https://sweetheartsquad.itch.io/fortunes-fervour"
+		]
+	}, {
+		"title": "WHY DO BEES",
+		"thumbnail": "thumbnails/WHY DO BEES.png",
+		"preview": "thumbnails/WHY DO BEES.gif",
+		"association": "#BitsyJam",
+		"date": "DATE",
+		"tagline": "?",
+		"description": "made for the bees",
+		"links": [
+			"https://seansleblanc.itch.io/why-do-bees"
+		]
+	}, {
+		"title": "ache",
+		"thumbnail": "thumbnails/ache.png",
+		"preview": "thumbnails/ache.gif",
+		"association": "#BitsyJam",
+		"date": "April 2019",
+		"tagline": "oh",
+		"description": "made for the teeth",
+		"links": [
+			"https://seansleblanc.itch.io/ache"
+		]
+	}, {
+		"title": "TINAR-L",
+		"thumbnail": "thumbnails/TINAR-L.png",
+		"preview": "thumbnails/TINAR-L.gif",
+		"association": "#7DRL2019",
+		"date": "March 2019",
+		"tagline": "This is not a rogue-like.",
+		"description": "An attempted rogue-like that wasn't.",
+		"links": [
+			"https://seansleblanc.itch.io/tinar-l"
+		]
+	}, {
+		"title": "a snail's journey",
+		"thumbnail": "thumbnails/a snail's journey.png",
+		"preview": "thumbnails/a snail's journey.gif",
+		"association": "#BitsyJam",
+		"date": "March 2019",
+		"tagline": "",
+		"description": "made for the snails",
+		"links": [
+			"https://seansleblanc.itch.io/a-snails-journey"
+		]
+	}, {
+		"title": "blue as the sky",
+		"thumbnail": "thumbnails/blue as the sky.png",
+		"preview": "thumbnails/blue as the sky.gif",
+		"association": "Personal Project",
+		"date": "February 2019",
+		"tagline": "#0052cc",
+		"description": "A small tech demo demonstrating a cross-engine communication layer, focused on twine and bitsy.",
+		"links": [
+			"https://seansleblanc.itch.io/blue-as-the-sky",
+			"https://github.com/seleb/bitsy-hacks/blob/master/dist/twine-bitsy-comms.js"
+		]
+	}, {
+		"title": "Salvage Duty",
+		"thumbnail": "thumbnails/Salvage Duty.png",
+		"preview": "thumbnails/Salvage Duty.gif",
+		"association": "#BitsyJam",
+		"date": "February 2019",
+		"tagline": "ruins / memories",
+		"description": "Loosely based on a short playthrough of <a href='https://seaexcursion.itch.io/alone-in-the-station-remnants'>Alone in the Station Remnants</a>.",
+		"links": [
+			"https://seansleblanc.itch.io/salvage-duty"
+		]
+	}, {
+		"title": "Homeward Bound",
+		"thumbnail": "thumbnails/Homeward Bound.png",
+		"preview": "thumbnails/Homeward Bound.gif",
+		"association": "#GGJ2019/#1923JAM",
+		"date": "January 2019",
+		"tagline": "You wake up in an endless ocean...",
+		"description": "A group of seven people find themselves on a ship in the middle of an endless ocean, with no recollection of how they got there. Based on the <a href='https://www.imdb.com/title/tt0014138/'>1923 film</a> of the same name.",
+		"links": [
+			"https://sweetheartsquad.itch.io/homeward-bound",
+			"https://github.com/SweetheartSquad/GGJ2019",
+			"https://globalgamejam.org/2019/games/homeward-bound-3"
+		]
+	}, {
+		"title": "Goodbye BURGER CITY",
+		"thumbnail": "thumbnails/Goodbye BURGER CITY.png",
+		"preview": "thumbnails/Goodbye BURGER CITY.gif",
+		"association": "BURGER CITY JAM",
+		"date": "January 2019",
+		"tagline": "city of burgers",
+		"description": "I never saw American Graffiti.",
+		"links": [
+			"https://sweetheartsquad.itch.io/goodbye-burger-city"
+		]
+	}, {
+		"title": "bitsy hacks",
+		"thumbnail": "thumbnails/bitsy hacks.png",
+		"preview": "thumbnails/bitsy hacks.gif",
+		"association": "Personal Project",
+		"date": "Active Development",
+		"tagline": "a collection of re-usable scripts for bitsy game maker",
+		"description": "An open source collection of re-usable scripts for <a href='https://twitter.com/adamledoux'>Adam Le Doux</a>'s <a href='https://ledoux.itch.io/bitsy'>Bitsy Game Maker</a>, adding a variety of features.",
+		"links": [
+			"https://github.com/seleb/bitsy-hacks",
+			"https://www.npmjs.com/package/@bitsy/hecks"
+		]
+	}, {
+		"title": "judgement",
+		"thumbnail": "thumbnails/judgement.png",
+		"preview": "thumbnails/judgement.gif",
+		"association": "#BitsyJam",
+		"date": "December 2018",
+		"tagline": "let's play tarot",
+		"description": "made for tarot",
+		"links": [
+			"https://seansleblanc.itch.io/judgement"
+		]
+	}, {
+		"title": "a holiday yarn",
+		"thumbnail": "thumbnails/a holiday yarn.png",
+		"preview": "thumbnails/a holiday yarn.gif",
+		"association": "Bitsy community secret santa",
+		"date": "December 2018",
+		"tagline": "more of a cross-stitch, really",
+		"description": "Made for <a href='https://brandonmakesthings.itch.io/'>Brandon Thread</a> as a secret santa gift.",
+		"links": [
+			"https://seansleblanc.itch.io/a-holiday-yarn"
+		]
+	}, {
+		"title": "Super Snow Shoveler",
+		"thumbnail": "thumbnails/Super Snow Shoveler.png",
+		"preview": "thumbnails/Super Snow Shoveler.gif",
+		"association": "Pico-8 Advent Calendar",
+		"date": "December 2018",
+		"tagline": "~a winter classic~",
+		"description": "a battle between efficiency & exhaustion",
+		"links": [
+			"https://seansleblanc.itch.io/super-snow-shoveler",
+			"https://www.lexaloffle.com/bbs/?tid=32388"
+		]
+	}, {
+		"title": "ghosts aren't real",
+		"thumbnail": "thumbnails/ghost's aren't real.png",
+		"preview": "thumbnails/ghost's aren't real.gif",
+		"association": "#BitsyJam",
+		"date": "November 2018",
+		"tagline": "",
+		"description": "",
+		"links": [
+			"https://seansleblanc.itch.io/ghosts-arent-real"
+		]
+	}, {
+		"title": "daily",
+		"thumbnail": "thumbnails/daily.png",
+		"preview": "thumbnails/daily.gif",
+		"association": "#BitsyJam",
+		"date": "November 2018",
+		"tagline": "every day",
+		"description": "made for the ritual",
+		"links": [
+			"https://seansleblanc.itch.io/daily"
+		]
+	}, {
+		"title": "on the hunt",
+		"thumbnail": "thumbnails/on the hunt.png",
+		"preview": "thumbnails/on the hunt.gif",
+		"association": "#twitsybotjam",
+		"date": "October 2018",
+		"tagline": "exploring a pastel universe the best way possible",
+		"description": "A tiny tribute to my favourite twitter bot, <a href='https://twitter.com/FermiPasteladox'>A Pastel Universe</a>.",
+		"links": [
+			"https://seansleblanc.itch.io/on-the-hunt"
+		]
+	}, {
+		"title": "boxboxhtml",
+		"thumbnail": "thumbnails/boxboxhtml.png",
+		"preview": "thumbnails/boxboxhtml.gif",
+		"association": "Personal Project",
+		"date": "September 2018",
+		"tagline": "a basic WYSIWYG editor for html/css layouts",
+		"description": "A simple tool for creating html/css layouts, similar to the basics of Unity's UI editor.",
+		"links": [
+			"https://seansleblanc.itch.io/boxboxhtml",
+			"https://github.com/seleb/boxboxhtml"
+		]
+	}, {
+		"title": "lunar cultivation",
+		"thumbnail": "thumbnails/lunar cultivation.png",
+		"preview": "thumbnails/lunar cultivation.gif",
+		"association": "#BitsyJam",
+		"date": "September 2018",
+		"tagline": "oh i think i remember that game",
+		"description": "a half-remembrance made for the harvest",
+		"links": [
+			"https://seansleblanc.itch.io/lunar-cultivation"
+		]
+	}, {
+		"title": "a retrospective",
+		"thumbnail": "thumbnails/a retrospective.png",
+		"preview": "thumbnails/a retrospective.gif",
+		"association": "#BitsyJam",
+		"date": "September 2018",
+		"tagline": "there have been 16 bitsy jams",
+		"description": "an autobiographical mixtape",
+		"links": [
+			"https://seansleblanc.itch.io/a-retrospective"
+		]
+	}, {
+		"title": "Fontsy",
+		"thumbnail": "thumbnails/Fontsy.png",
+		"preview": "thumbnails/Fontsy.gif",
+		"association": "Personal Project",
+		"date": "August 2018",
+		"tagline": "Bitsy Font Tool",
+		"description": "With the release of Bitsy 5 came a brand-new font system. The new system is far more customizable than the old one: among other features, it includes a spec for a .bitsyfont format which can be used to make custom fonts. Since the format is plaintext, it's relatively easy to make custom fonts by typing them out in a text editor, but from a creative perspective, it's a bit hard to draw characters that way. To help with this, Fontsy provides a way to convert back-and-forth between .bitsyfont and .bitsyfont.png files, which can be used to draw fonts in a more traditional image editor.",
+		"links": [
+			"https://seansleblanc.itch.io/fontsy",
+			"https://github.com/seleb/Fontsy"
+		]
+	}, {
+		"title": "🔦",
+		"thumbnail": "thumbnails/torch.png",
+		"preview": "thumbnails/torch.gif",
+		"association": "#LOWREZJAM",
+		"date": "August 2018",
+		"tagline": "A raytraced lighting tech demo",
+		"description": "",
+		"links": [
+			"https://seansleblanc.itch.io/torch",
+			"https://github.com/seleb/LOWREZJAM2018",
+			"https://seansleblanc.itch.io/torch/devlog/44317/ok-wait-but-howd-you-do-that-in-bitsy"
+		]
+	}, {
+		"title": "Pretty Print",
+		"thumbnail": "thumbnails/Pretty Print.png",
+		"preview": "thumbnails/Pretty Print.gif",
+		"association": "#BitsyJam",
+		"date": "August 2018",
+		"tagline": "",
+		"description": "made for the sublime",
+		"links": [
+			"https://seansleblanc.itch.io/pretty-print"
+		]
+	}, {
+		"title": "PCM tool",
+		"thumbnail": "thumbnails/PCM tool.png",
+		"preview": "thumbnails/PCM tool.gif",
+		"association": "Personal Project",
+		"date": "July 2018",
+		"tagline": "Helper for generating generative PCM snippets",
+		"description": "Helper for generating generative PCM snippets. Output is a self-contained script which starts the audio on mousedown. Click on output to copy to clipboard.",
+		"links": [
+			"https://seansleblanc.itch.io/pcm-tool",
+			"https://github.com/seleb/PCM-tool"
+		]
+	}, {
+		"title": "PICO-8 fillp tool",
+		"thumbnail": "thumbnails/PICO-8 fillp tool.png",
+		"preview": "thumbnails/PICO-8 fillp tool.gif",
+		"association": "Personal Project",
+		"date": "July 2018",
+		"tagline": "Helper for creating PICO-8 fillp patterns",
+		"description": "A little helper tool for generating fillp patterns. Output is provided as hexadecimal sum (most compact), binary sum (easiest to read), and decimal addition (verbose; matches PICO-8 example).",
+		"links": [
+			"https://seansleblanc.itch.io/pico-8-fillp-tool",
+			"https://github.com/seleb/fillp-tool"
+		]
+	}, {
+		"title": "There once",
+		"thumbnail": "thumbnails/There once.png",
+		"preview": "thumbnails/There once.gif",
+		"association": "#BitsyJam",
+		"date": "June 2018",
+		"tagline": "A branching limerick",
+		"description": "made for the space whales",
+		"links": [
+			"https://seansleblanc.itch.io/there-once"
+		]
+	}, {
+		"title": "i've never seen the ocean",
+		"thumbnail": "thumbnails/i've never seen the ocean.png",
+		"preview": "thumbnails/i've never seen the ocean.gif",
+		"association": "#BitsyJam",
+		"date": "June 2018",
+		"tagline": "A thought",
+		"description": "made for the ocean",
+		"links": [
+			"https://seansleblanc.itch.io/ive-never-seen-the-ocean"
+		]
+	}, {
+		"title": "a night (was had) on the town",
+		"thumbnail": "thumbnails/a night (was had) on the town.png",
+		"preview": "thumbnails/a night (was had) on the town.gif",
+		"association": "tipsy jam",
+		"date": "May 2018",
+		"tagline": "now i'm home",
+		"description": "",
+		"links": [
+			"https://seansleblanc.itch.io/a-night-was-had-on-the-town"
+		]
+	}, {
+		"title": "MATCH3+CONNECT4",
+		"thumbnail": "thumbnails/MATCH3+CONNECT4.png",
+		"preview": "thumbnails/MATCH3+CONNECT4.gif",
+		"association": "Ludum Dare 41",
+		"date": "April 2018",
+		"tagline": "harder than it sounds",
+		"description": "It's like match 3, but also like connect 4.",
+		"links": [
+			"https://seansleblanc.itch.io/match3connect4",
+			"https://github.com/seleb/LDJAM41",
+			"https://ldjam.com/events/ludum-dare/41/match3connect4",
+			"https://www.lexaloffle.com/bbs/?tid=31166"
+		]
+	}, {
+		"title": "here are my cats",
+		"thumbnail": "thumbnails/here are my cats.png",
+		"preview": "thumbnails/here are my cats.gif",
+		"association": "#BitsyJam",
+		"date": "April 2018",
+		"tagline": "",
+		"description": "made for the cats",
+		"links": [
+			"https://seansleblanc.itch.io/here-are-my-cats"
+		]
+	}, {
+		"title": "This is not a Bitsy game",
+		"thumbnail": "thumbnails/This is not a Bitsy game.png",
+		"preview": "thumbnails/This is not a Bitsy game.gif",
+		"association": "Personal Project",
+		"date": "April 2018",
+		"tagline": "",
+		"description": "Not made with bitsy.",
+		"links": [
+			"https://seansleblanc.itch.io/this-is-not-a-bitsy-game"
+		]
+	}, {
+		"title": "Archeology 101",
+		"thumbnail": "thumbnails/Archeology 101.png",
+		"preview": "thumbnails/Archeology 101.gif",
+		"association": "#BitsyJam",
+		"date": "March 2018",
+		"tagline": "I'm late for my archeology final!",
+		"description": "made for the archeology",
+		"links": [
+			"https://seansleblanc.itch.io/archeology-101"
+		]
+	}, {
+		"title": "This seems bad.",
+		"thumbnail": "thumbnails/This seems bad.png",
+		"preview": "thumbnails/This seems bad.gif",
+		"association": "Bitsy hack jam",
+		"date": "March 2018",
+		"tagline": "T-minus 1 minute to landing.",
+		"description": "",
+		"links": [
+			"https://seansleblanc.itch.io/this-seems-bad"
+		]
+	}, {
+		"title": "bitsnake",
+		"thumbnail": "thumbnails/bitsnake.png",
+		"preview": "thumbnails/bitsnake.gif",
+		"association": "Personal Project",
+		"date": "March 2018",
+		"tagline": "what if bitsy but also snake??",
+		"description": "*chomp*",
+		"links": [
+			"https://seansleblanc.itch.io/bitsnake"
+		]
+	}, {
+		"title": "Tea for Two",
+		"thumbnail": "thumbnails/Tea for Two.png",
+		"preview": "thumbnails/Tea for Two.gif",
+		"association": "#BitsyJam",
+		"date": "February 2018",
+		"tagline": "Two for Tea",
+		"description": "made for the oh no",
+		"links": [
+			"https://seansleblanc.itch.io/tea-for-two"
+		]
+	}, {
+		"title": "Objective: cross the room.",
+		"thumbnail": "thumbnails/Objective cross the room.png",
+		"preview": "thumbnails/Objective cross the room.gif",
+		"association": "Personal Project",
+		"date": "February 2018",
+		"tagline": "Bitsy games can be reset with \"Ctrl+r\"",
+		"description": "Not as easy as it sounds.",
+		"links": [
+			"https://seansleblanc.itch.io/objective-cross-the-room"
+		]
+	}, {
+		"title": "aubergine",
+		"thumbnail": "thumbnails/aubergine.png",
+		"preview": "thumbnails/aubergine.gif",
+		"association": "Bitsy Game Swap",
+		"date": "February 2018",
+		"tagline": "i had that <em>dream</em> again",
+		"description": "Made for <a href='https://twitter.com/jctwood'>jctwood</a>.",
+		"links": [
+			"https://seansleblanc.itch.io/aubergine"
+		]
+	}, {
+		"title": "midnight",
+		"thumbnail": "thumbnails/midnight.png",
+		"preview": "thumbnails/midnight.gif",
+		"association": "#BitsyJam",
+		"date": "January 2018",
+		"tagline": "i'm sure the wait will pay off eventually",
+		"description": "made for the midnight",
+		"links": [
+			"https://seansleblanc.itch.io/midnight"
+		]
+	}, {
+		"title": "÷",
+		"thumbnail": "thumbnails/c3b7.png",
+		"preview": "thumbnails/c3b7.gif",
+		"association": "Personal Project",
+		"date": "January 2018",
+		"tagline": "",
+		"description": "",
+		"links": [
+			"https://seansleblanc.itch.io/c3b7"
+		]
+	}, {
+		"title": "you are the coin master",
+		"thumbnail": "thumbnails/you are the coin master.png",
+		"preview": "thumbnails/you are the coin master.gif",
+		"association": "Ludum Dare 40",
+		"date": "December 2017",
+		"tagline": "the more you have, the worse it is",
+		"description": "Can you collect all the coins? You just have to have them, no matter the cost!",
+		"links": [
+			"https://seansleblanc.itch.io/you-are-the-coin-master",
+			"https://ldjam.com/events/ludum-dare/40/you-are-the-coin-master"
+		]
+	}, {
+		"title": "the little field in the park between home and the bus stop",
+		"thumbnail": "thumbnails/the little field in the park between home and the bus stop.png",
+		"preview": "thumbnails/the little field in the park between home and the bus stop.gif",
+		"association": "#BitsyJam",
+		"date": "December 2017",
+		"tagline": "",
+		"description": "made for the snow",
+		"links": [
+			"https://seansleblanc.itch.io/the-little-field-in-the-park-between-home-and-the-bus-stop"
+		]
+	}, {
+		"title": "BONZEN",
+		"thumbnail": "thumbnails/BONZEN.png",
+		"preview": "thumbnails/BONZEN.gif",
+		"association": "#selfcarejam 2",
+		"date": "November 2017",
+		"tagline": "Shape a sense of zen.",
+		"description": "Nothing grows in space, at least not with some help. Join an old man in his quest to bring back beautiful greenery that once covered his lost planet. Take a step back from space drama and a step into his biodome to cultivate tiny bonsai trees and find some inner peace.",
+		"links": [
+			"https://sweetheartsquad.itch.io/bonzen"
+		]
+	}, {
+		"title": "a day on the town",
+		"thumbnail": "thumbnails/a day on the town.png",
+		"preview": "thumbnails/a day on the town.gif",
+		"association": "#BitsyJam",
+		"date": "November 2017",
+		"tagline": "it's gonna be a good day!",
+		"description": "made for the bric-a-brac",
+		"links": [
+			"https://seansleblanc.itch.io/a-day-on-the-town"
+		]
+	}, {
+		"title": "castles",
+		"thumbnail": "thumbnails/castles.png",
+		"preview": "thumbnails/castles.gif",
+		"association": "#BitsyJam",
+		"date": "November 2017",
+		"tagline": "ruins",
+		"description": "",
+		"links": [
+			"https://seansleblanc.itch.io/castles"
+		]
+	}, {
+		"title": "running late",
+		"thumbnail": "thumbnails/running late.png",
+		"preview": "thumbnails/running late.gif",
+		"association": "#BitsyJam",
+		"date": "October 2017",
+		"tagline": "I'm running late!",
+		"description": "made for the traintracks",
+		"links": [
+			"https://seansleblanc.itch.io/running-late"
+		]
+	}, {
+		"title": "Rōshigumi",
+		"thumbnail": "thumbnails/roshigumi.png",
+		"preview": "thumbnails/roshigumi.gif",
+		"association": "#AGBIC",
+		"date": "September 2017",
+		"tagline": "A traitor threatens the Shogun in this tense shoot-em-up.",
+		"description": "You are a ronin, hired by the Rōshigumi to protect the Shogun on his visit to Kyoto. The only problem is, there's a traitor in your midst. Cut down <strike>enemies, find</strike> the <strike>traitor, and keep the</strike> Shogun <strike>safe</strike>.",
+		"links": [
+			"https://sweetheartsquad.itch.io/roshigumi",
+			"https://github.com/SweetheartSquad/AGBIC2017-Roshigumi",
+			"http://network.winnitron.com/games/roshigumi"
+		]
+	}, {
+		"title": "|| I-,`'-' \\=I 'I '--I -' |",
+		"thumbnail": "thumbnails/They've got a secret.png",
+		"preview": "thumbnails/They've got a secret.gif",
+		"association": "#BitsyJam",
+		"date": "August 2017",
+		"tagline": "They've got a secret!",
+		"description": "made for a secret",
+		"links": [
+			"https://seansleblanc.itch.io/theyve-got-a-secret"
+		]
+	}, {
+		"title": "-A MOTH STORY-",
+		"thumbnail": "thumbnails/-A MOTH STORY-.png",
+		"preview": "thumbnails/-A MOTH STORY-.gif",
+		"association": "#BitsyJam",
+		"date": "July 2017",
+		"tagline": "well, it's more moth-adjacent",
+		"description": "made for the moth",
+		"links": [
+			"https://seansleblanc.itch.io/a-moth-story"
+		]
+	}, {
+		"title": "I wonder...",
+		"thumbnail": "thumbnails/I wonder.png",
+		"preview": "thumbnails/I wonder.gif",
+		"association": "#BitsyJam",
+		"date": "July 2017",
+		"tagline": "I wonder when the next bus comes by...",
+		"description": "made for the daydream",
+		"links": [
+			"https://seansleblanc.itch.io/i-wonder"
+		]
+	}, {
+		"title": "A Visitor On Venus",
+		"thumbnail": "thumbnails/A Visitor On Venus.png",
+		"preview": "thumbnails/A Visitor On Venus.gif",
+		"association": "#CGAJAM",
+		"date": "June 2017",
+		"tagline": "A low-rez FMV visual novel about a vacation gone wrong.",
+		"description": "On your way to Charon for a well-deserved vacation, your ship crash-lands on Venus -- a planet owned entirely by an eccentric quadrillionaire. Explore his lavish estate and find parts to repair your ship.",
+		"links": [
+			"https://sweetheartsquad.itch.io/a-visitor-on-venus",
+			"https://github.com/SweetheartSquad/CGAJAM"
+		]
+	}, {
+		"title": "rain",
+		"thumbnail": "thumbnails/rain.png",
+		"preview": "thumbnails/rain.gif",
+		"association": "#BitsyJam",
+		"date": "May 2017",
+		"tagline": "looks a bit damp out today",
+		"description": "made for the radio silence",
+		"links": [
+			"https://seansleblanc.itch.io/rain"
+		]
+	}, {
 		"title": "let's get breakfast",
-		"thumbnail": "./thumbnails/let's get breakfast.png",
-		"preview": "./thumbnails/let's get breakfast.gif",
+		"thumbnail": "thumbnails/let's get breakfast.png",
+		"preview": "thumbnails/let's get breakfast.gif",
 		"association": "#BitsyJam",
 		"tags": [
 			"software",
@@ -585,8 +586,8 @@
 	},
 	{
 		"title": "AS Mall World",
-		"thumbnail": "./thumbnails/AS Mall World.png",
-		"preview": "./thumbnails/AS Mall World.gif",
+		"thumbnail": "thumbnails/AS Mall World.png",
+		"preview": "thumbnails/AS Mall World.gif",
 		"association": "Ludum Dare 38",
 		"tags": [
 			"software",
@@ -602,8 +603,8 @@
 	},
 	{
 		"title": "you can do this",
-		"thumbnail": "./thumbnails/you can do this.png",
-		"preview": "./thumbnails/you can do this.gif",
+		"thumbnail": "thumbnails/you can do this.png",
+		"preview": "thumbnails/you can do this.gif",
 		"association": "Personal Project",
 		"tags": [
 			"software",
@@ -620,8 +621,8 @@
 	},
 	{
 		"title": "sarah goes to her friend's house",
-		"thumbnail": "./thumbnails/sarah goes to her friend's house.png",
-		"preview": "./thumbnails/sarah goes to her friend's house.gif",
+		"thumbnail": "thumbnails/sarah goes to her friend's house.png",
+		"preview": "thumbnails/sarah goes to her friend's house.gif",
 		"association": "#paintjam",
 		"tags": [
 			"software",
@@ -638,8 +639,8 @@
 	},
 	{
 		"title": "Duck Duck Plays the Blues",
-		"thumbnail": "./thumbnails/Duck Duck Plays the Blues.png",
-		"preview": "./thumbnails/Duck Duck Plays the Blues.gif",
+		"thumbnail": "thumbnails/Duck Duck Plays the Blues.png",
+		"preview": "thumbnails/Duck Duck Plays the Blues.gif",
 		"association": "Personal Project",
 		"tags": [
 			"software",
@@ -655,8 +656,8 @@
 	},
 	{
 		"title": "holt",
-		"thumbnail": "./thumbnails/holt.png",
-		"preview": "./thumbnails/holt.gif",
+		"thumbnail": "thumbnails/holt.png",
+		"preview": "thumbnails/holt.gif",
 		"association": "#utopiajam",
 		"tags": [
 			"software",
@@ -672,8 +673,8 @@
 	},
 	{
 		"title": "Cover Your EP",
-		"thumbnail": "./thumbnails/Cover Your EP.png",
-		"preview": "./thumbnails/Cover Your EP.gif",
+		"thumbnail": "thumbnails/Cover Your EP.png",
+		"preview": "thumbnails/Cover Your EP.gif",
 		"association": "#EPJam5",
 		"tags": [
 			"software",
@@ -689,8 +690,8 @@
 	},
 	{
 		"title": "Tweetcarts - 2016",
-		"thumbnail": "./thumbnails/Tweetcarts - 2016.png",
-		"preview": "./thumbnails/Tweetcarts - 2016.gif",
+		"thumbnail": "thumbnails/Tweetcarts - 2016.png",
+		"preview": "thumbnails/Tweetcarts - 2016.gif",
 		"association": "#tweetjam",
 		"tags": [
 			"software",
@@ -705,8 +706,8 @@
 	},
 	{
 		"title": "gui-butler",
-		"thumbnail": "./thumbnails/gui-butler.png",
-		"preview": "./thumbnails/gui-butler.gif",
+		"thumbnail": "thumbnails/gui-butler.png",
+		"preview": "thumbnails/gui-butler.gif",
 		"association": "Personal Project",
 		"tags": [
 			"software",
@@ -722,8 +723,8 @@
 	},
 	{
 		"title": "Bouncing Balls with the Boing Boing Boys",
-		"thumbnail": "./thumbnails/Bouncing Balls with the Boing Boing Boys.png",
-		"preview": "./thumbnails/Bouncing Balls with the Boing Boing Boys.gif",
+		"thumbnail": "thumbnails/Bouncing Balls with the Boing Boing Boys.png",
+		"preview": "thumbnails/Bouncing Balls with the Boing Boing Boys.gif",
 		"association": "Ludum Dare 37",
 		"tags": [
 			"software",
@@ -741,8 +742,8 @@
 	},
 	{
 		"title": "STAIRS",
-		"thumbnail": "./thumbnails/STAIRS.png",
-		"preview": "./thumbnails/STAIRS.gif",
+		"thumbnail": "thumbnails/STAIRS.png",
+		"preview": "thumbnails/STAIRS.gif",
 		"association": "Personal Project",
 		"tags": [
 			"software",
@@ -759,8 +760,8 @@
 	},
 	{
 		"title": "NaBoMaMo2016",
-		"thumbnail": "./thumbnails/NaBoMaMo2016.png",
-		"preview": "./thumbnails/NaBoMaMo2016.gif",
+		"thumbnail": "thumbnails/NaBoMaMo2016.png",
+		"preview": "thumbnails/NaBoMaMo2016.gif",
 		"association": "#NaBoMaMo",
 		"tags": [
 			"software"
@@ -776,8 +777,8 @@
 	},
 	{
 		"title": "commute",
-		"thumbnail": "./thumbnails/commute.png",
-		"preview": "./thumbnails/commute.gif",
+		"thumbnail": "thumbnails/commute.png",
+		"preview": "thumbnails/commute.gif",
 		"association": "#YOUjam",
 		"tags": [
 			"software",
@@ -794,8 +795,8 @@
 	},
 	{
 		"title": "server.hack()",
-		"thumbnail": "./thumbnails/server.hack.png",
-		"preview": "./thumbnails/server.hack.gif",
+		"thumbnail": "thumbnails/server.hack.png",
+		"preview": "thumbnails/server.hack.gif",
 		"association": "#procjam/game-off-2016",
 		"date": "November 2016",
 		"tagline": "print-and-play cyberpunk",
@@ -807,8 +808,8 @@
 	},
 	{
 		"title": "Tackle Tourney TURBO",
-		"thumbnail": "./thumbnails/Tackle Tourney TURBO.png",
-		"preview": "./thumbnails/Tackle Tourney TURBO.gif",
+		"thumbnail": "thumbnails/Tackle Tourney TURBO.png",
+		"preview": "thumbnails/Tackle Tourney TURBO.gif",
 		"association": "#FishingJam 2",
 		"tags": [
 			"software",
@@ -825,8 +826,8 @@
 	},
 	{
 		"title": "listen to my game idea",
-		"thumbnail": "./thumbnails/listen-to-my-game-idea.png",
-		"preview": "./thumbnails/listen-to-my-game-idea.gif",
+		"thumbnail": "thumbnails/listen-to-my-game-idea.png",
+		"preview": "thumbnails/listen-to-my-game-idea.gif",
 		"association": "#gameideajam",
 		"tags": [
 			"software",
@@ -842,8 +843,8 @@
 	},
 	{
 		"title": "push the button to win!",
-		"thumbnail": "./thumbnails/push-the-button-to-win.png",
-		"preview": "./thumbnails/push-the-button-to-win.gif",
+		"thumbnail": "thumbnails/push-the-button-to-win.png",
+		"preview": "thumbnails/push-the-button-to-win.gif",
 		"association": "#gameideajam",
 		"tags": [
 			"software",
@@ -860,8 +861,8 @@
 	},
 	{
 		"title": "Rumble Road",
-		"thumbnail": "./thumbnails/Rumble Road.png",
-		"preview": "./thumbnails/Rumble Road.gif",
+		"thumbnail": "thumbnails/Rumble Road.png",
+		"preview": "thumbnails/Rumble Road.gif",
 		"association": "#GBJAM 5",
 		"tags": [
 			"software",
@@ -878,8 +879,8 @@
 	},
 	{
 		"title": "Duck Duck on the Loose",
-		"thumbnail": "./thumbnails/Duck Duck on the Loose.png",
-		"preview": "./thumbnails/Duck Duck on the Loose.gif",
+		"thumbnail": "thumbnails/Duck Duck on the Loose.png",
+		"preview": "thumbnails/Duck Duck on the Loose.gif",
 		"association": "Personal Project",
 		"tags": [
 			"software",
@@ -897,8 +898,8 @@
 	},
 	{
 		"title": "In Transit",
-		"thumbnail": "./thumbnails/In Transit.png",
-		"preview": "./thumbnails/In Transit.gif",
+		"thumbnail": "thumbnails/In Transit.png",
+		"preview": "thumbnails/In Transit.gif",
 		"association": "#fermijam",
 		"tags": [
 			"software",
@@ -915,8 +916,8 @@
 	},
 	{
 		"title": "STARSHIP",
-		"thumbnail": "./thumbnails/STARSHIP.png",
-		"preview": "./thumbnails/STARSHIP.gif",
+		"thumbnail": "thumbnails/STARSHIP.png",
+		"preview": "thumbnails/STARSHIP.gif",
 		"association": "Carleton University",
 		"tags": [
 			"software",
@@ -932,8 +933,8 @@
 	},
 	{
 		"title": "DYSCOVR",
-		"thumbnail": "./thumbnails/DYSCOVR.png",
-		"preview": "./thumbnails/DYSCOVR.gif",
+		"thumbnail": "thumbnails/DYSCOVR.png",
+		"preview": "thumbnails/DYSCOVR.gif",
 		"association": "Ludum Dare 36",
 		"tags": [
 			"software",
@@ -951,8 +952,8 @@
 	},
 	{
 		"title": "One Button Duel",
-		"thumbnail": "./thumbnails/One Button Duel.png",
-		"preview": "./thumbnails/One Button Duel.gif",
+		"thumbnail": "thumbnails/One Button Duel.png",
+		"preview": "thumbnails/One Button Duel.gif",
 		"association": "#OneButtonJam",
 		"tags": [
 			"software",
@@ -970,8 +971,8 @@
 	},
 	{
 		"title": "STRUNG OUT in heaven's high",
-		"thumbnail": "./thumbnails/STRUNG OUT in heaven's high.png",
-		"preview": "./thumbnails/STRUNG OUT in heaven's high.gif",
+		"thumbnail": "thumbnails/STRUNG OUT in heaven's high.png",
+		"preview": "thumbnails/STRUNG OUT in heaven's high.gif",
 		"association": "#agbic",
 		"date": "July 2016",
 		"tagline": "hitting an all-time low",
@@ -983,8 +984,8 @@
 	},
 	{
 		"title": "P8T",
-		"thumbnail": "./thumbnails/P8T.png",
-		"preview": "./thumbnails/P8T.gif",
+		"thumbnail": "thumbnails/P8T.png",
+		"preview": "thumbnails/P8T.gif",
 		"association": "Personal Project",
 		"tags": [
 			"software",
@@ -997,13 +998,13 @@
 		"links": [
 			"https://seansleblanc.itch.io/p8t",
 			"https://github.com/seleb/pico-8-gpio",
-			"http://seans.site/stuff/P8T"
+			"/stuff/P8T"
 		]
 	},
 	{
 		"title": "PICO-8 Styler",
-		"thumbnail": "./thumbnails/PICO-8 Styler.png",
-		"preview": "./thumbnails/PICO-8 Styler.gif",
+		"thumbnail": "thumbnails/PICO-8 Styler.png",
+		"preview": "thumbnails/PICO-8 Styler.gif",
 		"association": "Personal Project",
 		"tags": [
 			"software",
@@ -1015,13 +1016,13 @@
 		"links": [
 			"https://seansleblanc.itch.io/pico-8-styler",
 			"https://github.com/seleb/PICO-8-Styler",
-			"http://seans.site/stuff/PICO-8-Styler"
+			"/stuff/PICO-8-Styler"
 		]
 	},
 	{
 		"title": "atopy",
-		"thumbnail": "./thumbnails/atopy.png",
-		"preview": "./thumbnails/atopy.gif",
+		"thumbnail": "thumbnails/atopy.png",
+		"preview": "thumbnails/atopy.gif",
 		"association": "Personal Project",
 		"tags": [
 			"software",
@@ -1039,8 +1040,8 @@
 	},
 	{
 		"title": "Soda-Pop Sailin'",
-		"thumbnail": "./thumbnails/Soda-Pop Sailin.png",
-		"preview": "./thumbnails/Soda-Pop Sailin.gif",
+		"thumbnail": "thumbnails/Soda-Pop Sailin.png",
+		"preview": "thumbnails/Soda-Pop Sailin.gif",
 		"association": "#simplejam",
 		"tags": [
 			"software",
@@ -1058,8 +1059,8 @@
 	},
 	{
 		"title": "Star Picker-Upper",
-		"thumbnail": "./thumbnails/Star Picker-Upper.png",
-		"preview": "./thumbnails/Star Picker-Upper.gif",
+		"thumbnail": "thumbnails/Star Picker-Upper.png",
+		"preview": "thumbnails/Star Picker-Upper.gif",
 		"association": "#p8jam2",
 		"tags": [
 			"software",
@@ -1077,8 +1078,8 @@
 	},
 	{
 		"title": "Deluge Suites",
-		"thumbnail": "./thumbnails/Deluge Suites.png",
-		"preview": "./thumbnails/Deluge Suites.gif",
+		"thumbnail": "thumbnails/Deluge Suites.png",
+		"preview": "thumbnails/Deluge Suites.gif",
 		"association": "#CITYSIMJAM",
 		"tags": [
 			"software",
@@ -1095,8 +1096,8 @@
 	},
 	{
 		"title": "Purity",
-		"thumbnail": "./thumbnails/Purity.png",
-		"preview": "./thumbnails/Purity.gif",
+		"thumbnail": "thumbnails/Purity.png",
+		"preview": "thumbnails/Purity.gif",
 		"association": "Ludum Dare 35",
 		"tags": [
 			"software",
@@ -1114,8 +1115,8 @@
 	},
 	{
 		"title": "SODZEN",
-		"thumbnail": "./thumbnails/SODZEN.png",
-		"preview": "./thumbnails/SODZEN.gif",
+		"thumbnail": "thumbnails/SODZEN.png",
+		"preview": "thumbnails/SODZEN.gif",
 		"association": "#LOWREZJAM2016",
 		"tags": [
 			"software",
@@ -1124,17 +1125,17 @@
 		],
 		"date": "April 2016",
 		"tagline": "A little pot of paradise",
-		"description": "A 64 by 64 pixel zen experiment created for a game jam. See other entries I worked on <a target=\"_blank\" href=\"http://seans.site/stuff/LOWREZJAM2016\">here</a>.",
+		"description": "A 64 by 64 pixel zen experiment created for a game jam. See other entries I worked on <a target=\"_blank\" href=\"/stuff/LOWREZJAM2016\">here</a>.",
 		"links": [
 			"https://sweetheartsquad.itch.io/sodzen",
 			"https://github.com/seleb/LOWREZJAM",
-			"http://seans.site/stuff/LOWREZJAM2016"
+			"/stuff/LOWREZJAM2016"
 		]
 	},
 	{
 		"title": "CODENAME: PAWN",
-		"thumbnail": "./thumbnails/CODENAME PAWN.png",
-		"preview": "./thumbnails/CODENAME PAWN.gif",
+		"thumbnail": "thumbnails/CODENAME PAWN.png",
+		"preview": "thumbnails/CODENAME PAWN.gif",
 		"association": "Mini-Ludum Dare 66",
 		"tags": [
 			"software",
@@ -1151,8 +1152,8 @@
 	},
 	{
 		"title": "Rip It! Grip It! Sip It!",
-		"thumbnail": "./thumbnails/Rip It! Grip It! Sip It!.png",
-		"preview": "./thumbnails/Rip It! Grip It! Sip It!.gif",
+		"thumbnail": "thumbnails/Rip It! Grip It! Sip It!.png",
+		"preview": "thumbnails/Rip It! Grip It! Sip It!.gif",
 		"association": "#GGJ2016",
 		"date": "March 2016",
 		"tagline": "The exorcising adventures of Father Skyler, punk priest extraordinaire",
@@ -1164,8 +1165,8 @@
 	},
 	{
 		"title": "Party, Darling?",
-		"thumbnail": "./thumbnails/Party Darling.png",
-		"preview": "./thumbnails/Party Darling.gif",
+		"thumbnail": "thumbnails/Party Darling.png",
+		"preview": "thumbnails/Party Darling.gif",
 		"association": "Carleton University",
 		"tags": [
 			"software",
@@ -1182,8 +1183,8 @@
 	},
 	{
 		"title": "Go On",
-		"thumbnail": "./thumbnails/Go On.png",
-		"preview": "./thumbnails/Go On.gif",
+		"thumbnail": "thumbnails/Go On.png",
+		"preview": "thumbnails/Go On.gif",
 		"association": "Ludum Dare 34",
 		"tags": [
 			"software",
@@ -1201,8 +1202,8 @@
 	},
 	{
 		"title": "StarBunny",
-		"thumbnail": "./thumbnails/StarBunny.png",
-		"preview": "./thumbnails/StarBunny.gif",
+		"thumbnail": "thumbnails/StarBunny.png",
+		"preview": "thumbnails/StarBunny.gif",
 		"association": "Carleton University",
 		"tags": [
 			"software",
@@ -1213,13 +1214,13 @@
 		"tagline": "A WebGL audiovisual experience.",
 		"description": "Features the Stanford bunny and music by Retroman. Built with Three.js and the AudioContext API.",
 		"links": [
-			"http://seans.site/stuff/webgl-starbunny"
+			"/stuff/webgl-starbunny"
 		]
 	},
 	{
 		"title": "Hare's Hollow",
-		"thumbnail": "./thumbnails/Hare's Hollow.png",
-		"preview": "./thumbnails/Hare's Hollow.gif",
+		"thumbnail": "thumbnails/Hare's Hollow.png",
+		"preview": "thumbnails/Hare's Hollow.gif",
 		"association": "#wagchallenge",
 		"date": "July 2015",
 		"tagline": "A visual novel about funny animals, and the nature of Nature.",
@@ -1232,8 +1233,8 @@
 	},
 	{
 		"title": "S-Tengine 2",
-		"thumbnail": "./thumbnails/S-Tengine-2.png",
-		"preview": "./thumbnails/S-Tengine-2.gif",
+		"thumbnail": "thumbnails/S-Tengine-2.png",
+		"preview": "thumbnails/S-Tengine-2.gif",
 		"association": "Carleton University",
 		"tags": [
 			"software",
@@ -1249,8 +1250,8 @@
 	},
 	{
 		"title": "3dSplineConnections",
-		"thumbnail": "./thumbnails/Hair.png",
-		"preview": "./thumbnails/Hair.gif",
+		"thumbnail": "thumbnails/Hair.png",
+		"preview": "thumbnails/Hair.gif",
 		"association": "University of Ottawa",
 		"tags": [
 			"software",
@@ -1264,8 +1265,8 @@
 	},
 	{
 		"title": "SPH",
-		"thumbnail": "./thumbnails/SPH.png",
-		"preview": "./thumbnails/SPH.gif",
+		"thumbnail": "thumbnails/SPH.png",
+		"preview": "thumbnails/SPH.gif",
 		"association": "Carleton University",
 		"tags": [
 			"software",

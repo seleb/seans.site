@@ -1,55 +1,31 @@
 import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import Bio from "../components/bio"
 import Gallery from "../components/gallery"
-import { graphql } from "gatsby"
+import SEO from "../components/seo"
+import { getProjects } from "../content"
 
-import "./index.scss"
-
-const IndexPage = ({ data }) => {
-  const projects = data.allDbJson.edges.map(({ node }) => node)
+export default function Index({ projects }) {
   return (
-    <Layout>
-      <SEO title="Home" />
-      <article className="index">
+    <>
+      <SEO description="A site for stuff made by Sean S. LeBlanc!" />
+      <main className="index">
         <Bio />
         <Gallery projects={projects} />
-        <button onClick={() => window.scrollTo(0, 0)}>⛢</button>
-      </article>
-    </Layout>
+        <button
+          onClick={() => window.scrollTo(0, 0)}
+          aria-label="Scroll to top"
+        >
+          ⛢
+        </button>
+      </main>
+    </>
   )
 }
 
-export const query = graphql`
-  {
-    allDbJson {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          title
-          tagline
-          association
-          description
-          tags
-          links
-          thumbnail {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          preview {
-            publicURL
-          }
-        }
-      }
-    }
+export async function getStaticProps() {
+  return {
+    props: {
+      projects: await getProjects(),
+    },
   }
-`
-
-export default IndexPage
+}

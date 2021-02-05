@@ -1,15 +1,13 @@
+import Link from "next/link"
 import React from "react"
-import { Link } from "gatsby"
 import Project from "./project"
 
-const Gallery = ({ projects }) => {
-  return projects.map(project => (
-    <article key={project.fields.slug} className="project">
-      <Link to={project.fields.slug}>
-        <Project project={project} />
-      </Link>
-    </article>
+export default function Gallery({ projects }) {
+  return projects.map(p => (
+    <Link key={p.slug} href={`/project/${p.slug}`}>
+      <a className="project">
+        <Project project={p} />
+      </a>
+    </Link>
   ))
 }
-
-export default Gallery

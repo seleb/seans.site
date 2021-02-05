@@ -1,7 +1,5 @@
 import React from "react"
 
-import "./linkList.scss"
-
 function getIcon(link) {
   const { 1: domain } = link.match(/^(?:https?:\/\/)?(.+?)(?:\/|$)/) || {}
   if (!domain) {
