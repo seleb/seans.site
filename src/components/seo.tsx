@@ -7,19 +7,20 @@ export default function SEO({
   big,
 }: {
   description: string
-  title: string
+  title?: string
   image?: {
     url: string
     alt: string
   }
   big?: boolean
 }) {
+  const t = [title, "Sean's Site"].filter((i) => i).join(" | ")
   return (
     <NextSeo
-      title={[title, "Sean's Site"].filter((i) => i).join(" | ")}
+      title={t}
       description={description}
       openGraph={{
-        title: title,
+        title: t,
         description: description,
         type: "website",
         images: image

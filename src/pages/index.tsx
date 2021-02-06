@@ -11,10 +11,7 @@ export default function Index({
 }) {
   return (
     <>
-      <SEO
-        title="Sean's Site"
-        description="A site for stuff made by Sean S. LeBlanc!"
-      />
+      <SEO description="A site for stuff made by Sean S. LeBlanc!" />
       <main className="index">
         <Bio />
         <Gallery projects={projects} />
