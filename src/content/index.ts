@@ -1,7 +1,7 @@
 import sanitizeFilename from "sanitize-filename"
-import db from "./db.json"
+import db from "./db"
 
-export function titleToSlug(title) {
+export function titleToSlug(title: string) {
   return `${sanitizeFilename(title).trim()}`
 }
 
@@ -14,7 +14,7 @@ export async function getProjects() {
   }))
 }
 
-export async function getProject(slug) {
+export async function getProject(slug: string) {
   const projects = await getProjects()
   const project = projects.find((project) => project.slug === slug)
   return project

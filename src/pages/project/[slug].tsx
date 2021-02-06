@@ -1,12 +1,26 @@
 import Link from "next/link"
-import React from "react"
+import React, { ComponentProps } from "react"
 import Bio from "../../components/bio"
 import Gallery from "../../components/gallery"
 import LinkList from "../../components/linkList"
 import SEO from "../../components/seo"
 import { getProject, getProjects } from "../../content"
 
-export default function Project({ projects, project }) {
+export default function Project({
+  projects,
+  project,
+}: {
+  projects: ComponentProps<typeof Gallery>["projects"]
+  project: {
+    title: string
+    description: string
+    preview: string
+    slug: string
+    association: string
+    tagline: string
+    links: ComponentProps<typeof LinkList>["links"]
+  }
+}) {
   return (
     <>
       <SEO

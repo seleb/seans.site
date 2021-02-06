@@ -1,7 +1,13 @@
 import React from "react"
 
 export default function Project({
-  project: { title, tagline, thumbnail, preview },
+  project: { title, tagline, thumbnail },
+}: {
+  project: {
+    title: string
+    tagline: string
+    thumbnail: string
+  }
 }) {
   return (
     <>

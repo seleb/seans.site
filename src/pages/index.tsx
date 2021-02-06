@@ -1,10 +1,14 @@
-import React from "react"
+import React, { ComponentProps } from "react"
 import Bio from "../components/bio"
 import Gallery from "../components/gallery"
 import SEO from "../components/seo"
 import { getProjects } from "../content"
 
-export default function Index({ projects }) {
+export default function Index({
+  projects,
+}: {
+  projects: ComponentProps<typeof Gallery>["projects"]
+}) {
   return (
     <>
       <SEO

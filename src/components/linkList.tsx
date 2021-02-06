@@ -1,7 +1,7 @@
-import React from "react"
+import React, { ComponentProps } from "react"
 
-function getIcon(link) {
-  const { 1: domain } = link.match(/^(?:https?:\/\/)?(.+?)(?:\/|$)/) || {}
+function getIcon(link: string) {
+  const { 1: domain } = link.match(/^(?:https?:\/\/)?(.+?)(?:\/|$)/) || []
   if (!domain) {
     return
   }
@@ -31,7 +31,11 @@ function Link({ link = "" }) {
   )
 }
 
-export default function LinkList({ links = [] }) {
+export default function LinkList({
+  links = [],
+}: {
+  links: ComponentProps<typeof Link>["link"][]
+}) {
   return (
     <ul className="link-list">
       {links.map((link) => (
