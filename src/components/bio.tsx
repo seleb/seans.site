@@ -5,7 +5,7 @@ import LinkList from "./linkList"
 export default function Bio() {
   return (
     <header className="bio">
-      <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
+      <Link href="/">
         <a>
           <h1>Sean S. LeBlanc</h1>
           <h2>I Make Stuff</h2>

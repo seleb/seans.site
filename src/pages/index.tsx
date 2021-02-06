@@ -7,7 +7,7 @@ import { getProjects } from "../content"
 export default function Index({ projects }) {
   return (
     <>
-      <SEO description="A site for stuff made by Sean S. LeBlanc!" />
+      <SEO title="Sean's Site" description="A site for stuff made by Sean S. LeBlanc!" />
       <main className="index">
         <Bio />
         <Gallery projects={projects} />
