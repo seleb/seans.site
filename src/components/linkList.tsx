@@ -34,7 +34,7 @@ function Link({ link = "" }) {
 export default function LinkList({ links = [] }) {
   return (
     <ul className="link-list">
-      {links.map(link => (
+      {links.map((link) => (
         <li key={link}>
           <Link link={link} />
         </li>

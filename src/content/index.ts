@@ -6,7 +6,7 @@ export function titleToSlug(title) {
 }
 
 export async function getProjects() {
-  return db.map(project => ({
+  return db.map((project) => ({
     ...project,
     slug: titleToSlug(project.title),
     preview: `/${project.preview}`,
@@ -16,6 +16,6 @@ export async function getProjects() {
 
 export async function getProject(slug) {
   const projects = await getProjects()
-  const project = projects.find(project => project.slug === slug)
+  const project = projects.find((project) => project.slug === slug)
   return project
 }
