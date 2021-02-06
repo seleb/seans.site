@@ -8,14 +8,14 @@
   "dependencies": {
     "next": "^10.0.6",
     "next-seo": "^4.19.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^5.0.0",
     "normalize.css": "^8.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "sanitize-filename": "^1.6.3"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.2.1"
   },
   "license": "UNLICENSED",
   "scripts": {
