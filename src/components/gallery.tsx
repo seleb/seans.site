@@ -1,5 +1,5 @@
 import Link from "next/link"
-import React, { ComponentProps } from "react"
+import { ComponentProps } from "react"
 import Project from "./project"
 
 export default function Gallery({

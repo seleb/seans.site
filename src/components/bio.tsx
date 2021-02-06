@@ -1,5 +1,4 @@
 import Link from "next/link"
-import React from "react"
 import LinkList from "./linkList"
 
 export default function Bio() {

@@ -1,4 +1,4 @@
-import React, { ComponentProps } from "react"
+import { ComponentProps } from "react"
 
 function getIcon(link: string) {
   const { 1: domain } = link.match(/^(?:https?:\/\/)?(.+?)(?:\/|$)/) || []

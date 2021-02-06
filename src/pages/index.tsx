@@ -1,4 +1,4 @@
-import React, { ComponentProps } from "react"
+import { ComponentProps } from "react"
 import Bio from "../components/bio"
 import Gallery from "../components/gallery"
 import SEO from "../components/seo"

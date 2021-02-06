@@ -1,5 +1,5 @@
 import Link from "next/link"
-import React, { ComponentProps } from "react"
+import { ComponentProps } from "react"
 import Bio from "../../components/bio"
 import Gallery from "../../components/gallery"
 import LinkList from "../../components/linkList"

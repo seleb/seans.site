@@ -1,5 +1,3 @@
-import React from "react"
-
 export default function Project({
   project: { title, tagline, thumbnail },
 }: {
