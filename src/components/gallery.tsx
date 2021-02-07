@@ -17,7 +17,11 @@ export default function Gallery({
         p.slug === project ? (
           <Preview project={p} />
         ) : (
-          <Link prefetch={false} key={p.slug} href={`/project/${p.slug}`}>
+          <Link
+            prefetch={false}
+            key={p.slug}
+            href={`/project/${p.slug}#preview`}
+          >
             <a className="project">
               <Project project={p} />
             </a>

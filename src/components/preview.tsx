@@ -24,7 +24,9 @@ export function Preview({
         loading="eager"
       />
       <Link href="/">
-        <a aria-label="Home">⛢</a>
+        <a id="preview" aria-label="Home">
+          ⛢
+        </a>
       </Link>
       <main>
         <h1 dangerouslySetInnerHTML={{ __html: title }} />
