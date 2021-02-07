@@ -67,6 +67,11 @@ hr {
   border: inset 1px #efefef;
 }
 
+::selection {
+  background-color: #fff;
+  color: #000;
+}
+
 @import "./index.scss";
 @import "./linkList.scss";
 @import "./projectPage.scss";
