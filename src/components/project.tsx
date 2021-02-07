@@ -5,7 +5,7 @@ export default function Project({
 }: {
   project: {
     title: string
-    tagline: string
+    tagline?: string
     thumbnail: string
   }
 }) {
@@ -33,7 +33,7 @@ export default function Project({
       </figure>
       <figcaption>
         <h1 dangerouslySetInnerHTML={{ __html: title }} />
-        <h2 dangerouslySetInnerHTML={{ __html: tagline }} />
+        {tagline && <h2 dangerouslySetInnerHTML={{ __html: tagline }} />}
       </figcaption>
     </>
   )

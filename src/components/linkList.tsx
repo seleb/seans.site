@@ -32,7 +32,7 @@ function Link({ link = "" }) {
 }
 
 export default function LinkList({
-  links = [],
+  links,
 }: {
   links: ComponentProps<typeof Link>["link"][]
 }) {
