@@ -996,8 +996,8 @@ export default [
     association: "",
     date: "January - December 2017",
     tagline: "PICO-8 in 140 (and then later 280) characters or less",
-	  description:
-		"A set of 124 animations, each with source code short enough to fit in a tweet.",
+    description:
+      "A set of 124 animations, each with source code short enough to fit in a tweet.",
     links: ["https://seansleblanc.itch.io/tweetcarts-2017"],
   },
   {
