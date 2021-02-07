@@ -1,8 +1,8 @@
-import Link from "next/link"
 import { ComponentProps } from "react"
 import Bio from "../../components/bio"
 import Gallery from "../../components/gallery"
 import LinkList from "../../components/linkList"
+import { Preview } from "../../components/preview"
 import SEO from "../../components/seo"
 import { getProject, getProjects } from "../../content"
 
@@ -30,26 +30,7 @@ export default function Project({
       />
       <article className="index">
         <Bio />
-        {project && (
-          <article key={project.slug} className="project-page">
-            <img
-              alt={`${project.title} preview`}
-              src={project.preview}
-              className="preview"
-              loading="eager"
-            />
-            <Link href="/">
-              <a aria-label="Home">⛢</a>
-            </Link>
-            <main>
-              <h1 dangerouslySetInnerHTML={{ __html: project.title }} />
-              <h2 dangerouslySetInnerHTML={{ __html: project.tagline }} />
-              <h3>{project.association}</h3>
-              <p dangerouslySetInnerHTML={{ __html: project.description }} />
-              <LinkList links={project.links} />
-            </main>
-          </article>
-        )}
+        {project && <Preview project={project} />}
         <Gallery projects={projects} />
         <button
           onClick={() => window.scrollTo(0, 0)}
