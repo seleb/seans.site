@@ -54,9 +54,14 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: var(--bg);
 			object-fit: cover;
 			object-position: center;
+			transition: opacity 0.2s ease-out;
+			opacity: 1;
+
+			&.loading {
+				opacity: 0;
+			}
 		}
 
 		figure:after {
@@ -77,6 +82,7 @@
 			left: 0;
 			position: absolute;
 			overflow: hidden;
+			transition: opacity 0.1s ease-out;
 		}
 
 		figcaption>h1 {
@@ -90,8 +96,11 @@
 		}
 
 		@for $i from 0 through 35 {
-			&:nth-child(36n+#{$i}) .thumbnail {
-				filter: contrast(0.420) sepia(0.69) brightness(0.420) hue-rotate(#{230 + $i * 10}deg);
+			&:nth-child(36n+#{$i}) {
+				background-color: #{adjust_hue(saturate(darken(#ffffff, 80), 20), 230 + $i * 10)};
+				.thumbnail {
+					filter: contrast(0.420) sepia(0.69) brightness(0.420) hue-rotate(#{180 + $i * 10}deg);
+				}
 			}
 		}
 

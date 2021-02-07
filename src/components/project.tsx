@@ -1,3 +1,5 @@
+import { useCallback, useEffect, useRef, useState } from "react"
+
 export default function Project({
   project: { title, tagline, thumbnail },
 }: {
@@ -7,12 +9,24 @@ export default function Project({
     thumbnail: string
   }
 }) {
+  const [loaded, setLoaded] = useState(true)
+  const ref = useRef<HTMLImageElement>()
+  const onLoad = useCallback(() => {
+    setLoaded(true)
+  }, [])
+  useEffect(() => {
+    if (!ref.current || ref.current.complete) return
+    setLoaded(false)
+    ref.current.src = thumbnail
+    ref.current.onload = onLoad
+  }, [ref, thumbnail])
   return (
     <>
       <figure>
         <img
+          ref={ref}
           alt={`${title} thumbnail`}
-          className="thumbnail"
+          className={`thumbnail ${loaded ? "" : "loading"}`}
           src={thumbnail}
           loading="lazy"
         />
