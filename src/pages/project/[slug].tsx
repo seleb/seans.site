@@ -2,7 +2,6 @@ import { ComponentProps } from "react"
 import Bio from "../../components/bio"
 import Gallery from "../../components/gallery"
 import LinkList from "../../components/linkList"
-import { Preview } from "../../components/preview"
 import SEO from "../../components/seo"
 import { getProject, getProjects } from "../../content"
 
@@ -30,8 +29,7 @@ export default function Project({
       />
       <article className="index">
         <Bio />
-        {project && <Preview project={project} />}
-        <Gallery projects={projects} />
+        <Gallery projects={projects} project={project} />
         <button
           onClick={() => window.scrollTo(0, 0)}
           aria-label="Scroll to top"
