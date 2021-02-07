@@ -10,7 +10,7 @@ export default function Gallery({
   return (
     <>
       {projects.map((p) => (
-        <Link key={p.slug} href={`/project/${p.slug}`}>
+        <Link prefetch={false} key={p.slug} href={`/project/${p.slug}`}>
           <a className="project">
             <Project project={p} />
           </a>
