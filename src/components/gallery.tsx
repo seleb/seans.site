@@ -7,19 +7,23 @@ export default function Gallery({
   projects,
   project,
 }: {
-  projects: (ComponentProps<typeof Project>["project"] & { slug: string })[]
-  project?: ComponentProps<typeof Preview>["project"]
+  projects: (ComponentProps<typeof Project>["project"] &
+    ComponentProps<typeof Preview>["project"] & { slug: string })[]
+  project?: string
 }) {
   return (
     <>
-      {project && <Preview project={project} />}
-      {projects.map((p) => (
-        <Link prefetch={false} key={p.slug} href={`/project/${p.slug}`}>
-          <a className="project">
-            <Project project={p} />
-          </a>
-        </Link>
-      ))}
+      {projects.map((p) =>
+        p.slug === project ? (
+          <Preview project={p} />
+        ) : (
+          <Link prefetch={false} key={p.slug} href={`/project/${p.slug}`}>
+            <a className="project">
+              <Project project={p} />
+            </a>
+          </Link>
+        )
+      )}
     </>
   )
 }

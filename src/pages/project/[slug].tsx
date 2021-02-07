@@ -17,7 +17,7 @@ export default function Project({
       />
       <article className="index">
         <Bio />
-        <Gallery projects={projects} project={project} />
+        <Gallery projects={projects} project={project.slug} />
         <button
           onClick={() => window.scrollTo(0, 0)}
           aria-label="Scroll to top"
