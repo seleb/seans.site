@@ -1,25 +1,13 @@
-import { ComponentProps } from "react"
+import { PromiseValue } from "type-fest"
 import Bio from "../../components/bio"
 import Gallery from "../../components/gallery"
-import LinkList from "../../components/linkList"
 import SEO from "../../components/seo"
 import { getProject, getProjects } from "../../content"
 
 export default function Project({
   projects,
   project,
-}: {
-  projects: ComponentProps<typeof Gallery>["projects"]
-  project: {
-    title: string
-    description: string
-    preview: string
-    slug: string
-    association: string
-    tagline: string
-    links: ComponentProps<typeof LinkList>["links"]
-  }
-}) {
+}: PromiseValue<ReturnType<typeof getStaticProps>>["props"]) {
   return (
     <>
       <SEO

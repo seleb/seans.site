@@ -1,4 +1,4 @@
-import { ComponentProps } from "react"
+import { PromiseValue } from "type-fest"
 import Bio from "../components/bio"
 import Gallery from "../components/gallery"
 import SEO from "../components/seo"
@@ -6,9 +6,7 @@ import { getProjects } from "../content"
 
 export default function Index({
   projects,
-}: {
-  projects: ComponentProps<typeof Gallery>["projects"]
-}) {
+}: PromiseValue<ReturnType<typeof getStaticProps>>["props"]) {
   return (
     <>
       <SEO description="A site for stuff made by Sean S. LeBlanc!" />
