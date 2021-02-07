@@ -26,6 +26,6 @@
     "dev": "next dev",
     "build": "next build && next export -o dist",
     "start": "next start",
-    "format": "prettier --write src/**/*.{ts,tsx}"
+    "format": "prettier --write src/**/*.{ts,tsx,scss}"
   }
 }
