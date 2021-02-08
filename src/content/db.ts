@@ -421,7 +421,7 @@ export default [
   {
     title: "🐦",
     thumbnail: "thumbnails/🐦/thumbnail.png",
-    preview: "thumbnails/🐦/preview.png",
+    preview: "thumbnails/🐦/preview.gif",
     association: "#BitsyJam",
     date: "October 2019",
     tagline: "*vague tweeting*",
@@ -1786,8 +1786,8 @@ export default [
   },
   {
     title: "★ Creamie Buddies ★",
-    thumbnail: "thumbnails/★ Creamie Buddies ★/thumbnail.png",
-    preview: "thumbnails/★ Creamie Buddies ★/preview.png",
+    thumbnail: "thumbnails/★ Creamie Buddies ★/thumbnail.gif",
+    preview: "thumbnails/★ Creamie Buddies ★/preview.gif",
     association: "#LOWREZJAM",
     date: "April 2016",
     tagline: "Scoop Me Up!",
@@ -1890,7 +1890,7 @@ export default [
   {
     title: "Llammigration (demo)",
     thumbnail: "thumbnails/Llammigration/thumbnail.png",
-    preview: "thumbnails/Llammigration/preview.png",
+    preview: "thumbnails/Llammigration/preview.gif",
     association: "Carleton University",
     date: "December 2015",
     tagline: "Learning With Llama",
