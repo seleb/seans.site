@@ -1,14 +1,17 @@
-import { useCallback, useEffect, useRef, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function Project({
-  project: { title, tagline, thumbnail },
+  project: { title, tagline, thumbnail, preview, showcase },
 }: {
   project: {
     title: string
     tagline?: string
     thumbnail: string
+    preview: string
+    showcase?: boolean
   }
 }) {
+  const [string, image] = showcase ? ['preview', preview] : ['thumbnail', thumbnail];
   const [loaded, setLoaded] = useState(true)
   const ref = useRef<HTMLImageElement>()
   const onLoad = useCallback(() => {
@@ -17,17 +20,17 @@ export default function Project({
   useEffect(() => {
     if (!ref.current || ref.current.complete) return
     setLoaded(false)
-    ref.current.src = thumbnail
+    ref.current.src = image
     ref.current.onload = onLoad
-  }, [ref, thumbnail])
+  }, [ref, image])
   return (
     <>
       <figure>
         <img
           ref={ref}
-          alt={`${title} thumbnail`}
-          className={`thumbnail ${loaded ? "" : "loading"}`}
-          src={thumbnail}
+          alt={`${title} ${string}`}
+          className={`thumbnail${loaded ? "" : " loading"}`}
+          src={image}
           loading="lazy"
         />
       </figure>

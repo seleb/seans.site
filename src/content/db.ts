@@ -161,6 +161,7 @@ export default [
       "https://sweetheartsquad.itch.io/collar-me-impressed",
       "https://github.com/SweetheartSquad/collar-me-impressed",
     ],
+    showcase: true,
   },
   {
     title: "JET LI IS THE ONE (2001) ASKING YOU TO GET HIM A COFFEE",
@@ -225,6 +226,7 @@ export default [
     description:
       'Inspired by the Famicase <a href="https://famicase.com/20/softs/017.html">RECKON</a> by <a href="https://twitter.com/JonahD">Jonah Davidson</a>.',
     links: ["https://seansleblanc.itch.io/how-do-you-reckon"],
+    showcase: true,
   },
   {
     title: "a chat with charon",
@@ -449,6 +451,7 @@ export default [
       "https://sweetheartsquad.itch.io/round-table",
       "https://github.com/SweetheartSquad/AGBIC2019---Round-Table",
     ],
+    showcase: true,
   },
   {
     title: "stoic",
@@ -640,6 +643,7 @@ export default [
       "https://github.com/seleb/bitsy-hacks",
       "https://www.npmjs.com/package/@bitsy/hecks",
     ],
+    showcase: true,
   },
   {
     title: "judgement",
@@ -1081,6 +1085,7 @@ export default [
       "https://seansleblanc.itch.io/you-are-the-coin-master",
       "https://ldjam.com/events/ludum-dare/40/you-are-the-coin-master",
     ],
+    showcase: true,
   },
   {
     title: "The Baseball Kid: New Beginnings",
@@ -1333,6 +1338,7 @@ export default [
     description:
       "It's been a long day, and Duck Duck's ready to unwind in the best way they know how: an impromptu jam session! Can you help them get in the groove?<br />I mean... it's not really your responsibility. I'm sure they'll be fine on their own. Why don't you just take some time to riff off the backing track and enjoy yourself? And hey, if you happened to make some smooth tunes along the way, that's cool too.",
     links: ["https://seansleblanc.itch.io/duck-duck-plays-the-blues"],
+    showcase: true,
   },
   {
     title: "holt",
@@ -1854,6 +1860,7 @@ export default [
       "https://sweetheartsquad.itch.io/party-darling",
       "https://github.com/SweetheartSquad/Game",
     ],
+    showcase: true,
   },
   {
     title: "Rip It! Grip It! Sip It!",

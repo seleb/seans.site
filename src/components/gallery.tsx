@@ -22,7 +22,7 @@ export default function Gallery({
             key={p.slug}
             href={`/project/${p.slug}#preview`}
           >
-            <a className="project">
+            <a className={`project${p.showcase ? ' showcase' : ''}`}>
               <Project project={p} />
             </a>
           </Link>

@@ -40,6 +40,11 @@
     position: relative;
     color: inherit;
 
+    &.showcase {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
     figure {
       margin: 0;
       width: 100%;
