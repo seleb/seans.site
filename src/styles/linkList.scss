@@ -5,6 +5,10 @@
 
   > li {
     display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+    }
   }
   > li > a {
     color: transparent;
@@ -17,7 +21,6 @@
       display: inline-block;
       border-radius: 50%;
       vertical-align: middle;
-      margin-right: 0.5rem;
       image-rendering: pixelated;
       background-color: var(--bg);
       transition: opacity 0.1s ease-in-out;
@@ -26,7 +29,8 @@
       mask-size: cover;
     }
 
-    &:hover:not(:active):before {
+    &:hover:not(:active):before,
+    &:focus:not(:active):before {
       opacity: 0.5;
     }
 
