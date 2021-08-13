@@ -6,7 +6,7 @@
   "author": "Sean S. LeBlanc <sean.s.leblanc@gmail.com>",
   "repository": "github:seleb/seans.site",
   "dependencies": {
-    "next": "^11.0.1",
+    "next": "^11.1.0",
     "next-seo": "^4.26.0",
     "node-sass": "^5.0.0",
     "normalize.css": "^8.0.1",
