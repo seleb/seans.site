@@ -1,5 +1,15 @@
 export default [
   {
+    title: "we are all but bones and dust",
+    thumbnail: "thumbnails/we are all but bones and dust/thumbnail.gif",
+    preview: "thumbnails/we are all but bones and dust/preview.gif",
+    association: "DOMINO CLUB",
+    date: "August 2021",
+    description: "Made for DOMINO CLUB's inaugural anonymous game jam.",
+    links: ["https://dominoclub.itch.io/we-are-all-but-bones-and-dust"],
+    showcase: true,
+  },
+  {
     title: "🔍",
     thumbnail: "thumbnails/🔍/thumbnail.png",
     preview: "thumbnails/🔍/preview.png",
