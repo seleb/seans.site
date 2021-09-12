@@ -1,5 +1,30 @@
 export default [
   {
+    title: "Short Rest",
+    thumbnail: "thumbnails/Short Rest/thumbnail.gif",
+    preview: "thumbnails/Short Rest/preview.gif",
+    association: "",
+    date: "September 2021",
+    tagline: "A party-based roguelike deckbuilder",
+    description:
+      "<blockquote>Somewhere outside a small village, nestled deep in the wood...<br>An immortal dragon makes its den.<br>The village calls on heroes: Noble, strong, and good...<br>But they fall again and again.</blockquote><p>A cute but deadly deckbuilding roguelike with unique spark. Carefully strategize as you make your way through the dragon's dungeon, and save the village from calamity!</p><ul><li><strong>Build and burn your deck:</strong> Every card is precious, but some things are more precious than cards...</li><li><strong>Battle your enemies:</strong> Overcome dozens of turn-based encounters and unique bosses.</li><li><strong>Bring your party to victory:</strong> Learn to use each character's strengths to make it to the next camp; if your party falls, they'll have to start again!</li></ul><blockquote>Adventures are just around the corner, so make sure your heroes are well rested...</blockquote>",
+    links: [
+      "https://sweetheartsquad.itch.io/short-rest",
+      "https://github.com/SweetheartSquad/AGBIC2021-short-rest",
+    ],
+    showcase: true,
+  },
+  {
+    title: "3pm",
+    thumbnail: "thumbnails/3pm/thumbnail.png",
+    preview: "thumbnails/3pm/preview.png",
+    association: "",
+    date: "August 2021",
+    tagline: "get that bread",
+    description: "Made for the Bipsi L(a)unch Jam",
+    links: ["https://seansleblanc.itch.io/3pm"],
+  },
+  {
     title: "we are all but bones and dust",
     thumbnail: "thumbnails/we are all but bones and dust/thumbnail.gif",
     preview: "thumbnails/we are all but bones and dust/preview.gif",
