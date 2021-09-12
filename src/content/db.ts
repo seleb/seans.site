@@ -66,8 +66,13 @@ export default [
     association: "#thetooljam",
     date: "May 2021",
     tagline: "tool for creating ordered dither threshold textures",
-    description: "This tool allows you to create textures that can be used as threshold maps for ordered dithering, a technique usually implemented using programmatically generated Bayer matrices.",
-    links: ["https://seansleblanc.itch.io/ordered-dither-maker", "https://github.com/seleb/ordered-dither-maker", "https://seleb.github.io/ordered-dither-maker/"],
+    description:
+      "This tool allows you to create textures that can be used as threshold maps for ordered dithering, a technique usually implemented using programmatically generated Bayer matrices.",
+    links: [
+      "https://seansleblanc.itch.io/ordered-dither-maker",
+      "https://github.com/seleb/ordered-dither-maker",
+      "https://seleb.github.io/ordered-dither-maker/",
+    ],
     showcase: true,
   },
   {
@@ -77,7 +82,8 @@ export default [
     association: "#BWJam",
     date: "April 2021",
     tagline: "Magic, murder, and mystery in a small town bar.",
-    description: "Marcel the Magnifical is scheduled to go on tonight, but something is amiss: explore a night of magic, murder, and mystery in a small town bar.",
+    description:
+      "Marcel the Magnifical is scheduled to go on tonight, but something is amiss: explore a night of magic, murder, and mystery in a small town bar.",
     links: ["https://sweetheartsquad.itch.io/murder-my-bunny"],
   },
   {
@@ -111,7 +117,8 @@ export default [
     association: "",
     date: "March 2021",
     tagline: "an abridged and annotated epic recollection",
-    description: "I have not read the Ramayana, but I'd like to tell it to you.",
+    description:
+      "I have not read the Ramayana, but I'd like to tell it to you.",
     links: ["https://seansleblanc.itch.io/remembering-ramayana"],
   },
   {

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react"
 
 export default function Project({
   project: { title, tagline, thumbnail, preview, showcase },
@@ -11,7 +11,9 @@ export default function Project({
     showcase?: boolean
   }
 }) {
-  const [string, image] = showcase ? ['preview', preview] : ['thumbnail', thumbnail];
+  const [string, image] = showcase
+    ? ["preview", preview]
+    : ["thumbnail", thumbnail]
   const [loaded, setLoaded] = useState(true)
   const ref = useRef<HTMLImageElement>()
   const onLoad = useCallback(() => {
