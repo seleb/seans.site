@@ -1,5 +1,66 @@
 export default [
   {
+    title: "We Follow The Fickle Path",
+    thumbnail: "thumbnails/We Follow The Fickle Path/thumbnail.gif",
+    preview: "thumbnails/We Follow The Fickle Path/preview.gif",
+    association: "#GitHubGameOff",
+    date: "November 2021",
+    tagline: "A story about ants.",
+    description:
+      "<p>A sister is One, and one may be lost.</p><p>A sister of Many, will always have sisters.</p>",
+    links: [
+      "https://sweetheartsquad.itch.io/we-follow-the-fickle-path",
+      "https://github.com/SweetheartSquad/GameOff2021",
+    ],
+    showcase: true,
+  },
+  {
+    title: "gon't fishin",
+    thumbnail: "thumbnails/gon't fishin/thumbnail.png",
+    preview: "thumbnails/gon't fishin/preview.png",
+    association: "#0hgame",
+    date: "November 2021",
+    tagline: "🎣",
+    description: "Made in zero hours",
+    links: ["https://seansleblanc.itch.io/gont-fishin"],
+  },
+  {
+    title: "Orbital Obit.",
+    thumbnail: "thumbnails/Orbital Obit/thumbnail.png",
+    preview: "thumbnails/Orbital Obit/preview.png",
+    association: "DOMINO CLUB",
+    date: "November 2021",
+    tagline: "",
+    description:
+      "<p>A Surya-class Federated orbital shuttle suffers an unknown crisis, leaving behind no survivors and too much paperwork for a couple of zoning regulators.</p><p>Made with RenJS for DOMINO CLUB's second anonymous game jam, alongside some contributions to the engine.</p>",
+    links: ["https://dominoclub.itch.io/orbital-obit"],
+  },
+  {
+    title: "wold",
+    thumbnail: "thumbnails/wold/thumbnail.png",
+    preview: "thumbnails/wold/preview.png",
+    association: "#BitsyJam",
+    date: "November 2021",
+    description: "",
+    links: ["https://seansleblanc.itch.io/wold"],
+  },
+  {
+    title: "Advanced Bipedal Battle Armour: The Name of the Game",
+    thumbnail:
+      "thumbnails/Advanced Bipedal Battle Armour The Name of the Game/thumbnail.gif",
+    preview:
+      "thumbnails/Advanced Bipedal Battle Armour The Name of the Game/preview.gif",
+    association: "#mechjam",
+    date: "October 2021",
+    tagline: "Dueling in 2.5D",
+    description:
+      "It all comes down to this. Friends, lovers, now rivals: Duel it out with your prized Advanced Bipedal Battle Armour to prevent a cataclysmic merger of worlds!",
+    links: [
+      "https://sweetheartsquad.itch.io/advanced-bipedal-battle-armour",
+      "https://github.com/SweetheartSquad/MechJam",
+    ],
+  },
+  {
     title: "Short Rest",
     thumbnail: "thumbnails/Short Rest/thumbnail.gif",
     preview: "thumbnails/Short Rest/preview.gif",
