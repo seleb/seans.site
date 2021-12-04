@@ -15,7 +15,7 @@ export default function Gallery({
     <>
       {projects.map((p) =>
         p.slug === project ? (
-          <Preview project={p} />
+          <Preview key={p.slug} project={p} />
         ) : (
           <Link
             prefetch={false}
