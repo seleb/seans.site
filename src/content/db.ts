@@ -3,7 +3,7 @@ export default [
     title: "Short Rest",
     thumbnail: "thumbnails/Short Rest/thumbnail.gif",
     preview: "thumbnails/Short Rest/preview.gif",
-    association: "",
+    association: "#AGBIC",
     date: "September 2021",
     tagline: "A party-based roguelike deckbuilder",
     description:
