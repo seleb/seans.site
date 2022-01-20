@@ -7,9 +7,10 @@ import { getProjects } from "../content"
 export default function Index({
   projects,
 }: PromiseValue<ReturnType<typeof getStaticProps>>["props"]) {
+  const firstShowcase = projects.find(i => i.showcase);
   return (
     <>
-      <SEO description="A site for stuff made by Sean S. LeBlanc!" />
+      <SEO description="A site for stuff made by Sean S. LeBlanc!" image={{ url: firstShowcase.preview, alt: `${firstShowcase.title} preview` }} />
       <main className="index">
         <Bio />
         <Gallery projects={projects} />
