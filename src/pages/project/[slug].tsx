@@ -1,4 +1,3 @@
-import { PromiseValue } from "type-fest"
 import Bio from "../../components/bio"
 import Gallery from "../../components/gallery"
 import SEO from "../../components/seo"
@@ -7,7 +6,7 @@ import { getProject, getProjects } from "../../content"
 export default function Project({
   projects,
   project,
-}: PromiseValue<ReturnType<typeof getStaticProps>>["props"]) {
+}: Awaited<ReturnType<typeof getStaticProps>>["props"]) {
   return (
     <>
       <SEO

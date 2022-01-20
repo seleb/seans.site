@@ -1,12 +1,11 @@
-import { PromiseValue } from "type-fest"
-import Bio from "../components/bio"
-import Gallery from "../components/gallery"
-import SEO from "../components/seo"
-import { getProjects } from "../content"
+import Bio from "../components/bio";
+import Gallery from "../components/gallery";
+import SEO from "../components/seo";
+import { getProjects } from "../content";
 
 export default function Index({
   projects,
-}: PromiseValue<ReturnType<typeof getStaticProps>>["props"]) {
+}: Awaited<ReturnType<typeof getStaticProps>>["props"]) {
   const firstShowcase = projects.find(i => i.showcase);
   return (
     <>
