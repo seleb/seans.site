@@ -1,5 +1,15 @@
 export default [
   {
+    title: "Taxi Quest 65",
+    thumbnail: "thumbnails/Taxi Quest 65/thumbnail.gif",
+    preview: "thumbnails/Taxi Quest 65/preview.gif",
+    association: "#FFSJam",
+    date: "January 2022",
+    tagline: '"Is that REALLY necessary?"',
+    description: "A sequel six years in the making to Taxi Quest 64.",
+    links: ["https://sweetheartsquad.itch.io/taxi-quest-65", "https://github.com/SweetheartSquad/FFS2022-Taxi-Quest-65"],
+  },
+  {
     title: "a decade outside",
     thumbnail: "thumbnails/a decade outside/thumbnail.gif",
     preview: "thumbnails/a decade outside/preview.gif",
