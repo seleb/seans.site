@@ -1,5 +1,41 @@
 export default [
   {
+    title: "Ten Tales from the Records of The Adamant Gambit",
+    thumbnail:
+      "thumbnails/Ten Tales from the Records of The Adamant Gambit/thumbnail.gif",
+    preview:
+      "thumbnails/Ten Tales from the Records of The Adamant Gambit/preview.gif",
+    association: "#varietymegajam2021",
+    date: "April 2022",
+    tagline: "a sci-fi anthology",
+    description:
+      "A collaborative sci-fi anthology of 10 games made in 10 days set on the generation ship <em>The Adamant Gambit</em>.",
+    links: ["https://the-adamant-gambit.itch.io/ten-tales"],
+    showcase: true,
+  },
+  {
+    title: "stairdown",
+    thumbnail: "thumbnails/stairdown/thumbnail.png",
+    preview: "thumbnails/stairdown/preview.png",
+    association: "DOMINO CLUB",
+    date: "March 2022",
+    tagline: "a dungeon crawl dialogue",
+    description: "QUEST ACCEPTED: FIND THE <strong>AMULET</strong> OF THE <strong>GOD TOH LIVE</strong><br/>Made with RenJS for DOMINO CLUB's third anonymous game jam",
+    links: ["https://dominoclub.itch.io/stairdown"],
+    showcase: true,
+  },
+  {
+    title: "fib, tub, sew",
+    thumbnail: "thumbnails/fib, tub, sew/thumbnail.png",
+    preview: "thumbnails/fib, tub, sew/preview.png",
+    association: "DOMINO CLUB",
+    date: "March 2022",
+    tagline: "not necessarily in that order",
+    description:
+      "yes it was me, but can you solve my riddles three<br />Made with Calico for DOMINO CLUB's third anonymous game jam",
+    links: ["https://dominoclub.itch.io/fib-tub-sew"],
+  },
+  {
     title: "Taxi Quest 65",
     thumbnail: "thumbnails/Taxi Quest 65/thumbnail.gif",
     preview: "thumbnails/Taxi Quest 65/preview.gif",
@@ -7,7 +43,10 @@ export default [
     date: "January 2022",
     tagline: '"Is that REALLY necessary?"',
     description: "A sequel six years in the making to Taxi Quest 64.",
-    links: ["https://sweetheartsquad.itch.io/taxi-quest-65", "https://github.com/SweetheartSquad/FFS2022-Taxi-Quest-65"],
+    links: [
+      "https://sweetheartsquad.itch.io/taxi-quest-65",
+      "https://github.com/SweetheartSquad/FFS2022-Taxi-Quest-65",
+    ],
   },
   {
     title: "a decade outside",
@@ -19,28 +58,6 @@ export default [
     description:
       "Made for <a href='https://alyphen.itch.io'>Ren</a> as a secret santa gift.",
     links: ["https://seansleblanc.itch.io/a-decade-outside"],
-  },
-  {
-    title: "The Adamant Gambit",
-    thumbnail: "thumbnails/The Adamant Gambit/thumbnail.gif",
-    preview: "thumbnails/The Adamant Gambit/preview.gif",
-    association: "#varietymegajam2021",
-    date: "December 2021",
-    tagline: "Ten tales from aboard a generation ship.",
-    description: "A collaborative sci-fi anthology of 10 games made in 10 days set on the generation ship <em>The Adamant Gambit</em>.",
-    links: [
-      "https://the-adamant-gambit.itch.io/my-adventures-checking-out",
-      "https://the-adamant-gambit.itch.io/maintenance-monitoring-terminal",
-      "https://the-adamant-gambit.itch.io/temperature-adjustment-log",
-      "https://the-adamant-gambit.itch.io/initializing-maintenance-run",
-      "https://the-adamant-gambit.itch.io/plum-pudding",
-      "https://the-adamant-gambit.itch.io/two-envelopes",
-      "https://the-adamant-gambit.itch.io/cirro-investigates",
-      "https://the-adamant-gambit.itch.io/a-true-history",
-      "https://the-adamant-gambit.itch.io/case-of-the-burgled-buttons",
-      "https://the-adamant-gambit.itch.io/after-a-long-journey",
-    ],
-    showcase: true,
   },
   {
     title: "bedside",
