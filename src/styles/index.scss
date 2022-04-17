@@ -1,5 +1,9 @@
 @use "sass:math";
 
+noscript {
+  padding: 1rem;
+}
+
 .index {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

@@ -11,6 +11,7 @@ export default function Index({
     <>
       <SEO description="A site for stuff made by Sean S. LeBlanc!" image={{ url: firstShowcase.preview.url.endsWith('.mp4') ? firstShowcase.thumbnail.url : firstShowcase.preview.url, alt: `${firstShowcase.title} preview` }} />
       <main className="index">
+        <noscript>Javascript disabled - site may not appear as expected.</noscript>
         <Bio />
         <Gallery projects={projects} />
         <button

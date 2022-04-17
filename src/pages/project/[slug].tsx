@@ -15,6 +15,7 @@ export default function Project({
         image={{ url: project.preview.url.endsWith('.mp4') ? project.thumbnail.url : project.preview.url, alt: `${project.title} preview` }}
       />
       <article className="index">
+        <noscript>Javascript disabled - site may not appear as expected.</noscript>
         <Bio />
         <Gallery projects={projects} project={project.slug} />
         <button
