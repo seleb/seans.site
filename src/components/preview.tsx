@@ -8,7 +8,11 @@ export function Preview({
   project: {
     slug: string
     title: string
-    preview: string
+    preview: {
+      url: string;
+      w: number;
+      h: number;
+    }
     tagline?: string
     association?: string
     description?: string
@@ -19,7 +23,9 @@ export function Preview({
     <article key={slug} className="project-page">
       <img
         alt={`${title} preview`}
-        src={preview}
+        src={preview.url}
+        width={preview.w}
+        height={preview.h}
         className="preview"
         loading="eager"
       />

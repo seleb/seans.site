@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function Project({
   project: { title, tagline, thumbnail, preview, showcase },
@@ -6,8 +6,16 @@ export default function Project({
   project: {
     title: string
     tagline?: string
-    thumbnail: string
-    preview: string
+    thumbnail: {
+      url: string;
+      w: number;
+      h: number;
+    };
+    preview: {
+      url: string;
+      w: number;
+      h: number;
+    };
     showcase?: boolean
   }
 }) {
@@ -22,7 +30,7 @@ export default function Project({
   useEffect(() => {
     if (!ref.current || ref.current.complete) return
     setLoaded(false)
-    ref.current.src = image
+    ref.current.src = image.url
     ref.current.onload = onLoad
   }, [ref, image])
   return (
@@ -32,7 +40,9 @@ export default function Project({
           ref={ref}
           alt={`${title} ${string}`}
           className={`thumbnail${loaded ? "" : " loading"}`}
-          src={image}
+          src={image.url}
+          width={image.w}
+          height={image.h}
           loading="lazy"
         />
       </figure>
