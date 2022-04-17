@@ -1,7 +1,8 @@
-import { useCallback, useEffect, useRef, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function Project({
   project: { title, tagline, thumbnail, preview, showcase },
+  idx,
 }: {
   project: {
     title: string
@@ -17,7 +18,8 @@ export default function Project({
       h: number
     }
     showcase?: boolean
-  }
+  };
+  idx: number;
 }) {
   const [string, image] = showcase
     ? ["preview", preview]
@@ -54,7 +56,7 @@ export default function Project({
             src={image.url}
             width={image.w}
             height={image.h}
-            loading="lazy"
+            loading={idx < 3 ? 'eager' :"lazy"}
           />
         )}
       </figure>

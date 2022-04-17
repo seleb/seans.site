@@ -13,7 +13,7 @@ export default function Gallery({
 }) {
   return (
     <>
-      {projects.map((p) =>
+      {projects.map((p,idx) =>
         p.slug === project ? (
           <Preview key={p.slug} project={p} />
         ) : (
@@ -23,7 +23,7 @@ export default function Gallery({
             href={`/project/${p.slug}#preview`}
           >
             <a className={`project${p.showcase ? " showcase" : ""}`}>
-              <Project project={p} />
+              <Project project={p} idx={idx} />
             </a>
           </Link>
         )
