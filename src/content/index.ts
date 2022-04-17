@@ -17,27 +17,25 @@ export async function getProjects() {
     if (!fs.existsSync(urlPreviewVid)) {
       urlPreviewVid = '';
     }
-    let sizePreview: ISizeCalculationResult;
-    let sizeThumbnail: ISizeCalculationResult;
+    let sizePreview: Partial<ISizeCalculationResult>;
+    let sizeThumbnail: Partial<ISizeCalculationResult>;
   try {
       sizePreview = sizeof(urlPreviewVid || urlPreview);
       sizeThumbnail = sizeof(urlThumbnail);
     } catch {
-      sizePreview = {width:0,height:0};
-      sizeThumbnail = {width:0,height:0};
+      sizePreview = {};
+      sizeThumbnail = {};
     }
     return {
       ...project,
       slug: titleToSlug(project.title),
       preview: {
         url: `/${urlPreviewVid ? project.preview.replace('.gif', '.mp4') : project.preview}`,
-        w: sizePreview.width,
-        h: sizePreview.height,
+        ...sizePreview,
       },
       thumbnail: {
         url: `/${project.thumbnail}`,
-        w: sizeThumbnail.width,
-        h: sizeThumbnail.height,
+        ...sizeThumbnail,
       },
     }
   })

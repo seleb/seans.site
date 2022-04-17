@@ -10,8 +10,8 @@ export function Preview({
     title: string
     preview: {
       url: string
-      w: number
-      h: number
+      width?: number
+      height?: number
     }
     tagline?: string
     association?: string
@@ -24,8 +24,8 @@ export function Preview({
       {preview.url.endsWith(".mp4") ? (
         <video
           src={preview.url}
-          width={preview.w}
-          height={preview.h}
+          width={preview.width}
+          height={preview.height}
           muted
           autoPlay
           loop
@@ -37,8 +37,8 @@ export function Preview({
           alt={`${title} preview`}
           className="preview"
           src={preview.url}
-          width={preview.w}
-          height={preview.h}
+          width={preview.width}
+          height={preview.height}
           loading="eager"
         />
       )}

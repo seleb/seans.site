@@ -9,13 +9,13 @@ export default function Project({
     tagline?: string
     thumbnail: {
       url: string
-      w: number
-      h: number
+      width?: number
+      height?: number
     }
     preview: {
       url: string
-      w: number
-      h: number
+      width?: number
+      height?: number
     }
     showcase?: boolean
   };
@@ -41,8 +41,8 @@ export default function Project({
           <video
             className={`thumbnail${loaded ? "" : " loading"}`}
             src={image.url}
-            width={image.w}
-            height={image.h}
+            width={image.width}
+            height={image.height}
             muted
             autoPlay
             loop
@@ -54,8 +54,8 @@ export default function Project({
             alt={`${title} ${string}`}
             className={`thumbnail${loaded ? "" : " loading"}`}
             src={image.url}
-            width={image.w}
-            height={image.h}
+            width={image.width}
+            height={image.height}
             loading={idx < 3 ? 'eager' :"lazy"}
           />
         )}
