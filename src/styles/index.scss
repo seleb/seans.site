@@ -33,12 +33,12 @@ noscript {
   }
 
   h1 {
-    font-size: 90%;
+    font-size: 100%;
     margin-bottom: 0.5rem;
   }
 
   h2 {
-    font-size: 80%;
+    font-size: 90%;
     font-weight: normal;
   }
 
@@ -110,11 +110,11 @@ noscript {
 
     @media all and (max-width: 1100px) {
       figcaption > h1 {
-        font-size: 80%;
+        font-size: 100%;
       }
   
       figcaption > h2 {
-        font-size: 75%;
+        font-size: 90%;
       }
     }
 
