@@ -19,3 +19,8 @@ export default function NotFound() {
     </>
   )
 }
+
+
+export const config = {
+  unstable_runtimeJS: false
+}

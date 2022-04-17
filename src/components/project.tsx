@@ -1,4 +1,3 @@
-import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function Project({
   project: { title, tagline, thumbnail, preview, showcase },
@@ -24,22 +23,12 @@ export default function Project({
   const [string, image] = showcase
     ? ["preview", preview]
     : ["thumbnail", thumbnail]
-  const [loaded, setLoaded] = useState(true)
-  const ref = useRef<HTMLImageElement>()
-  const onLoad = useCallback(() => {
-    setLoaded(true)
-  }, [])
-  useEffect(() => {
-    if (!ref.current || ref.current.complete) return
-    setLoaded(false)
-    ref.current.onload = onLoad
-  }, [ref, image])
   return (
     <>
       <figure>
         {image.url.endsWith(".mp4") ? (
           <video
-            className={`thumbnail${loaded ? "" : " loading"}`}
+            className="thumbnail"
             src={image.url}
             width={image.width}
             height={image.height}
@@ -50,9 +39,8 @@ export default function Project({
           />
         ) : (
           <img
-            ref={ref}
             alt={`${title} ${string}`}
-            className={`thumbnail${loaded ? "" : " loading"}`}
+            className="thumbnail"
             src={image.url}
             width={image.width}
             height={image.height}
