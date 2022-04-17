@@ -30,7 +30,6 @@ export default function Project({
   useEffect(() => {
     if (!ref.current || ref.current.complete) return
     setLoaded(false)
-    ref.current.src = image.url
     ref.current.onload = onLoad
   }, [ref, image])
   return (
