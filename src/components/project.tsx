@@ -56,7 +56,7 @@ export default function Project({
             src={image.url}
             width={image.width}
             height={image.height}
-            loading={idx < 3 ? 'eager' :"lazy"}
+            loading={idx < 4 ? 'eager' :"lazy"}
           />
         )}
       </figure>
