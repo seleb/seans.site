@@ -23,6 +23,7 @@ export function Preview({
     <article key={slug} className="project-page">
       {preview.url.endsWith(".mp4") ? (
         <video
+          className="preview"
           src={preview.url}
           width={preview.width}
           height={preview.height}
