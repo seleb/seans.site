@@ -1775,7 +1775,7 @@ export default [
   },
   {
     title: "server.hack()",
-    thumbnail: "thumbnails/server.hack()/thumbnail.png",
+    thumbnail: "thumbnails/server.hack()/thumbnail.jpg",
     preview: "thumbnails/server.hack()/preview.gif",
     association: "#procjam/game-off-2016",
     date: "November 2016",
