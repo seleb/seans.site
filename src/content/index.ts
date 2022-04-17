@@ -1,7 +1,9 @@
-import sizeof from "image-size"
-import path from "path"
-import sanitizeFilename from "sanitize-filename"
-import db from "./db"
+import fs from 'fs';
+import sizeof from "image-size";
+import { ISizeCalculationResult } from 'image-size/dist/types/interface';
+import path from "path";
+import sanitizeFilename from "sanitize-filename";
+import db from "./db";
 
 export function titleToSlug(title: string) {
   return `${sanitizeFilename(title).trim()}`
@@ -9,12 +11,16 @@ export function titleToSlug(title: string) {
 
 export async function getProjects() {
   return db.map((project) => {
-    const urlPreview = path.resolve(__dirname, `../../../public/${project.preview}`);
+    let urlPreview = path.resolve(__dirname, `../../../public/${project.preview}`);
     const urlThumbnail = path.resolve(__dirname, `../../../public/${project.thumbnail}`);
-    let sizePreview;
-    let sizeThumbnail;
+    let urlPreviewVid = urlPreview.replace('.gif', '.mp4');
+    if (!fs.existsSync(urlPreviewVid)) {
+      urlPreviewVid = '';
+    }
+    let sizePreview: ISizeCalculationResult;
+    let sizeThumbnail: ISizeCalculationResult;
   try {
-      sizePreview = sizeof(urlPreview);
+      sizePreview = sizeof(urlPreviewVid || urlPreview);
       sizeThumbnail = sizeof(urlThumbnail);
     } catch {
       sizePreview = {width:0,height:0};
@@ -24,7 +30,7 @@ export async function getProjects() {
       ...project,
       slug: titleToSlug(project.title),
       preview: {
-        url: `/${project.preview}`,
+        url: `/${urlPreviewVid ? project.preview.replace('.gif', '.mp4') : project.preview}`,
         w: sizePreview.width,
         h: sizePreview.height,
       },

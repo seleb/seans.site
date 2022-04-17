@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react"
 
 export default function Project({
   project: { title, tagline, thumbnail, preview, showcase },
@@ -7,15 +7,15 @@ export default function Project({
     title: string
     tagline?: string
     thumbnail: {
-      url: string;
-      w: number;
-      h: number;
-    };
+      url: string
+      w: number
+      h: number
+    }
     preview: {
-      url: string;
-      w: number;
-      h: number;
-    };
+      url: string
+      w: number
+      h: number
+    }
     showcase?: boolean
   }
 }) {
@@ -35,15 +35,28 @@ export default function Project({
   return (
     <>
       <figure>
-        <img
-          ref={ref}
-          alt={`${title} ${string}`}
-          className={`thumbnail${loaded ? "" : " loading"}`}
-          src={image.url}
-          width={image.w}
-          height={image.h}
-          loading="lazy"
-        />
+        {image.url.endsWith(".mp4") ? (
+          <video
+            className={`thumbnail${loaded ? "" : " loading"}`}
+            src={image.url}
+            width={image.w}
+            height={image.h}
+            muted
+            autoPlay
+            loop
+            controls={false}
+          />
+        ) : (
+          <img
+            ref={ref}
+            alt={`${title} ${string}`}
+            className={`thumbnail${loaded ? "" : " loading"}`}
+            src={image.url}
+            width={image.w}
+            height={image.h}
+            loading="lazy"
+          />
+        )}
       </figure>
       <figcaption>
         <h1 dangerouslySetInnerHTML={{ __html: title }} />

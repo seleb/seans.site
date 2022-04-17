@@ -9,9 +9,9 @@ export function Preview({
     slug: string
     title: string
     preview: {
-      url: string;
-      w: number;
-      h: number;
+      url: string
+      w: number
+      h: number
     }
     tagline?: string
     association?: string
@@ -21,14 +21,27 @@ export function Preview({
 }) {
   return (
     <article key={slug} className="project-page">
-      <img
-        alt={`${title} preview`}
-        src={preview.url}
-        width={preview.w}
-        height={preview.h}
-        className="preview"
-        loading="eager"
-      />
+      {preview.url.endsWith(".mp4") ? (
+        <video
+          src={preview.url}
+          width={preview.w}
+          height={preview.h}
+          muted
+          autoPlay
+          loop
+          controls={false}
+          preload="auto"
+        />
+      ) : (
+        <img
+          alt={`${title} preview`}
+          className="preview"
+          src={preview.url}
+          width={preview.w}
+          height={preview.h}
+          loading="eager"
+        />
+      )}
       <Link href="/">
         <a id="preview" aria-label="Home">
           ⛢

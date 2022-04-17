@@ -12,7 +12,7 @@ export default function Project({
       <SEO
         title={project.title}
         description={project.tagline}
-        image={{ url: project.preview, alt: `${project.title} preview` }}
+        image={{ url: project.preview.url.endsWith('.mp4') ? project.thumbnail.url : project.preview.url, alt: `${project.title} preview` }}
       />
       <article className="index">
         <Bio />
@@ -28,7 +28,7 @@ export default function Project({
   )
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: Awaited<ReturnType<typeof getStaticPaths>>["paths"][number]) {
   return {
     props: {
       projects: await getProjects(),
