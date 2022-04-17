@@ -17,6 +17,11 @@ noscript {
     background: var(--fg);
     color: var(--bg);
 
+    @media all and (max-width: 1100px) {
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
+
     a {
       color: inherit;
       text-decoration: none;
@@ -25,10 +30,6 @@ noscript {
 
   @media all and (max-width: 1100px) {
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    > :first-child {
-      grid-column-start: 1;
-      grid-column-end: -1;
-    }
   }
 
   h1 {
