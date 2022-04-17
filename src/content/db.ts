@@ -603,8 +603,8 @@ export default [
   },
   {
     title: "MYCOTERROR ]|[ UNOFFICIAL WALKTHROUGH",
-    thumbnail: "thumbnails/MYCOTERROR ][ UNOFFICIAL WALKTHROUGH/thumbnail.png",
-    preview: "thumbnails/MYCOTERROR ][ UNOFFICIAL WALKTHROUGH/preview.png",
+    thumbnail: "thumbnails/MYCOTERROR UNOFFICIAL WALKTHROUGH/thumbnail.png",
+    preview: "thumbnails/MYCOTERROR UNOFFICIAL WALKTHROUGH/preview.png",
     association: "Speculation Jam",
     date: "February 2020",
     tagline: "things stay the same even when they change",
@@ -1538,8 +1538,8 @@ export default [
   },
   {
     title: "A Visitor on Venus",
-    thumbnail: "thumbnails/A Visitor on Venus/thumbnail.png",
-    preview: "thumbnails/A Visitor on Venus/preview.gif",
+    thumbnail: "thumbnails/A Visitor On Venus/thumbnail.png",
+    preview: "thumbnails/A Visitor On Venus/preview.gif",
     association: "#CGAJAM",
     date: "June 2017",
     tagline: "A low-rez FMV visual novel about a vacation gone wrong.",
