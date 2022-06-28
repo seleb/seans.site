@@ -1,28 +1,27 @@
-
 export default function Project({
   project: { title, tagline, thumbnail, preview, showcase },
   idx,
 }: {
   project: {
-    title: string
-    tagline?: string
+    title: string;
+    tagline?: string;
     thumbnail: {
-      url: string
-      width?: number
-      height?: number
-    }
+      url: string;
+      width?: number;
+      height?: number;
+    };
     preview: {
-      url: string
-      width?: number
-      height?: number
-    }
-    showcase?: boolean
+      url: string;
+      width?: number;
+      height?: number;
+    };
+    showcase?: boolean;
   };
   idx: number;
 }) {
   const [string, image] = showcase
     ? ["preview", preview]
-    : ["thumbnail", thumbnail]
+    : ["thumbnail", thumbnail];
   return (
     <>
       <figure>
@@ -44,7 +43,7 @@ export default function Project({
             src={image.url}
             width={image.width}
             height={image.height}
-            loading={idx < 4 ? 'eager' :"lazy"}
+            loading={idx < 4 ? "eager" : "lazy"}
           />
         )}
       </figure>
@@ -53,5 +52,5 @@ export default function Project({
         {tagline && <h2 dangerouslySetInnerHTML={{ __html: tagline }} />}
       </figcaption>
     </>
-  )
+  );
 }

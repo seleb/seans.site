@@ -1,6 +1,6 @@
-import Head from "next/head"
-import "normalize.css"
-import "../styles/_app.scss"
+import Head from "next/head";
+import "normalize.css";
+import "../styles/_app.scss";
 
 // This default export is required in a new `pages/_app.js` file.
 export default function App({ Component, pageProps }) {
@@ -11,5 +11,5 @@ export default function App({ Component, pageProps }) {
       </Head>
       <Component {...pageProps} />
     </>
-  )
+  );
 }

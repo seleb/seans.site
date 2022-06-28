@@ -2310,4 +2310,4 @@ export default [
       "https://link.springer.com/chapter/10.1007/978-981-287-134-3_10",
     ],
   },
-]
+];

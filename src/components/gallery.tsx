@@ -1,19 +1,19 @@
-import Link from "next/link"
-import { ComponentProps } from "react"
-import { Preview } from "./preview"
-import Project from "./project"
+import Link from "next/link";
+import { ComponentProps } from "react";
+import { Preview } from "./preview";
+import Project from "./project";
 
 export default function Gallery({
   projects,
   project,
 }: {
   projects: (ComponentProps<typeof Project>["project"] &
-    ComponentProps<typeof Preview>["project"] & { slug: string })[]
-  project?: string
+    ComponentProps<typeof Preview>["project"] & { slug: string })[];
+  project?: string;
 }) {
   return (
     <>
-      {projects.map((p,idx) =>
+      {projects.map((p, idx) =>
         p.slug === project ? (
           <Preview key={p.slug} project={p} />
         ) : (
@@ -29,5 +29,5 @@ export default function Gallery({
         )
       )}
     </>
-  )
+  );
 }

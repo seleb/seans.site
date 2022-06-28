@@ -1,26 +1,26 @@
-import { ComponentProps } from "react"
+import { ComponentProps } from "react";
 
 function getIcon(link: string) {
-  const { 1: domain } = link.match(/^(?:https?:\/\/)?(.+?)(?:\/|$)/) || []
+  const { 1: domain } = link.match(/^(?:https?:\/\/)?(.+?)(?:\/|$)/) || [];
   if (!domain) {
-    return
+    return;
   }
   if (domain.startsWith("twitter")) {
-    return "twitter"
+    return "twitter";
   }
   if (domain.endsWith("itch.io")) {
-    return "itch"
+    return "itch";
   }
   if (domain.endsWith("gmail.com")) {
-    return "email"
+    return "email";
   }
   if (domain.startsWith("github.com")) {
-    return "github"
+    return "github";
   }
   if (domain.startsWith("lexaloffle.com")) {
-    return "pico8"
+    return "pico8";
   }
-  return "generic"
+  return "generic";
 }
 
 function Link({ link = "" }) {
@@ -28,13 +28,13 @@ function Link({ link = "" }) {
     <a className={getIcon(link)} href={link}>
       {link}
     </a>
-  )
+  );
 }
 
 export default function LinkList({
   links,
 }: {
-  links: ComponentProps<typeof Link>["link"][]
+  links: ComponentProps<typeof Link>["link"][];
 }) {
   return (
     <ul className="link-list">
@@ -44,5 +44,5 @@ export default function LinkList({
         </li>
       ))}
     </ul>
-  )
+  );
 }

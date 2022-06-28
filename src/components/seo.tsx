@@ -1,4 +1,4 @@
-import { NextSeo } from "next-seo"
+import { NextSeo } from "next-seo";
 
 export default function SEO({
   description,
@@ -6,15 +6,15 @@ export default function SEO({
   image,
   big,
 }: {
-  description: string
-  title?: string
+  description: string;
+  title?: string;
   image?: {
-    url: string
-    alt: string
-  }
-  big?: boolean
+    url: string;
+    alt: string;
+  };
+  big?: boolean;
 }) {
-  const t = [title, "Sean's Site"].filter((i) => i).join(" | ")
+  const t = [title, "Sean's Site"].filter((i) => i).join(" | ");
   return (
     <NextSeo
       title={t}
@@ -38,5 +38,5 @@ export default function SEO({
         cardType: big ? "summary_large_image" : "summary",
       }}
     />
-  )
+  );
 }

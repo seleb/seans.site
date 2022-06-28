@@ -1,5 +1,5 @@
-import Link from "next/link"
-import LinkList from "./linkList"
+import Link from "next/link";
+import LinkList from "./linkList";
 
 export default function Bio() {
   return (
@@ -26,5 +26,5 @@ export default function Bio() {
         ]}
       />
     </header>
-  )
+  );
 }

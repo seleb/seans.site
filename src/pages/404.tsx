@@ -1,5 +1,5 @@
-import Link from "next/link"
-import SEO from "../components/seo"
+import Link from "next/link";
+import SEO from "../components/seo";
 
 export default function NotFound() {
   return (
@@ -17,10 +17,9 @@ export default function NotFound() {
         </header>
       </main>
     </>
-  )
+  );
 }
-
 
 export const config = {
-  unstable_runtimeJS: false
-}
+  unstable_runtimeJS: false,
+};

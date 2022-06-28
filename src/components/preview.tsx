@@ -1,23 +1,23 @@
-import Link from "next/link"
-import { ComponentProps } from "react"
-import LinkList from "./linkList"
+import Link from "next/link";
+import { ComponentProps } from "react";
+import LinkList from "./linkList";
 
 export function Preview({
   project: { slug, title, preview, tagline, association, description, links },
 }: {
   project: {
-    slug: string
-    title: string
+    slug: string;
+    title: string;
     preview: {
-      url: string
-      width?: number
-      height?: number
-    }
-    tagline?: string
-    association?: string
-    description?: string
-    links?: ComponentProps<typeof LinkList>["links"]
-  }
+      url: string;
+      width?: number;
+      height?: number;
+    };
+    tagline?: string;
+    association?: string;
+    description?: string;
+    links?: ComponentProps<typeof LinkList>["links"];
+  };
 }) {
   return (
     <>
@@ -69,5 +69,5 @@ if (window.location.hash.replace('#', '') !== 'preview') {
         }}
       />
     </>
-  )
+  );
 }
