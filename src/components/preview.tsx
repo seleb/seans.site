@@ -20,41 +20,54 @@ export function Preview({
   }
 }) {
   return (
-    <article key={slug} className="project-page">
-      {preview.url.endsWith(".mp4") ? (
-        <video
-          className="preview"
-          src={preview.url}
-          width={preview.width}
-          height={preview.height}
-          muted
-          autoPlay
-          loop
-          controls={false}
-          preload="auto"
-        />
-      ) : (
-        <img
-          alt={`${title} preview`}
-          className="preview"
-          src={preview.url}
-          width={preview.width}
-          height={preview.height}
-          loading="eager"
-        />
-      )}
-      <Link href="/">
-        <a id="preview" aria-label="Home">
-          ⛢
-        </a>
-      </Link>
-      <main>
-        <h1 dangerouslySetInnerHTML={{ __html: title }} />
-        {tagline && <h2 dangerouslySetInnerHTML={{ __html: tagline }} />}
-        {association && <h3>{association}</h3>}
-        {description && <p dangerouslySetInnerHTML={{ __html: description }} />}
-        {links && <LinkList links={links} />}
-      </main>
-    </article>
+    <>
+      <article key={slug} className="project-page">
+        {preview.url.endsWith(".mp4") ? (
+          <video
+            className="preview"
+            src={preview.url}
+            width={preview.width}
+            height={preview.height}
+            muted
+            autoPlay
+            loop
+            controls={false}
+            preload="auto"
+          />
+        ) : (
+          <img
+            alt={`${title} preview`}
+            className="preview"
+            src={preview.url}
+            width={preview.width}
+            height={preview.height}
+            loading="eager"
+          />
+        )}
+        <Link href="/">
+          <a id="preview" aria-label="Home">
+            ⛢
+          </a>
+        </Link>
+        <main>
+          <h1 dangerouslySetInnerHTML={{ __html: title }} />
+          {tagline && <h2 dangerouslySetInnerHTML={{ __html: tagline }} />}
+          {association && <h3>{association}</h3>}
+          {description && (
+            <p dangerouslySetInnerHTML={{ __html: description }} />
+          )}
+          {links && <LinkList links={links} />}
+        </main>
+      </article>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+if (window.location.hash.replace('#', '') !== 'preview') {
+  document.querySelector('.project-page').classList.add('top');
+}
+`,
+        }}
+      />
+    </>
   )
 }
