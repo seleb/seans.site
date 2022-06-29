@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ComponentProps } from "react";
+import { H } from "./h";
 import LinkList from "./linkList";
 
 export function Preview({
@@ -50,9 +51,11 @@ export function Preview({
           </a>
         </Link>
         <main>
-          <h1 dangerouslySetInnerHTML={{ __html: title }} />
-          {tagline && <h2 dangerouslySetInnerHTML={{ __html: tagline }} />}
-          {association && <h3>{association}</h3>}
+          <H dangerouslySetInnerHTML={{ __html: title }} />
+          {tagline && (
+            <span className="h" dangerouslySetInnerHTML={{ __html: tagline }} />
+          )}
+          {association && <span className="h">{association}</span>}
           {description && (
             <p dangerouslySetInnerHTML={{ __html: description }} />
           )}

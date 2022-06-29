@@ -59,11 +59,12 @@
       }
     }
 
-    > h1 {
+    > .h:first-child {
       font-size: 350%;
     }
 
-    > h3 {
+    > .h:nth-child(3) {
+      font-size: 115%;
       font-weight: normal;
       font-style: italic;
     }

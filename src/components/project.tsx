@@ -1,3 +1,5 @@
+import { H } from "./h";
+
 export default function Project({
   project: { title, tagline, thumbnail, preview, showcase },
   idx,
@@ -48,8 +50,10 @@ export default function Project({
         )}
       </figure>
       <figcaption>
-        <h1 dangerouslySetInnerHTML={{ __html: title }} />
-        {tagline && <h2 dangerouslySetInnerHTML={{ __html: tagline }} />}
+        <H dangerouslySetInnerHTML={{ __html: title }} />
+        {tagline && (
+          <span className="h" dangerouslySetInnerHTML={{ __html: tagline }} />
+        )}
       </figcaption>
     </>
   );

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { contextHeading, H } from "./h";
 import LinkList from "./linkList";
 
 export default function Bio() {
@@ -6,8 +7,10 @@ export default function Bio() {
     <header className="bio">
       <Link href="/">
         <a>
-          <h1>Sean S. LeBlanc</h1>
-          <h2>I Make Stuff</h2>
+          <contextHeading.Provider value={1}>
+            <H>Sean S. LeBlanc</H>
+            <span className="h">I Make Stuff</span>
+          </contextHeading.Provider>
         </a>
       </Link>
       <p>
