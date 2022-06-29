@@ -19,7 +19,7 @@ export default function Project({
           alt: `${project.title} preview`,
         }}
       />
-      <article className="index">
+      <div className="index">
         <noscript>
           Javascript disabled - site may not appear as expected.
         </noscript>
@@ -31,7 +31,7 @@ export default function Project({
         >
           ⛢
         </button>
-      </article>
+      </div>
     </>
   );
 }
