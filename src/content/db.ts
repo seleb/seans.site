@@ -1,5 +1,15 @@
 export default [
   {
+    title: "TWELVE CANNETTES",
+    thumbnail: "thumbnails/TWELVE CANNETTES/thumbnail.gif",
+    preview: "thumbnails/TWELVE CANNETTES/preview.gif",
+    association: "DOMINO CLUB",
+    date: "October 2022",
+    tagline: "NOT FOR INDIVIDUAL RESALE",
+    description: "",
+    links: ["https://dominoclub.itch.io/twelve-cannettes"],
+  },
+  {
     title: "Ten Tales from the Records of The Adamant Gambit",
     thumbnail:
       "thumbnails/Ten Tales from the Records of The Adamant Gambit/thumbnail.gif",
