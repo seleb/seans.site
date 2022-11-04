@@ -943,7 +943,7 @@ export default [
     thumbnail: "thumbnails/bitsy hacks/thumbnail.gif",
     preview: "thumbnails/bitsy hacks/preview.gif",
     association: "Personal Project",
-    date: "Active Development",
+    date: "December 2017",
     tagline: "a collection of re-usable scripts for bitsy game maker",
     description:
       "An open source collection of re-usable scripts for <a href='https://twitter.com/adamledoux'>Adam Le Doux</a>'s <a href='https://ledoux.itch.io/bitsy'>Bitsy Game Maker</a>, adding a variety of features.",
@@ -2285,7 +2285,7 @@ export default [
     thumbnail: "thumbnails/S-Tengine-2/thumbnail.png",
     preview: "thumbnails/S-Tengine-2/preview.gif",
     association: "Carleton University",
-    date: "July 2014 - Present",
+    date: "July 2014",
     tags: ["software", "tool", "S-Tengine2"],
     tagline:
       "The best game engine ever made by people who don't know how to make game engines.",
