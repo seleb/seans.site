@@ -25,6 +25,7 @@ export default function Bio() {
           "https://seansleblanc.itch.io",
           "https://github.com/seleb",
           "https://twitter.com/seansleblanc",
+          ["https://timetheft.social/@sean", { rel: 'me' }],
           "mailto:sean.s.leblanc@gmail.com",
           "/rss.xml",
         ]}
