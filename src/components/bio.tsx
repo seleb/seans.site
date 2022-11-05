@@ -18,7 +18,7 @@ export default function Bio() {
         person from Ottawa, Canada.
       </p>
       <p>
-        Want to talk to me about stuff and/or things? Feel free to reach out:
+        You can find me at Various Places on The Internet.
       </p>
       <LinkList
         links={[
