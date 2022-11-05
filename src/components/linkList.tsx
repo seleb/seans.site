@@ -51,7 +51,7 @@ export default function LinkList({
   return (
     <ul className="link-list">
       {links.map((link) => (
-        <li key={link}>
+        <li key={typeof link === 'string' ? link : link[0]}>
           <Link link={link} />
         </li>
       ))}
