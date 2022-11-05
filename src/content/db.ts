@@ -1758,7 +1758,7 @@ export default [
     preview: "thumbnails/NaBoMaMo2016/preview.gif",
     association: "#NaBoMaMo",
     tags: ["software"],
-    date: "2016 December 1",
+    date: "2016 December 04",
     tagline: "Some bots I made.",
     description:
       "A set of six bots written during a 30-day bot-making challenge, primarily made with cheapbotsdonequick.com.",
@@ -1767,7 +1767,6 @@ export default [
       "https://twitter.com/SeanSLeBlanc/lists/my-bots",
       "https://github.com/seleb/NaBoMaMo2016",
     ],
-    date: "2016 December 04",
   },
   {
     title: "commute",
@@ -2298,7 +2297,7 @@ export default [
     thumbnail: "thumbnails/Hair/thumbnail.png",
     preview: "thumbnails/Hair/preview.gif",
     association: "University of Ottawa",
-    date: "2014 December 1",
+    date: "2014 December 01",
     tags: ["software", "tool", "research"],
     tagline: "Hair modelling research.",
     description:
