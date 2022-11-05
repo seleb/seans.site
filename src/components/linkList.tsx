@@ -26,10 +26,19 @@ function getIcon(link: string) {
   return "generic";
 }
 
-function Link({ link = "" }) {
+function Link({ link = "" }: {
+  link: string | [string, ComponentProps<'a'>]
+}) {
+  if (typeof link === 'string') {
+    return (
+      <a rel={link.includes('.social/') ? 'me' : undefined} className={getIcon(link)} href={link}>
+        {link}
+      </a>
+    );
+  }
   return (
-    <a className={getIcon(link)} href={link}>
-      {link}
+    <a className={getIcon(link[0])} href={link[0]} {...link[1]}>
+      {link[0]}
     </a>
   );
 }
