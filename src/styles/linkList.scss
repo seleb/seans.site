@@ -62,6 +62,10 @@
       mask-image: url(../images/icons/pico8.png);
     }
 
+    &.rss:before {
+      mask-image: url(../images/icons/rss.png);
+    }
+
     &.generic:before {
       mask-image: url(../images/icons/linkbutton.png);
     }

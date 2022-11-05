@@ -26,6 +26,7 @@ export default function Bio() {
           "https://github.com/seleb",
           "https://twitter.com/seansleblanc",
           "mailto:sean.s.leblanc@gmail.com",
+          "/rss.xml",
         ]}
       />
     </header>

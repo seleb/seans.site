@@ -20,6 +20,9 @@ function getIcon(link: string) {
   if (domain.startsWith("lexaloffle.com")) {
     return "pico8";
   }
+  if (link.endsWith("rss.xml")) {
+    return "rss";
+  }
   return "generic";
 }
 
