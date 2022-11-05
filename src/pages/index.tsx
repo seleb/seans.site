@@ -1,3 +1,4 @@
+import pkg from '../../package.json';
 import Bio from "../components/bio";
 import Gallery from "../components/gallery";
 import SEO from "../components/seo";
@@ -10,7 +11,7 @@ export default function Index({
   return (
     <>
       <SEO
-        description="A site for stuff made by Sean S. LeBlanc!"
+        description={pkg.description}
         image={{
           url: firstShowcase.preview.url.endsWith(".mp4")
             ? firstShowcase.thumbnail.url
