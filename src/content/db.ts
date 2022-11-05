@@ -1758,7 +1758,7 @@ export default [
     preview: "thumbnails/NaBoMaMo2016/preview.gif",
     association: "#NaBoMaMo",
     tags: ["software"],
-    date: "November 2016",
+    date: "2016 December 1",
     tagline: "Some bots I made.",
     description:
       "A set of six bots written during a 30-day bot-making challenge, primarily made with cheapbotsdonequick.com.",
@@ -2246,7 +2246,7 @@ export default [
     thumbnail: "thumbnails/StarBunny/thumbnail.png",
     preview: "thumbnails/StarBunny/preview.gif",
     association: "Carleton University",
-    date: "October 2015",
+    date: "2015 October 18",
     tags: ["software", "music", "threejs"],
     tagline: "A WebGL audiovisual experience.",
     description:
@@ -2285,7 +2285,7 @@ export default [
     thumbnail: "thumbnails/S-Tengine-2/thumbnail.png",
     preview: "thumbnails/S-Tengine-2/preview.gif",
     association: "Carleton University",
-    date: "July 2014",
+    date: "2014 July 20",
     tags: ["software", "tool", "S-Tengine2"],
     tagline:
       "The best game engine ever made by people who don't know how to make game engines.",
@@ -2298,7 +2298,7 @@ export default [
     thumbnail: "thumbnails/Hair/thumbnail.png",
     preview: "thumbnails/Hair/preview.gif",
     association: "University of Ottawa",
-    date: "Fall 2014",
+    date: "2014 December 1",
     tags: ["software", "tool", "research"],
     tagline: "Hair modelling research.",
     description:
@@ -2310,7 +2310,7 @@ export default [
     thumbnail: "thumbnails/SPH/thumbnail.png",
     preview: "thumbnails/SPH/preview.gif",
     association: "Carleton University",
-    date: "Summer 2013",
+    date: "2013 August 31",
     tags: ["software", "research"],
     tagline: "Smoothed Particle Hydrodynamics research",
     description:
