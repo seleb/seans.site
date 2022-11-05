@@ -24,7 +24,16 @@ export default async function generateRssFeed() {
      date: new Date(i.date).toString() === "Invalid Date" ? undefined : i.date,
      url: `${url}/project/${encodeURIComponent(i.slug)}`,
      categories: i.tags,
-     enclosure: {
+     enclosure: i.preview.url?.endsWith('mp4') ? {
+      url: `${url}${i.thumbnail.url
+        .split("/")
+        .map(encodeURIComponent)
+        .join("/")}`,
+      size: i.thumbnail.width,
+      type: i.thumbnail.type
+        ?.replace("png", "image/png")
+        ?.replace("gif", "image/gif"),
+     } : {
        url: `${url}${i.preview.url
          .split("/")
          .map(encodeURIComponent)
