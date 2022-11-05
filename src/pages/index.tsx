@@ -3,6 +3,7 @@ import Bio from "../components/bio";
 import Gallery from "../components/gallery";
 import SEO from "../components/seo";
 import { getProjects } from "../content";
+import generateRssFeed from "../generateRSSFeed";
 
 export default function Index({
   projects,
@@ -37,6 +38,7 @@ export default function Index({
 }
 
 export async function getStaticProps() {
+  await generateRssFeed();
   return {
     props: {
       projects: await getProjects(),

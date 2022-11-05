@@ -1,5 +1,6 @@
 .next
 dist
+public/rss.xml
 
 # Logs
 logs
