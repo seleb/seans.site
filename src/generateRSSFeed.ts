@@ -20,7 +20,7 @@ export default async function generateRssFeed() {
  (await getProjects()).forEach((i) => {
    feed.item({
      title: i.title,
-     description: [i.tagline, i.description].filter(i => i).join('\n<br/>\n'),
+     description: [i.tagline ? `<blockquote>${i.tagline}</blockquote>` : '', i.description].filter(i => i).join(' '),
      date: new Date(i.date).toString() === "Invalid Date" ? undefined : i.date,
      url: `${url}/project/${encodeURIComponent(i.slug)}`,
      categories: i.tags,
