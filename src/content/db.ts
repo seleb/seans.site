@@ -1,5 +1,16 @@
 export default [
   {
+    title: "Bleak",
+    thumbnail: "thumbnails/Bleak/thumbnail.gif",
+    preview: "thumbnails/Bleak/preview.gif",
+    association: "#AGBIC",
+    date: "2022 November 30",
+    tagline: "A post-apocalyptic farming sim with a vampiric twist.",
+    description: "<p>A cute and laidback nightly farm simulator, where you grow strange and glorious flowers for a charming cast of characters. At night, use your action points to plant your garden, clear debris, and explore the forest. As your blood runs out, return to your crypt to dream the day away until sundown.</p><p>Inspired by the Famicase <a href='https://famicase.com/22/softs/023.html'>Bleak: Survive and Thrive</a> by <a href='https://caspianwhistler.com'>Caspian Whistler</a>.</p>",
+    links: ["https://sweetheartsquad.itch.io/bleak"],
+    showcase: true,
+  },
+  {
     title: "TWELVE CANNETTES",
     thumbnail: "thumbnails/TWELVE CANNETTES/thumbnail.gif",
     preview: "thumbnails/TWELVE CANNETTES/preview.gif",
