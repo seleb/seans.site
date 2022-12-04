@@ -7,9 +7,9 @@
   "repository": "github:seleb/seans.site",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 80",
     "build": "next build && next export -o dist",
-    "start": "next start",
+    "start": "next start -p 80",
     "format": "prettier --write src/**/*.{ts,tsx,scss}"
   },
   "dependencies": {
