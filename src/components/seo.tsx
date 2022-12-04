@@ -1,4 +1,5 @@
 import { NextSeo } from "next-seo";
+import { siteUrl } from "../content/url";
 
 export default function SEO({
   description,
@@ -26,7 +27,7 @@ export default function SEO({
         images: image
           ? [
               {
-                url: image.url,
+                url: `${siteUrl}${image.url}`,
                 alt: image.alt,
               },
             ]
