@@ -1773,7 +1773,7 @@ export default [
     description:
       "A set of six bots written during a 30-day bot-making challenge, primarily made with cheapbotsdonequick.com.",
     links: [
-      "http://blog.seans.site/post/153916226291/nabomamo-2016-wrap-up",
+      "https://blog.seans.site/post/153916226291/nabomamo-2016-wrap-up",
       "https://twitter.com/SeanSLeBlanc/lists/my-bots",
       "https://github.com/seleb/NaBoMaMo2016",
     ],
