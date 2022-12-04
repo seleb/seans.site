@@ -1832,7 +1832,7 @@ export default [
     description: "PICO-8 elevator pitches of the worst variety.",
     links: [
       "https://seansleblanc.itch.io/listen-to-my-game-idea",
-      "http://lexaloffle.com/bbs/?tid=27909",
+      "https://lexaloffle.com/bbs/?tid=27909",
     ],
   },
   {
@@ -1876,7 +1876,7 @@ export default [
     links: [
       "https://seansleblanc.itch.io/duck-duck-on-the-loose",
       "https://github.com/seleb/DuckDuckOnTheLoose",
-      "http://lexaloffle.com/bbs/?tid=27702",
+      "https://lexaloffle.com/bbs/?tid=27702",
     ],
   },
   {
