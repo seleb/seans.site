@@ -48,5 +48,5 @@ export default async function generateRssFeed() {
      },
    });
  });
-  fs.writeFileSync("./public/rss.xml", feed.xml({ indent: true }));
+  fs.writeFileSync("./public/rss.xml", feed.xml({ indent: true }).replace('?>', '?><?xml-stylesheet href="/rss.css" type="text/css"?>'));
 }
