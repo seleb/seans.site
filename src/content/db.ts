@@ -1745,7 +1745,7 @@ export default [
     links: [
       "https://sweetheartsquad.itch.io/bouncing-balls-with-the-boing-boing-boys",
       "https://github.com/sweetheartsquad/LDJAM37",
-      "http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=50235",
+      "https://web.archive.org/web/20210805172258/https://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=50235",
     ],
   },
   {
@@ -1920,7 +1920,7 @@ export default [
     links: [
       "https://sweetheartsquad.itch.io/DYSCOVR",
       "https://github.com/seleb/LudumDare36",
-      "http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=50235",
+      "https://web.archive.org/web/20220122083352/http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=50235",
     ],
   },
   {
@@ -2088,7 +2088,7 @@ export default [
     links: [
       "https://sweetheartsquad.itch.io/purity",
       "https://github.com/seleb/LD35",
-      "http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=50235",
+      "https://web.archive.org/web/20220122074957/http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=50235",
     ],
   },
   {
@@ -2227,7 +2227,7 @@ export default [
     links: [
       "https://sweetheartsquad.itch.io/go-on",
       "https://github.com/seleb/LudumDare34",
-      "http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=50235",
+      "https://web.archive.org/web/20220122160304/http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=50235",
     ],
   },
   {
