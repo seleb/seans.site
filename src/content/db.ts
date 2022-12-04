@@ -1493,7 +1493,6 @@ export default [
     links: [
       "https://sweetheartsquad.itch.io/roshigumi",
       "https://github.com/SweetheartSquad/AGBIC2017-Roshigumi",
-      "http://network.winnitron.com/games/roshigumi",
     ],
   },
   {
