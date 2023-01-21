@@ -45,11 +45,12 @@ function Link({ link = "" }: {
 
 export default function LinkList({
   links,
-}: {
+  ...props
+}: ComponentProps<'ul'> & {
   links: ComponentProps<typeof Link>["link"][];
 }) {
   return (
-    <ul className="link-list">
+    <ul {...props} className="link-list">
       {links.map((link) => (
         <li key={typeof link === 'string' ? link : link[0]}>
           <Link link={link} />
