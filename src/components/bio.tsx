@@ -21,6 +21,7 @@ export default function Bio() {
         You can find me at Various Places on The Internet.
       </p>
       <LinkList
+        id="contact"
         links={[
           "mailto:sean.s.leblanc@gmail.com",
           "https://seansleblanc.itch.io",
