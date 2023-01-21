@@ -22,11 +22,11 @@ export default function Bio() {
       </p>
       <LinkList
         links={[
+          "mailto:sean.s.leblanc@gmail.com",
           "https://seansleblanc.itch.io",
           "https://github.com/seleb",
-          "https://twitter.com/seansleblanc",
           ["https://timetheft.social/@sean", { rel: 'me' }],
-          "mailto:sean.s.leblanc@gmail.com",
+          "https://twitter.com/seansleblanc",
           "/rss.xml",
         ]}
       />
