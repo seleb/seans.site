@@ -7,27 +7,16 @@ import {
 
 export const contextHeading = createContext(2);
 
+type Headings = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+
 function Heading({
   level,
   ...props
-}: ComponentProps<"h1" | "h2" | "h3" | "h4" | "h5" | "h6"> & {
+}: ComponentProps<Headings> & {
   level: number;
 }) {
-  const l = Math.max(1, Math.min(level, 6));
-  switch (l) {
-    case 1:
-      return <h1 className="h" {...props} />;
-    case 2:
-      return <h2 className="h" {...props} />;
-    case 3:
-      return <h3 className="h" {...props} />;
-    case 4:
-      return <h4 className="h" {...props} />;
-    case 5:
-      return <h5 className="h" {...props} />;
-    case 6:
-      return <h6 className="h" {...props} />;
-  }
+  const Tag = `h${Math.max(1, Math.min(level, 6))}` as Headings;
+  return <Tag className="h" {...props} />;
 }
 
 export function HLevel({ children }: PropsWithChildren<unknown>) {
