@@ -22,7 +22,7 @@
     "sanitize-filename": "^1.6.3"
   },
   "devDependencies": {
-    "@types/node": "^16.18.0",
+    "@types/node": "^18.11.19",
     "@types/react": "^18.0.22",
     "@types/rss": "^0.0.29",
     "image-size": "^1.0.2",
