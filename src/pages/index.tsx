@@ -28,7 +28,7 @@ export default function Index({
         <Gallery projects={projects} />
         <button
           onClick={() => window.scrollTo(0, 0)}
-          aria-label="Scroll to top"
+          title="Scroll to top"
         >
           ⛢
         </button>

@@ -45,7 +45,7 @@ export function Preview({
             loading="eager"
           />
         )}
-        <Link href="/" aria-label="Home">
+        <Link href="/" title="Home">
           ⛢
         </Link>
         <main>
