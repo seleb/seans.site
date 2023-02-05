@@ -1,5 +1,15 @@
 export default [
   {
+    title: "Turnip the Heat!",
+		"thumbnail": "thumbnails/Turnip the Heat!/thumbnail.png",
+		"preview": "thumbnails/Turnip the Heat!/preview.gif",
+    association: "#GGJ2023",
+    date: "2023 February 5",
+		"tagline": "SALTY, SUCCULENT & SEXY",
+    description: "<p>The root of a good party is a good host: keep the tub toasty and clean, get the drinks and d'ourves flowing, and satisfy your steamy guests in this rootin tootin party panic! Just keep an eye on your InstaYam or your bustling buds buzz'll be busted...</p><p>Made for Global Game Jam 2023 with PixiJS. All assets created in JS Paint.</p>",
+    links: ["https://sweetheartsquad.itch.io/turnip-the-heat", "https://github.com/SweetheartSquad/GGJ2023", "https://globalgamejam.org/2023/games/turnip-heat-1"],
+  },
+  {
     title: "Bleak",
     thumbnail: "thumbnails/Bleak/thumbnail.gif",
     preview: "thumbnails/Bleak/preview.gif",
