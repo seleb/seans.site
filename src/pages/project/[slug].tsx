@@ -1,10 +1,10 @@
 import Bio from "../../components/bio";
-import Gallery from "../../components/gallery";
+import { HLevel } from "../../components/h";
+import { Preview } from "../../components/preview";
 import SEO from "../../components/seo";
 import { getProject, getProjects } from "../../content";
 
 export default function Project({
-  projects,
   project,
 }: Awaited<ReturnType<typeof getStaticProps>>["props"]) {
   return (
@@ -19,18 +19,14 @@ export default function Project({
           alt: `${project.title} preview`,
         }}
       />
-      <div className="index">
+      <div className="index project">
         <noscript>
           Javascript disabled - site may not appear as expected.
         </noscript>
-        <Bio />
-        <Gallery projects={projects} project={project.slug} />
-        <button
-          onClick={() => window.scrollTo(0, 0)}
-          aria-label="Scroll to top"
-        >
-          ⛢
-        </button>
+        <Preview project={project} />
+        <HLevel>
+          <Bio seeMore />
+        </HLevel>
       </div>
     </>
   );
@@ -41,7 +37,6 @@ export async function getStaticProps({
 }: Awaited<ReturnType<typeof getStaticPaths>>["paths"][number]) {
   return {
     props: {
-      projects: await getProjects(),
       project: await getProject(params.slug),
     },
   };

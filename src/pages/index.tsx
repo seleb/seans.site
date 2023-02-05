@@ -1,6 +1,7 @@
 import pkg from '../../package.json';
 import Bio from "../components/bio";
 import Gallery from "../components/gallery";
+import { HLevel } from '../components/h';
 import SEO from "../components/seo";
 import { getProjects } from "../content";
 import generateRssFeed from "../generateRSSFeed";
@@ -25,7 +26,9 @@ export default function Index({
           Javascript disabled - site may not appear as expected.
         </noscript>
         <Bio />
-        <Gallery projects={projects} />
+        <HLevel>
+          <Gallery projects={projects} />
+        </HLevel>
         <button
           onClick={() => window.scrollTo(0, 0)}
           title="Scroll to top"

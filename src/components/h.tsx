@@ -2,10 +2,10 @@ import {
   ComponentProps,
   createContext,
   PropsWithChildren,
-  useContext,
+  useContext
 } from "react";
 
-export const contextHeading = createContext(2);
+export const contextHeading = createContext(1);
 
 type Headings = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 

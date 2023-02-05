@@ -60,15 +60,6 @@ export function Preview({
           {links && <LinkList links={links} />}
         </main>
       </article>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-if (window.location.hash.replace('#', '') !== 'preview') {
-  document.querySelector('.project-page').classList.add('top');
-}
-`,
-        }}
-      />
     </>
   );
 }
