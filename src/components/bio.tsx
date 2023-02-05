@@ -2,7 +2,7 @@ import Link from "next/link";
 import { contextHeading, H } from "./h";
 import LinkList from "./linkList";
 
-export default function Bio() {
+export default function Bio({ seeMore }: { seeMore?: boolean }) {
   return (
     <header className="bio">
       <Link href="/">
@@ -15,9 +15,12 @@ export default function Bio() {
         Hey there! I'm a UX dev, tools dev, game dev, and general-purpose media
         person from Ottawa, Canada.
       </p>
-      <p>
-        You can find me at Various Places on The Internet.
-      </p>
+      {seeMore && (
+        <Link className="see-more" href="/">
+          See more projects I've worked on.
+        </Link>
+      )}
+      <p>You can find me at Various Places on The Internet.</p>
       <LinkList
         id="contact"
         links={[
