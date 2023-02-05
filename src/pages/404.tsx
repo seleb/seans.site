@@ -14,7 +14,7 @@ export default function NotFound() {
           </contextHeading.Provider>
           <p>
             <Link href="/">
-              <a>back to home</a>
+              back to home
             </Link>
           </p>
         </header>

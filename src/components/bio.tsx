@@ -6,12 +6,10 @@ export default function Bio() {
   return (
     <header className="bio">
       <Link href="/">
-        <a>
-          <contextHeading.Provider value={1}>
-            <H>Sean S. LeBlanc</H>
-            <span className="h">I Make Stuff</span>
-          </contextHeading.Provider>
-        </a>
+        <contextHeading.Provider value={1}>
+          <H>Sean S. LeBlanc</H>
+          <span className="h">I Make Stuff</span>
+        </contextHeading.Provider>
       </Link>
       <p>
         Hey there! I'm a UX dev, tools dev, game dev, and general-purpose media

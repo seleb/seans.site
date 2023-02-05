@@ -45,10 +45,8 @@ export function Preview({
             loading="eager"
           />
         )}
-        <Link href="/">
-          <a id="preview" aria-label="Home">
-            ⛢
-          </a>
+        <Link href="/" aria-label="Home">
+          ⛢
         </Link>
         <main>
           <H dangerouslySetInnerHTML={{ __html: title }} />
