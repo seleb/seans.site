@@ -128,7 +128,8 @@ noscript {
       filter: none;
     }
 
-    &:hover figure:after {
+    &:hover figure:after,
+    &:focus-visible figure:after {
       opacity: 0;
     }
   }
