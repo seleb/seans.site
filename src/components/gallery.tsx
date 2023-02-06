@@ -2,14 +2,12 @@ import Head from "next/head";
 import Link from "next/link";
 import { ComponentProps } from "react";
 import { projectToJson } from "../content/jsonld";
-import { Preview } from "./preview";
 import Project from "./project";
 
 export default function Gallery({
   projects,
 }: {
-  projects: (ComponentProps<typeof Project>["project"] &
-    ComponentProps<typeof Preview>["project"] & { slug: string })[];
+  projects: (ComponentProps<typeof Project>["project"] & { slug: string })[];
 }) {
   return (
     <>
