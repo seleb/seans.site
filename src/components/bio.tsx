@@ -6,8 +6,8 @@ export default function Bio({ seeMore }: { seeMore?: boolean }) {
   return (
     <header className="bio">
       <Link href="/">
-          <H>Sean S. LeBlanc</H>
-          <span className="h">I Make Stuff</span>
+        <H>Sean S. LeBlanc</H>
+        <span className="h">I Make Stuff</span>
       </Link>
       <p>
         Hey there! I'm a UX dev, tools dev, game dev, and general-purpose media
