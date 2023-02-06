@@ -1,10 +1,18 @@
+import Head from "next/head";
 import Link from "next/link";
+import { author, org } from "../content/jsonld";
 import { H } from "./h";
 import LinkList from "./linkList";
 
 export default function Bio({ seeMore }: { seeMore?: boolean }) {
   return (
     <header className="bio">
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify([author, org]) }}
+        />
+      </Head>
       <Link href="/">
         <H>Sean S. LeBlanc</H>
         <span className="h">I Make Stuff</span>

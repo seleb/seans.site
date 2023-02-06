@@ -1,27 +1,23 @@
+import Head from "next/head";
 import Link from "next/link";
-import { ComponentProps } from "react";
+import { projectToJson } from "../content/jsonld";
 import { H } from "./h";
 import LinkList from "./linkList";
 
 export function Preview({
-  project: { slug, title, preview, tagline, association, description, links },
+  project,
 }: {
-  project: {
-    slug: string;
-    title: string;
-    preview: {
-      url: string;
-      width?: number;
-      height?: number;
-    };
-    tagline?: string;
-    association?: string;
-    description?: string;
-    links?: ComponentProps<typeof LinkList>["links"];
-  };
+  project: Parameters<typeof projectToJson>[0];
 }) {
+  const { slug, title, preview, tagline, association, description, links } = project;
   return (
     <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(projectToJson(project)) }}
+        />
+      </Head>
       <article key={slug} className="project-page">
         {preview.url.endsWith(".mp4") ? (
           <video
