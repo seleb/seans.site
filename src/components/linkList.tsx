@@ -20,6 +20,12 @@ function getIcon(link: string) {
   if (domain.startsWith("lexaloffle.com")) {
     return "pico8";
   }
+  if (domain.startsWith("linkedin.com")) {
+    return "linkedin";
+  }
+  if (domain.startsWith("tumblr.com")) {
+    return "tumblr";
+  }
   if (domain.endsWith(".social")) {
     return "mastodon";
   }
