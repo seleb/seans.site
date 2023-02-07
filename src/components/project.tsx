@@ -1,7 +1,7 @@
 import { H } from "./h";
 
 export default function Project({
-  project: { title, tagline, thumbnail, preview, showcase },
+  project,
   idx,
 }: {
   project: {
@@ -21,6 +21,7 @@ export default function Project({
   };
   idx: number;
 }) {
+  const { title, tagline, thumbnail, preview, showcase } = project;
   const [string, image] = showcase
     ? ["preview", preview]
     : ["thumbnail", thumbnail];
@@ -37,6 +38,7 @@ export default function Project({
             autoPlay
             loop
             controls={false}
+            poster={project.thumbnail.url}
           />
         ) : (
           <img

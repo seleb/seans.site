@@ -30,6 +30,7 @@ export function Preview({
             loop
             controls={false}
             preload="auto"
+            poster={project.thumbnail.url}
           />
         ) : (
           <img
