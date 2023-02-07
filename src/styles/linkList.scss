@@ -66,6 +66,10 @@
       mask-image: url(../images/icons/rss.svg);
     }
 
+    &.mastodon:before {
+      mask-image: url(../images/icons/mastodon.svg);
+    }
+
     &.generic:before {
       mask-image: url(../images/icons/linkbutton.svg);
     }
