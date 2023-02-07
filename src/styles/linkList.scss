@@ -18,6 +18,12 @@
       content: "";
       width: 32px;
       height: 32px;
+
+      @media (any-pointer: coarse) {
+        width: 48px;
+        height: 48px;
+      }
+
       display: inline-block;
       border-radius: 50%;
       vertical-align: middle;
