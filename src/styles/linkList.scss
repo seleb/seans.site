@@ -35,39 +35,39 @@
     }
 
     &.github:before {
-      mask-image: url(../images/icons/GitHub-Mark-32px.png);
+      mask-image: url(../images/icons/github.svg);
     }
 
     &.email:before {
-      mask-image: url(../images/icons/email.png);
+      mask-image: url(../images/icons/gmail.svg);
     }
 
     &.twitter:before {
-      mask-image: url(../images/icons/twitter.png);
+      mask-image: url(../images/icons/twitter.svg);
     }
 
     &.linkedin:before {
-      mask-image: url(../images/icons/linkedin.png);
+      mask-image: url(../images/icons/linkedin.svg);
     }
 
     &.itch:before {
-      mask-image: url(../images/icons/itch.png);
+      mask-image: url(../images/icons/itch.svg);
     }
 
     &.tumblr:before {
-      mask-image: url(../images/icons/tumblr.png);
+      mask-image: url(../images/icons/tumblr.svg);
     }
 
     &.pico8:before {
-      mask-image: url(../images/icons/pico8.png);
+      mask-image: url(../images/icons/pico8.svg);
     }
 
     &.rss:before {
-      mask-image: url(../images/icons/rss.png);
+      mask-image: url(../images/icons/rss.svg);
     }
 
     &.generic:before {
-      mask-image: url(../images/icons/linkbutton.png);
+      mask-image: url(../images/icons/linkbutton.svg);
     }
   }
 }
