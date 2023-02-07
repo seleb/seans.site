@@ -52,7 +52,7 @@ export function Preview({
           )}
           {association && <span className="h">{association}</span>}
           {description && (
-            <p dangerouslySetInnerHTML={{ __html: description }} />
+            <span className="description" dangerouslySetInnerHTML={{ __html: description }} />
           )}
           {links && <LinkList links={links} />}
         </main>

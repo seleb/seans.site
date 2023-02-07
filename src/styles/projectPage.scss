@@ -71,8 +71,26 @@
       font-style: italic;
     }
 
-    > p {
+    > .description {
       max-width: 60em;
+
+      blockquote {
+        padding-inline-start: 0.5rem;
+        border-inline-start: solid 1px var(--fg);
+        border-inline-start-style: dotted;
+        font-style: italic;
+      }
+
+      ul, ol {
+        padding: 0;
+        margin-inline-start: 1.5em;
+        list-style-type: circle;
+      }
+
+      > *:not(:last-child) {
+        margin: 0;
+        margin-bottom: 1em;
+      }
     }
 
     .link-list > li > a:before {
