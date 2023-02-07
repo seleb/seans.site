@@ -3,7 +3,8 @@ html {
   --fg: #efefef;
   background-color: var(--bg);
   color: var(--fg);
-  font-size: 90%;
+  font-size: 95%;
+  letter-spacing: -.04em;
   font-family: monospace;
   scroll-behavior: smooth;
 }
