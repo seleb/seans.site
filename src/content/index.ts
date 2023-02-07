@@ -9,16 +9,12 @@ export function titleToSlug(title: string) {
   return `${sanitizeFilename(title).trim()}`;
 }
 
+const dirThumbnail = path.resolve(process.cwd(), `./public/`);
+
 export async function getProjects() {
   return db.map((project) => {
-    let urlPreview = path.resolve(
-      __dirname,
-      `../../../public/${project.preview}`
-    );
-    const urlThumbnail = path.resolve(
-      __dirname,
-      `../../../public/${project.thumbnail}`
-    );
+    let urlPreview = path.join(dirThumbnail, project.preview);
+    const urlThumbnail = path.join(dirThumbnail, project.thumbnail);
     let urlPreviewVid = urlPreview.replace(".gif", ".mp4");
     if (!fs.existsSync(urlPreviewVid)) {
       urlPreviewVid = "";
