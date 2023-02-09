@@ -1,5 +1,6 @@
 import pkg from '../../package.json';
 import Bio from "../components/bio";
+import HeadCanonical from '../components/canonical';
 import Gallery from "../components/gallery";
 import { HLevel } from '../components/h';
 import SEO from "../components/seo";
@@ -21,6 +22,7 @@ export default function Index({
           alt: `${firstShowcase.title} preview`,
         }}
       />
+      <HeadCanonical />
       <main className="index">
         <noscript>
           Javascript disabled - site may not appear as expected.

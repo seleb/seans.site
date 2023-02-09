@@ -1,4 +1,5 @@
 import Bio from "../../components/bio";
+import HeadCanonical from "../../components/canonical";
 import { HLevel } from "../../components/h";
 import { Preview } from "../../components/preview";
 import SEO from "../../components/seo";
@@ -19,6 +20,7 @@ export default function Project({
           alt: `${project.title} preview`,
         }}
       />
+      <HeadCanonical />
       <div className="index project">
         <noscript>
           Javascript disabled - site may not appear as expected.
