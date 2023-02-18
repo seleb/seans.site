@@ -16,9 +16,13 @@ export async function getProjects() {
     let urlPreview = path.join(dirThumbnail, project.preview);
     const urlThumbnail = path.join(dirThumbnail, project.thumbnail);
     let urlPreviewVid = urlPreview.replace(".gif", ".mp4");
+    let filesizePreview = 0;
+    let filesizeThumbnail = 0;
     if (!fs.existsSync(urlPreviewVid)) {
       urlPreviewVid = "";
     }
+    filesizePreview = fs.statSync(urlPreviewVid || urlPreview).size;
+    filesizeThumbnail = fs.statSync(urlThumbnail).size;
     let sizePreview: Partial<ISizeCalculationResult>;
     let sizeThumbnail: Partial<ISizeCalculationResult>;
     try {
@@ -38,10 +42,12 @@ export async function getProjects() {
             : project.preview
         }`,
         ...sizePreview,
+        filesize: filesizePreview,
       },
       thumbnail: {
         url: `/${project.thumbnail}`,
         ...sizeThumbnail,
+        filesize: filesizeThumbnail,
       },
     };
   });

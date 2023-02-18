@@ -32,7 +32,7 @@ export default async function generateRssFeed() {
         .split("/")
         .map(encodeURIComponent)
         .join("/")}`,
-      size: i.thumbnail.width,
+      size: i.thumbnail.filesize,
       type: i.thumbnail.type
         ?.replace("png", "image/png")
         ?.replace("gif", "image/gif"),
@@ -41,7 +41,7 @@ export default async function generateRssFeed() {
          .split("/")
          .map(encodeURIComponent)
          .join("/")}`,
-       size: i.preview.width,
+       size: i.preview.filesize,
        type: i.preview.type
          ?.replace("png", "image/png")
          ?.replace("gif", "image/gif"),
