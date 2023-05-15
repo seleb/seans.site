@@ -1,5 +1,15 @@
 export default [
   {
+    title: "cutsy",
+    thumbnail: "thumbnails/cutsy/thumbnail.png",
+    preview: "thumbnails/cutsy/preview.webm",
+    association: "",
+    date: "2023 May 14",
+    tagline: "a lil video clip editor",
+    description: "<p>this is a little editor i made to clip and convert videos in a way that i like.</p> <p>it is mostly just a GUI for ffmpeg, which can do many more things but can be tedious or overwhelming</p>",
+    links: ["https://seansleblanc.itch.io/cutsy", "https://github.com/seleb/cutsy-editor"],
+  },
+  {
     title: "a Thesis for Truth",
     thumbnail: "thumbnails/a Thesis for Truth/thumbnail.gif",
     preview: "thumbnails/a Thesis for Truth/preview.gif",
