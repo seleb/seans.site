@@ -19,7 +19,7 @@ export function Preview({
         />
       </Head>
       <article key={slug} className="project-page">
-        {preview.url.endsWith(".mp4") ? (
+        {preview.url.endsWith(".mp4") || preview.url.endsWith(".webm") ? (
           <video
             className="preview"
             src={preview.url}

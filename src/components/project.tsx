@@ -28,7 +28,7 @@ export default function Project({
   return (
     <>
       <figure>
-        {image.url.endsWith(".mp4") ? (
+        {image.url.endsWith(".mp4") || image.url.endsWith(".webm") ? (
           <video
             className="thumbnail"
             src={image.url}

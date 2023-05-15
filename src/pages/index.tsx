@@ -16,7 +16,7 @@ export default function Index({
       <SEO
         description={pkg.description}
         image={{
-          url: firstShowcase.preview.url.endsWith(".mp4")
+          url: firstShowcase.preview.url.endsWith(".mp4") || firstShowcase.preview.url.endsWith(".webm")
             ? firstShowcase.thumbnail.url
             : firstShowcase.preview.url,
           alt: `${firstShowcase.title} preview`,
