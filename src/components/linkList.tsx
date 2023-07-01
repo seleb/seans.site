@@ -23,7 +23,7 @@ function getIcon(link: string) {
   if (domain.startsWith("linkedin.com")) {
     return "linkedin";
   }
-  if (domain.startsWith("tumblr.com")) {
+  if (domain.startsWith("tumblr.com") || domain.startsWith("blog.seans.site")) {
     return "tumblr";
   }
   if (domain.endsWith(".social")) {
