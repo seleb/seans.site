@@ -34,6 +34,7 @@ export default function Bio({ seeMore }: { seeMore?: boolean }) {
           "https://seansleblanc.itch.io",
           "https://github.com/seleb",
           ["https://timetheft.social/@sean", { rel: "me" }],
+          "https://blog.seans.site",
           "https://twitter.com/seansleblanc",
           "/rss.xml",
         ]}
