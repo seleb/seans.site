@@ -1,5 +1,15 @@
 export default [
   {
+    title: "TOC TOC",
+    thumbnail: "thumbnails/TOC TOC/thumbnail.png",
+    preview: "thumbnails/TOC TOC/preview.png",
+    association: "#AGBIC",
+    date: "2023 August 13",
+    tagline: "Explore the abandoned house next door where no one lives...",
+    description: "<p>It's a lazy Sunday afternoon, and you decide to explore the abandoned house next door. Soon, you find yourself on a tiny quest that takes you through every corner of this strange house. Puzzle your way through three levels with three unique art styles.</p><p>nspired by the Famicase <a href='https://famicase.com/23/softs/122.html'>TOC TOC</a> by <a href='https://withkoji.com/@AQUILES'>AQUILES</a>.</p>",
+    links: ["https://sweetheartsquad.itch.io/toc-toc", "https://github.com/SweetheartSquad/AGBIC2023-TOC-TOC"],
+  },
+  {
     title: "cutsy",
     thumbnail: "thumbnails/cutsy/thumbnail.png",
     preview: "thumbnails/cutsy/preview.webm",
