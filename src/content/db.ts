@@ -1,13 +1,27 @@
 export default [
   {
+    title: "The Museum of Sprites by Bitsy",
+    thumbnail: "thumbnails/The Museum of Sprites by Bitsy/thumbnail.png",
+    preview: "thumbnails/The Museum of Sprites by Bitsy/preview.png",
+    association: "#BitsyJam",
+    date: "2023 October 11",
+    tagline: "Little Guy Exhibit",
+    description: "Curatorial contributions to a digital gallery",
+    links: ["https://gisbrecht.itch.io/the-museum-of-sprites-by-bitsy"],
+  },
+  {
     title: "TOC TOC",
     thumbnail: "thumbnails/TOC TOC/thumbnail.png",
     preview: "thumbnails/TOC TOC/preview.png",
     association: "#AGBIC",
     date: "2023 August 13",
     tagline: "Explore the abandoned house next door where no one lives...",
-    description: "<p>It's a lazy Sunday afternoon, and you decide to explore the abandoned house next door. Soon, you find yourself on a tiny quest that takes you through every corner of this strange house. Puzzle your way through three levels with three unique art styles.</p><p>Inspired by the Famicase <a href='https://famicase.com/23/softs/122.html'>TOC TOC</a> by <a href='https://withkoji.com/@AQUILES'>AQUILES</a>.</p>",
-    links: ["https://sweetheartsquad.itch.io/toc-toc", "https://github.com/SweetheartSquad/AGBIC2023-TOC-TOC"],
+    description:
+      "<p>It's a lazy Sunday afternoon, and you decide to explore the abandoned house next door. Soon, you find yourself on a tiny quest that takes you through every corner of this strange house. Puzzle your way through three levels with three unique art styles.</p><p>Inspired by the Famicase <a href='https://famicase.com/23/softs/122.html'>TOC TOC</a> by <a href='https://withkoji.com/@AQUILES'>AQUILES</a>.</p>",
+    links: [
+      "https://sweetheartsquad.itch.io/toc-toc",
+      "https://github.com/SweetheartSquad/AGBIC2023-TOC-TOC",
+    ],
   },
   {
     title: "cutsy",
@@ -16,8 +30,12 @@ export default [
     association: "",
     date: "2023 May 14",
     tagline: "a lil video clip editor",
-    description: "<p>this is a little editor i made to clip and convert videos in a way that i like.</p> <p>it is mostly just a GUI for ffmpeg, which can do many more things but can be tedious or overwhelming</p>",
-    links: ["https://seansleblanc.itch.io/cutsy", "https://github.com/seleb/cutsy-editor"],
+    description:
+      "<p>this is a little editor i made to clip and convert videos in a way that i like.</p> <p>it is mostly just a GUI for ffmpeg, which can do many more things but can be tedious or overwhelming</p>",
+    links: [
+      "https://seansleblanc.itch.io/cutsy",
+      "https://github.com/seleb/cutsy-editor",
+    ],
   },
   {
     title: "a Thesis for Truth",
@@ -64,7 +82,8 @@ export default [
     association: "#AGBIC",
     date: "2022 November 30",
     tagline: "A post-apocalyptic farming sim with a vampiric twist.",
-    description: "<p>A cute and laidback nightly farm simulator, where you grow strange and glorious flowers for a charming cast of characters. At night, use your action points to plant your garden, clear debris, and explore the forest. As your blood runs out, return to your crypt to dream the day away until sundown.</p><p>Inspired by the Famicase <a href='https://famicase.com/22/softs/023.html'>Bleak: Survive and Thrive</a> by <a href='https://caspianwhistler.com'>Caspian Whistler</a>.</p>",
+    description:
+      "<p>A cute and laidback nightly farm simulator, where you grow strange and glorious flowers for a charming cast of characters. At night, use your action points to plant your garden, clear debris, and explore the forest. As your blood runs out, return to your crypt to dream the day away until sundown.</p><p>Inspired by the Famicase <a href='https://famicase.com/22/softs/023.html'>Bleak: Survive and Thrive</a> by <a href='https://caspianwhistler.com'>Caspian Whistler</a>.</p>",
     links: ["https://sweetheartsquad.itch.io/bleak"],
     showcase: true,
   },
@@ -99,7 +118,8 @@ export default [
     association: "DOMINO CLUB",
     date: "2022 March 22",
     tagline: "a dungeon crawl dialogue",
-    description: "QUEST ACCEPTED: FIND THE <strong>AMULET</strong> OF THE <strong>GOD TOH LIVE</strong><br/>Made with RenJS for DOMINO CLUB's third anonymous game jam",
+    description:
+      "QUEST ACCEPTED: FIND THE <strong>AMULET</strong> OF THE <strong>GOD TOH LIVE</strong><br/>Made with RenJS for DOMINO CLUB's third anonymous game jam",
     links: ["https://dominoclub.itch.io/stairdown"],
     showcase: true,
   },
