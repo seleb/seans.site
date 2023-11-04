@@ -1,5 +1,26 @@
 export default [
   {
+    title: "solitairota",
+    thumbnail: "thumbnails/solitairota/thumbnail.png",
+    preview: "thumbnails/solitairota/preview.png",
+    association: "DOMINO CLUB",
+    date: "2023 November 04",
+    tagline: "your turn",
+    description:
+      "a standalone copy of the solitaire from ADVERSE POSSESSION with a few improvements",
+    links: ["https://dominoclub.itch.io/solitairota"],
+  },
+  {
+    title: "ADVERSE POSSESSION",
+    thumbnail: "thumbnails/ADVERSE POSSESSION/thumbnail.png",
+    preview: "thumbnails/ADVERSE POSSESSION/preview.png",
+    association: "DOMINO CLUB",
+    date: "2023 October 23",
+    tagline: "the devil is in the details",
+    description: "made by an abominable pair of stinkards",
+    links: ["https://dominoclub.itch.io/adverse-possession"],
+  },
+  {
     title: "The Museum of Sprites by Bitsy",
     thumbnail: "thumbnails/The Museum of Sprites by Bitsy/thumbnail.png",
     preview: "thumbnails/The Museum of Sprites by Bitsy/preview.png",
