@@ -2,7 +2,7 @@ import {
   ComponentProps,
   createContext,
   PropsWithChildren,
-  useContext
+  useContext,
 } from "react";
 
 export const contextHeading = createContext(1);

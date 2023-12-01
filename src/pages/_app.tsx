@@ -9,7 +9,12 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <link rel="shortcut icon" href="/favicon-32x32.png" />
-        <link rel="alternate" type="application/rss+xml" href={`${siteUrl}/rss.xml`} title="Sean's Site's RSS Feed" />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          href={`${siteUrl}/rss.xml`}
+          title="Sean's Site's RSS Feed"
+        />
       </Head>
       <Component {...pageProps} />
     </>

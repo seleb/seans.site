@@ -13,9 +13,7 @@ export default function NotFound() {
             <span className="h">Not found</span>
           </contextHeading.Provider>
           <p>
-            <Link href="/">
-              back to home
-            </Link>
+            <Link href="/">back to home</Link>
           </p>
         </header>
       </main>

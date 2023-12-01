@@ -9,13 +9,16 @@ export function Preview({
 }: {
   project: Parameters<typeof projectToJson>[0];
 }) {
-  const { slug, title, preview, tagline, association, description, links } = project;
+  const { slug, title, preview, tagline, association, description, links } =
+    project;
   return (
     <>
       <Head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(projectToJson(project)) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(projectToJson(project)),
+          }}
         />
       </Head>
       <article key={slug} className="project-page">
@@ -52,7 +55,10 @@ export function Preview({
           )}
           {association && <span className="h">{association}</span>}
           {description && (
-            <span className="description" dangerouslySetInnerHTML={{ __html: description }} />
+            <span
+              className="description"
+              dangerouslySetInnerHTML={{ __html: description }}
+            />
           )}
           {links && <LinkList links={links} />}
         </main>

@@ -35,12 +35,14 @@ function getIcon(link: string) {
   return "generic";
 }
 
-function Link({ link = "" }: {
-  link: string | [string, ComponentProps<'a'>]
-}) {
-  if (typeof link === 'string') {
+function Link({ link = "" }: { link: string | [string, ComponentProps<"a">] }) {
+  if (typeof link === "string") {
     return (
-      <a rel={link.includes('.social/') ? 'me' : undefined} className={getIcon(link)} href={link}>
+      <a
+        rel={link.includes(".social/") ? "me" : undefined}
+        className={getIcon(link)}
+        href={link}
+      >
         {link}
       </a>
     );
@@ -55,13 +57,13 @@ function Link({ link = "" }: {
 export default function LinkList({
   links,
   ...props
-}: ComponentProps<'ul'> & {
+}: ComponentProps<"ul"> & {
   links: ComponentProps<typeof Link>["link"][];
 }) {
   return (
     <ul {...props} className="link-list">
       {links.map((link) => (
-        <li key={typeof link === 'string' ? link : link[0]}>
+        <li key={typeof link === "string" ? link : link[0]}>
           <Link link={link} />
         </li>
       ))}

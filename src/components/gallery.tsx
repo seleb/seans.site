@@ -14,11 +14,18 @@ export default function Gallery({
       <Head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(projects.map(projectToJson)) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(projects.map(projectToJson)),
+          }}
         />
       </Head>
       {projects.map((p, idx) => (
-        <Link prefetch={false} key={p.slug} href={`/project/${p.slug}`} className={`project${p.showcase ? " showcase" : ""}`}>
+        <Link
+          prefetch={false}
+          key={p.slug}
+          href={`/project/${p.slug}`}
+          className={`project${p.showcase ? " showcase" : ""}`}
+        >
           <Project project={p} idx={idx} />
         </Link>
       ))}

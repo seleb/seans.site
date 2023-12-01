@@ -14,9 +14,11 @@ export default function Project({
         title={project.title}
         description={project.tagline}
         image={{
-          url: project.preview.url.endsWith(".mp4") || project.preview.url.endsWith(".webm")
-            ? project.thumbnail.url
-            : project.preview.url,
+          url:
+            project.preview.url.endsWith(".mp4") ||
+            project.preview.url.endsWith(".webm")
+              ? project.thumbnail.url
+              : project.preview.url,
           alt: `${project.title} preview`,
         }}
       />
