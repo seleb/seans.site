@@ -1,5 +1,18 @@
 export default [
   {
+    title: "Taxi Quest 66",
+    thumbnail: "thumbnails/Taxi Quest 66/thumbnail.gif",
+    preview: "thumbnails/Taxi Quest 66/preview.gif",
+    association: "#GitHubGameOff",
+    date: "2023 December 01",
+    tagline: '"Perfect weather, isn\'t it?"',
+    description: "A game about scaling a mountain.",
+    links: [
+      "https://sweetheartsquad.itch.io/taxi-quest-66",
+      "https://github.com/SweetheartSquad/GameOff2023",
+    ],
+  },
+  {
     title: "solitairota",
     thumbnail: "thumbnails/solitairota/thumbnail.png",
     preview: "thumbnails/solitairota/preview.png",
