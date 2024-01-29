@@ -1,5 +1,15 @@
 export default [
   {
+    title: "Teddy Typtoes Tickle Tower",
+    thumbnail: "thumbnails/Teddy Typtoes Tickle Tower/thumbnail.gif",
+    preview: "thumbnails/Teddy Typtoes Tickle Tower/preview.gif",
+    association: "#GGJ2024",
+    date: "2024 January 28",
+    tagline: "Tickle Teddy's Toes in this Delightful Typing Test",
+    description: "Practice your typing as you tickle Teddy's toes. Put your best foot forward as you recreate famous literary passages, now with 50% more \"footnotes\"!",
+    links: ["https://sweetheartsquad.itch.io/teddy-typtoes-tickle-tower", "https://github.com/SweetheartSquad/ggj2024"],
+  },
+  {
     title: "Taxi Quest 66",
     thumbnail: "thumbnails/Taxi Quest 66/thumbnail.gif",
     preview: "thumbnails/Taxi Quest 66/preview.gif",
