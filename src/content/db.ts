@@ -1,5 +1,14 @@
 export default [
   {
+    title: "Domino Pro Wrestling",
+    thumbnail: "thumbnails/Domino Pro Wrestling/thumbnail.png",
+    preview: "thumbnails/Domino Pro Wrestling/preview.png",
+    association: "DOMINO CLUB",
+    date: "2024 April 08",
+    description: "it's a fighting game (for gamers)",
+    links: ["https://dominoclub.itch.io/domino-pro-wrestling"],
+  },
+  {
     title: "Teddy Typtoes Tickle Tower",
     thumbnail: "thumbnails/Teddy Typtoes Tickle Tower/thumbnail.gif",
     preview: "thumbnails/Teddy Typtoes Tickle Tower/preview.gif",
