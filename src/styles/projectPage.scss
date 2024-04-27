@@ -18,6 +18,14 @@
     object-position: center;
     transform: scale(1.1);
     transform-origin: bottom center;
+
+    /* nearest-neighbour scaling on images */
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
   }
 
   > a {
