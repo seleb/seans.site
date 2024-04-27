@@ -1,5 +1,16 @@
 export default [
   {
+    title: "mastodon-archive-search",
+    thumbnail: "thumbnails/mastodon-archive-search/thumbnail.png",
+    preview: "thumbnails/mastodon-archive-search/thumbnail.png",
+    association: "Personal Project",
+    date: "2024 April 24",
+    tags: ["software", "tool"],
+    tagline: "a basic web ui for searching your own posts from an exported archive",
+    description: "mastodon has very limited search for a variety of reasons. this tool provides a basic frontend for searching your own archive separate from any server",
+    links: ["https://seleb.github.io/mastodon-archive-search", "https://github.com/seleb/mastodon-archive-search"],
+  },
+  {
     title: "Domino Pro Wrestling",
     thumbnail: "thumbnails/Domino Pro Wrestling/thumbnail.png",
     preview: "thumbnails/Domino Pro Wrestling/preview.png",
@@ -75,6 +86,17 @@ export default [
       "https://sweetheartsquad.itch.io/toc-toc",
       "https://github.com/SweetheartSquad/AGBIC2023-TOC-TOC",
     ],
+  },
+  {
+    title: "mastodon-post-scheduler",
+    thumbnail: "thumbnails/mastodon-post-scheduler/thumbnail.png",
+    preview: "thumbnails/mastodon-post-scheduler/thumbnail.png",
+    association: "Personal Project",
+    date: "2023 July 3",
+    tags: ["software", "tool"],
+    tagline: "a basic web ui for scheduling posts on mastodon",
+    description: "by default, mastodon provides a post scheduling backend but no frontend to match. this tool provides a basic frontend for the post scheduler that works across instances",
+    links: ["https://seleb.github.io/mastodon-post-scheduler", "https://github.com/seleb/mastodon-post-scheduler"],
   },
   {
     title: "cutsy",
