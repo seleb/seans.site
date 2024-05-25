@@ -1,5 +1,5 @@
 .astro
-out
+dist
 public/rss.xml
 
 # Logs

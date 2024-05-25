@@ -4,7 +4,6 @@ import { siteUrl } from "./src/content/url";
 import generateRssFeed from "./src/generateRSSFeed";
 
 export default defineConfig({
-	outDir: "./out",
 	site: siteUrl,
 	trailingSlash: "always",
 	integrations: [
