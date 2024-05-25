@@ -46,12 +46,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: Ilshidur/action-discord@0.3.2
-        if: ${{ jobs.deploy.success() }}
+        if: ${{ needs.deploy.success() }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_EMBEDS: '[{ "color": 2357925, "title": "deployed", "url": "https://seans.site" }]'
       - uses: Ilshidur/action-discord@0.3.2
-        if: ${{ jobs.deploy.failure() }}
+        if: ${{ needs.deploy.failure() }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_EMBEDS: '[{ "color": 16393080, "title": "failed", "url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" }]'
