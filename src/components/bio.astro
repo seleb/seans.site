@@ -28,13 +28,22 @@ const { seeMore } = Astro.props;
 	<LinkList
 		id="contact"
 		links={[
-			"mailto:sean.s.leblanc@gmail.com",
-			"https://seansleblanc.itch.io",
-			"https://github.com/seleb",
-			["https://timetheft.social/@sean", { rel: "me" }],
-			"https://blog.seans.site",
-			"https://twitter.com/seansleblanc",
-			"/rss.xml",
+			["mailto:sean.s.leblanc@gmail.com", { "aria-label": "e-mail me" }],
+			[
+				"https://seansleblanc.itch.io",
+				{ "aria-label": "play my games on itch.io" },
+			],
+			["https://github.com/seleb", { "aria-label": "view my code on github" }],
+			[
+				"https://timetheft.social/@sean",
+				{ rel: "me", "aria-label": "visit my mastodon profile" },
+			],
+			["https://blog.seans.site", { "aria-label": "read my blog on tumblr" }],
+			[
+				"https://twitter.com/seansleblanc",
+				{ "aria-label": "visit my twitter profile" },
+			],
+			["/rss.xml", { "aria-label": "view my RSS feed" }],
 		]}
 	/>
 </header>
