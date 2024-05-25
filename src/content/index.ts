@@ -6,7 +6,7 @@ import sanitizeFilename from "sanitize-filename";
 import db from "./db";
 
 export function titleToSlug(title: string) {
-	return `${sanitizeFilename(title).trim()}`;
+	return `${sanitizeFilename(title.replaceAll("#", "")).trim()}`;
 }
 
 const dirThumbnail = path.resolve(process.cwd(), `./public/`);
