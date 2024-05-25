@@ -18,7 +18,7 @@ const { projects } = Astro.props;
 	projects.map((p, idx) => (
 		<a
 			href={`/project/${p.slug}/`}
-			class={`project${p.showcase ? " showcase" : ""}`}
+			class:list={[`project`,{"showcase": p.showcase}]}
 		>
 			<Project project={p} idx={idx} />
 		</a>
