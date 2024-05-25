@@ -3,55 +3,55 @@ import type { HTMLAttributes } from "astro/types";
 type Props = { link: string | [string, HTMLAttributes<"a">] };
 
 function getIcon(link: string) {
-  const { 1: domain } = link.match(/^(?:https?:\/\/)?(.+?)(?:\/|$)/) || [];
-  if (!domain) {
-    return "";
-  }
-  if (domain.startsWith("twitter")) {
-    return "twitter";
-  }
-  if (domain.endsWith("itch.io")) {
-    return "itch";
-  }
-  if (domain.endsWith("gmail.com")) {
-    return "email";
-  }
-  if (domain.startsWith("github.com")) {
-    return "github";
-  }
-  if (domain.startsWith("lexaloffle.com")) {
-    return "pico8";
-  }
-  if (domain.startsWith("linkedin.com")) {
-    return "linkedin";
-  }
-  if (domain.startsWith("tumblr.com") || domain.startsWith("blog.seans.site")) {
-    return "tumblr";
-  }
-  if (domain.endsWith(".social")) {
-    return "mastodon";
-  }
-  if (link.endsWith("rss.xml")) {
-    return "rss";
-  }
-  return "generic";
+	const { 1: domain } = link.match(/^(?:https?:\/\/)?(.+?)(?:\/|$)/) || [];
+	if (!domain) {
+		return "";
+	}
+	if (domain.startsWith("twitter")) {
+		return "twitter";
+	}
+	if (domain.endsWith("itch.io")) {
+		return "itch";
+	}
+	if (domain.endsWith("gmail.com")) {
+		return "email";
+	}
+	if (domain.startsWith("github.com")) {
+		return "github";
+	}
+	if (domain.startsWith("lexaloffle.com")) {
+		return "pico8";
+	}
+	if (domain.startsWith("linkedin.com")) {
+		return "linkedin";
+	}
+	if (domain.startsWith("tumblr.com") || domain.startsWith("blog.seans.site")) {
+		return "tumblr";
+	}
+	if (domain.endsWith(".social")) {
+		return "mastodon";
+	}
+	if (link.endsWith("rss.xml")) {
+		return "rss";
+	}
+	return "generic";
 }
 
 const { link = "" } = Astro.props;
 ---
 
 {
-  typeof link === "string" ? (
-    <a
-      rel={link.includes(".social/") ? "me" : undefined}
-      class={getIcon(link)}
-      href={link}
-    >
-      {link}
-    </a>
-  ) : (
-    <a class={getIcon(link[0])} href={link[0]} {...link[1]}>
-      {link[0]}
-    </a>
-  )
+	typeof link === "string" ? (
+		<a
+			rel={link.includes(".social/") ? "me" : undefined}
+			class={getIcon(link)}
+			href={link}
+		>
+			{link}
+		</a>
+	) : (
+		<a class={getIcon(link[0])} href={link[0]} {...link[1]}>
+			{link[0]}
+		</a>
+	)
 }

@@ -1,82 +1,82 @@
 .link-list {
-  display: block;
-  margin: 0;
-  padding: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
 
-  > li {
-    display: inline-block;
+	> li {
+		display: inline-block;
 
-    &:not(:last-child) {
-      margin-right: 0.5rem;
-    }
-  }
-  > li > a {
-    color: transparent;
-    font-size: 0;
+		&:not(:last-child) {
+			margin-right: 0.5rem;
+		}
+	}
+	> li > a {
+		color: transparent;
+		font-size: 0;
 
-    &:before {
-      content: "";
-      width: 32px;
-      height: 32px;
+		&:before {
+			content: "";
+			width: 32px;
+			height: 32px;
 
-      @media (any-pointer: coarse) {
-        width: 48px;
-        height: 48px;
-      }
+			@media (any-pointer: coarse) {
+				width: 48px;
+				height: 48px;
+			}
 
-      display: inline-block;
-      border-radius: 50%;
-      vertical-align: middle;
-      background-color: var(--bg);
-      transition: opacity 0.1s ease-in-out;
-      mask-position: center;
-      mask-repeat: no-repeat;
-      mask-size: cover;
-    }
+			display: inline-block;
+			border-radius: 50%;
+			vertical-align: middle;
+			background-color: var(--bg);
+			transition: opacity 0.1s ease-in-out;
+			mask-position: center;
+			mask-repeat: no-repeat;
+			mask-size: cover;
+		}
 
-    &:hover:not(:active):before,
-    &:focus:not(:active):before {
-      opacity: 0.5;
-    }
+		&:hover:not(:active):before,
+		&:focus:not(:active):before {
+			opacity: 0.5;
+		}
 
-    &.github:before {
-      mask-image: url(../images/icons/github.svg);
-    }
+		&.github:before {
+			mask-image: url(../images/icons/github.svg);
+		}
 
-    &.email:before {
-      mask-image: url(../images/icons/gmail.svg);
-    }
+		&.email:before {
+			mask-image: url(../images/icons/gmail.svg);
+		}
 
-    &.twitter:before {
-      mask-image: url(../images/icons/twitter.svg);
-    }
+		&.twitter:before {
+			mask-image: url(../images/icons/twitter.svg);
+		}
 
-    &.linkedin:before {
-      mask-image: url(../images/icons/linkedin.svg);
-    }
+		&.linkedin:before {
+			mask-image: url(../images/icons/linkedin.svg);
+		}
 
-    &.itch:before {
-      mask-image: url(../images/icons/itch.svg);
-    }
+		&.itch:before {
+			mask-image: url(../images/icons/itch.svg);
+		}
 
-    &.tumblr:before {
-      mask-image: url(../images/icons/tumblr.svg);
-    }
+		&.tumblr:before {
+			mask-image: url(../images/icons/tumblr.svg);
+		}
 
-    &.pico8:before {
-      mask-image: url(../images/icons/pico8.svg);
-    }
+		&.pico8:before {
+			mask-image: url(../images/icons/pico8.svg);
+		}
 
-    &.rss:before {
-      mask-image: url(../images/icons/rss.svg);
-    }
+		&.rss:before {
+			mask-image: url(../images/icons/rss.svg);
+		}
 
-    &.mastodon:before {
-      mask-image: url(../images/icons/mastodon.svg);
-    }
+		&.mastodon:before {
+			mask-image: url(../images/icons/mastodon.svg);
+		}
 
-    &.generic:before {
-      mask-image: url(../images/icons/linkbutton.svg);
-    }
-  }
+		&.generic:before {
+			mask-image: url(../images/icons/linkbutton.svg);
+		}
+	}
 }

@@ -8,33 +8,33 @@ const { seeMore } = Astro.props;
 ---
 
 <header class="bio">
-  <script type="application/ld+json" set:html={JSON.stringify([author, org])} />
-  <a href="/">
-    <H>Sean S. LeBlanc</H>
-    <span class="h">I Make Stuff</span>
-  </a>
-  <p>
-    Hey there! I'm a UX dev, tools dev, game dev, and general-purpose media
-    person from Ottawa, Canada.
-  </p>
-  {
-    seeMore && (
-      <a class="see-more" href="/">
-        See more projects I've worked on.
-      </a>
-    )
-  }
-  <p>You can find me at Various Places on The Internet.</p>
-  <LinkList
-    id="contact"
-    links={[
-      "mailto:sean.s.leblanc@gmail.com",
-      "https://seansleblanc.itch.io",
-      "https://github.com/seleb",
-      ["https://timetheft.social/@sean", { rel: "me" }],
-      "https://blog.seans.site",
-      "https://twitter.com/seansleblanc",
-      "/rss.xml",
-    ]}
-  />
+	<script type="application/ld+json" set:html={JSON.stringify([author, org])} />
+	<a href="/">
+		<H>Sean S. LeBlanc</H>
+		<span class="h">I Make Stuff</span>
+	</a>
+	<p>
+		Hey there! I'm a UX dev, tools dev, game dev, and general-purpose media
+		person from Ottawa, Canada.
+	</p>
+	{
+		seeMore && (
+			<a class="see-more" href="/">
+				See more projects I've worked on.
+			</a>
+		)
+	}
+	<p>You can find me at Various Places on The Internet.</p>
+	<LinkList
+		id="contact"
+		links={[
+			"mailto:sean.s.leblanc@gmail.com",
+			"https://seansleblanc.itch.io",
+			"https://github.com/seleb",
+			["https://timetheft.social/@sean", { rel: "me" }],
+			"https://blog.seans.site",
+			"https://twitter.com/seansleblanc",
+			"/rss.xml",
+		]}
+	/>
 </header>

@@ -7,11 +7,11 @@ import { getProject, getProjects } from "../../content";
 import Layout from "../../layouts/Layout.astro";
 
 export async function getStaticPaths() {
-  return (await getProjects()).map(({ slug }) => ({
-    params: {
-      slug,
-    },
-  }));
+	return (await getProjects()).map(({ slug }) => ({
+		params: {
+			slug,
+		},
+	}));
 }
 
 const project = await getProject(Astro.params.slug || "");
@@ -19,27 +19,27 @@ if (!project) throw new Error("No project");
 ---
 
 <Layout>
-  <Seo
-    slot="seo"
-    title={project.title}
-    description={project.tagline}
-    image={{
-      url:
-        project.preview.url.endsWith(".mp4") ||
-        project.preview.url.endsWith(".webm")
-          ? project.thumbnail.url
-          : project.preview.url,
-      alt: `${project.title} preview`,
-    }}
-  />
+	<Seo
+		slot="seo"
+		title={project.title}
+		description={project.tagline}
+		image={{
+			url:
+				project.preview.url.endsWith(".mp4") ||
+				project.preview.url.endsWith(".webm")
+					? project.thumbnail.url
+					: project.preview.url,
+			alt: `${project.title} preview`,
+		}}
+	/>
 
-  <div class="index project">
-    <noscript>
-      Javascript disabled - site may not appear as expected.
-    </noscript>
-    <Preview project={project} />
-    <HLevel>
-      <Bio seeMore />
-    </HLevel>
-  </div>
+	<div class="index project">
+		<noscript>
+			Javascript disabled - site may not appear as expected.
+		</noscript>
+		<Preview project={project} />
+		<HLevel>
+			<Bio seeMore />
+		</HLevel>
+	</div>
 </Layout>

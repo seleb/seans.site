@@ -1,21 +1,21 @@
 @import "normalize.css";
 
 html {
-  --bg: #211927;
-  --fg: #efefef;
-  background-color: var(--bg);
-  color: var(--fg);
-  font-size: 95%;
-  letter-spacing: -0.04em;
-  font-family: monospace;
+	--bg: #211927;
+	--fg: #efefef;
+	background-color: var(--bg);
+	color: var(--fg);
+	font-size: 95%;
+	letter-spacing: -0.04em;
+	font-family: monospace;
 }
 
 html,
 body,
 #__next {
-  height: 100%;
-  padding: 0;
-  margin: 0;
+	height: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 h1,
@@ -25,42 +25,42 @@ h4,
 h5,
 h6,
 .h {
-  padding: 0;
-  margin: 0;
-  font-family:
-    Segoe UI,
-    Helvetica Neue,
-    sans-serif;
-  font-size: inherit;
+	padding: 0;
+	margin: 0;
+	font-family:
+		Segoe UI,
+		Helvetica Neue,
+		sans-serif;
+	font-size: inherit;
 }
 
 img {
-  text-align: center;
+	text-align: center;
 }
 
 a {
-  color: #bbb;
+	color: #bbb;
 }
 
 a:hover,
 a:focus {
-  color: #fff;
+	color: #fff;
 }
 
 .main {
-  position: relative;
-  padding-left: 10rem;
-  width: 100%;
+	position: relative;
+	padding-left: 10rem;
+	width: 100%;
 }
 
 hr {
-  width: 100%;
-  border: inset 1px #efefef;
+	width: 100%;
+	border: inset 1px #efefef;
 }
 
 ::selection {
-  background-color: #fff;
-  color: #000;
+	background-color: #fff;
+	color: #000;
 }
 
 @import "./index.scss";

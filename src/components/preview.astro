@@ -3,7 +3,7 @@ import { projectToJson } from "../content/jsonld";
 import { H } from "./h";
 import LinkList from "./linkList.astro";
 type Props = {
-  project: Parameters<typeof projectToJson>[0];
+	project: Parameters<typeof projectToJson>[0];
 };
 const { project } = Astro.props;
 if (!project) throw new Error("No project");
@@ -11,41 +11,41 @@ const { title, preview, tagline, association, description, links } = project;
 ---
 
 <script
-  type="application/ld+json"
-  set:html={JSON.stringify(projectToJson(project))}
+	type="application/ld+json"
+	set:html={JSON.stringify(projectToJson(project))}
 />
 <article class="project-page">
-  {
-    preview.url.endsWith(".mp4") || preview.url.endsWith(".webm") ? (
-      <video
-        class="preview"
-        src={preview.url}
-        width={preview.width}
-        height={preview.height}
-        muted
-        autoplay
-        loop
-        controls={false}
-        preload="auto"
-        poster={project.thumbnail.url}
-      />
-    ) : (
-      <img
-        alt={`${title} preview`}
-        class="preview"
-        src={preview.url}
-        width={preview.width}
-        height={preview.height}
-        loading="eager"
-      />
-    )
-  }
-  <a href="/" title="Home">⛢</a>
-  <main>
-    <H set:html={title} />
-    {tagline && <span class="h" set:html={tagline} />}
-    {association && <span class="h">{association}</span>}
-    {description && <span class="description" set:html={description} />}
-    {links && <LinkList links={links} />}
-  </main>
+	{
+		preview.url.endsWith(".mp4") || preview.url.endsWith(".webm") ? (
+			<video
+				class="preview"
+				src={preview.url}
+				width={preview.width}
+				height={preview.height}
+				muted
+				autoplay
+				loop
+				controls={false}
+				preload="auto"
+				poster={project.thumbnail.url}
+			/>
+		) : (
+			<img
+				alt={`${title} preview`}
+				class="preview"
+				src={preview.url}
+				width={preview.width}
+				height={preview.height}
+				loading="eager"
+			/>
+		)
+	}
+	<a href="/" title="Home">⛢</a>
+	<main>
+		<H set:html={title} />
+		{tagline && <span class="h" set:html={tagline} />}
+		{association && <span class="h">{association}</span>}
+		{description && <span class="description" set:html={description} />}
+		{links && <LinkList links={links} />}
+	</main>
 </article>

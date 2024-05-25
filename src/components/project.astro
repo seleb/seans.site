@@ -2,57 +2,57 @@
 import { H } from "./h";
 
 type Props = {
-  project: {
-    title: string;
-    tagline?: string;
-    thumbnail: {
-      url: string;
-      width?: number;
-      height?: number;
-    };
-    preview: {
-      url: string;
-      width?: number;
-      height?: number;
-    };
-    showcase?: boolean;
-  };
-  idx: number;
+	project: {
+		title: string;
+		tagline?: string;
+		thumbnail: {
+			url: string;
+			width?: number;
+			height?: number;
+		};
+		preview: {
+			url: string;
+			width?: number;
+			height?: number;
+		};
+		showcase?: boolean;
+	};
+	idx: number;
 };
 const { project, idx } = Astro.props;
 const { title, tagline, thumbnail, preview, showcase } = project;
 const [string, image] = showcase
-  ? ["preview", preview]
-  : ["thumbnail", thumbnail];
+	? ["preview", preview]
+	: ["thumbnail", thumbnail];
 ---
 
 <figure>
-  {
-    image.url.endsWith(".mp4") || image.url.endsWith(".webm") ? (
-      <video
-        class="thumbnail"
-        src={image.url}
-        width={image.width}
-        height={image.height}
-        muted
-        autoplay
-        loop
-        controls={false}
-        poster={project.thumbnail.url}
-      />
-    ) : (
-      <img
-        alt={`${title} ${string}`}
-        class="thumbnail"
-        src={image.url}
-        width={image.width}
-        height={image.height}
-        loading={idx < 4 ? "eager" : "lazy"}
-      />
-    )
-  }
+	{
+		image.url.endsWith(".mp4") || image.url.endsWith(".webm") ? (
+			<video
+				class="thumbnail"
+				src={image.url}
+				width={image.width}
+				height={image.height}
+				muted
+				autoplay
+				loop
+				controls={false}
+				poster={project.thumbnail.url}
+			/>
+		) : (
+			<img
+				alt={`${title} ${string}`}
+				class="thumbnail"
+				src={image.url}
+				width={image.width}
+				height={image.height}
+				loading={idx < 4 ? "eager" : "lazy"}
+			/>
+		)
+	}
 </figure>
 <figcaption>
-  <H set:html={title} />
-  {tagline && <span class="h" set:html={tagline} />}
+	<H set:html={title} />
+	{tagline && <span class="h" set:html={tagline} />}
 </figcaption>

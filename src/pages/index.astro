@@ -12,27 +12,27 @@ const firstShowcase = projects.find((i) => i.showcase);
 ---
 
 <Layout>
-  <Seo
-    slot="seo"
-    description={pkg.description}
-    image={{
-      url:
-        firstShowcase.preview.url.endsWith(".mp4") ||
-        firstShowcase.preview.url.endsWith(".webm")
-          ? firstShowcase.thumbnail.url
-          : firstShowcase.preview.url,
-      alt: `${firstShowcase.title} preview`,
-    }}
-  />
+	<Seo
+		slot="seo"
+		description={pkg.description}
+		image={{
+			url:
+				firstShowcase.preview.url.endsWith(".mp4") ||
+				firstShowcase.preview.url.endsWith(".webm")
+					? firstShowcase.thumbnail.url
+					: firstShowcase.preview.url,
+			alt: `${firstShowcase.title} preview`,
+		}}
+	/>
 
-  <main class="index">
-    <noscript>
-      Javascript disabled - site may not appear as expected.
-    </noscript>
-    <Bio />
-    <HLevel>
-      <Gallery projects={projects} />
-    </HLevel>
-    <button onclick="window.scrollTo(0, 0)" title="Scroll to top">⛢</button>
-  </main>
+	<main class="index">
+		<noscript>
+			Javascript disabled - site may not appear as expected.
+		</noscript>
+		<Bio />
+		<HLevel>
+			<Gallery projects={projects} />
+		</HLevel>
+		<button onclick="window.scrollTo(0, 0)" title="Scroll to top">⛢</button>
+	</main>
 </Layout>

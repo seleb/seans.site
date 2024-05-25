@@ -4,23 +4,23 @@ import { projectToJson } from "../content/jsonld";
 import Project from "./project.astro";
 
 type Props = {
-  projects: (ComponentProps<typeof Project>["project"] & { slug: string })[];
+	projects: (ComponentProps<typeof Project>["project"] & { slug: string })[];
 };
 
 const { projects } = Astro.props;
 ---
 
 <script
-  type="application/ld+json"
-  set:html={JSON.stringify(projects.map(projectToJson))}
+	type="application/ld+json"
+	set:html={JSON.stringify(projects.map(projectToJson))}
 />
 {
-  projects.map((p, idx) => (
-    <a
-      href={`/project/${p.slug}/`}
-      class={`project${p.showcase ? " showcase" : ""}`}
-    >
-      <Project project={p} idx={idx} />
-    </a>
-  ))
+	projects.map((p, idx) => (
+		<a
+			href={`/project/${p.slug}/`}
+			class={`project${p.showcase ? " showcase" : ""}`}
+		>
+			<Project project={p} idx={idx} />
+		</a>
+	))
 }
