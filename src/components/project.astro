@@ -1,6 +1,4 @@
 ---
-import { H } from "./h";
-
 type Props = {
 	project: {
 		title: string;
@@ -54,6 +52,6 @@ const id = `caption-${idx}`;
 	}
 </figure>
 <figcaption id={id}>
-	<H set:html={title} />
+	<h2 class="h" set:html={title} />
 	{tagline && <span class="h" set:html={tagline} />}
 </figcaption>

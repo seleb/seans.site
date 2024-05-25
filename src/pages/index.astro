@@ -1,7 +1,6 @@
 ---
 import Bio from "../components/bio.astro";
 import Gallery from "../components/gallery.astro";
-import { HLevel } from "../components/h";
 import Seo from "../components/seo.astro";
 import { getProjects } from "../content";
 import Layout from "../layouts/Layout.astro";
@@ -30,9 +29,7 @@ const firstShowcase = projects.find((i) => i.showcase);
 			Javascript disabled - site may not appear as expected.
 		</noscript>
 		<Bio />
-		<HLevel>
-			<Gallery projects={projects} />
-		</HLevel>
+		<Gallery projects={projects} />
 		<button onclick="window.scrollTo(0, 0)" title="Scroll to top">⛢</button>
 	</main>
 </Layout>

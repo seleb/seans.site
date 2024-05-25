@@ -1,6 +1,5 @@
 ---
 import { projectToJson } from "../content/jsonld";
-import { H } from "./h";
 import LinkList from "./linkList.astro";
 type Props = {
 	project: Parameters<typeof projectToJson>[0];
@@ -44,7 +43,7 @@ const { title, preview, tagline, association, description, links } = project;
 	}
 	<a href="/" title="Home">⛢</a>
 	<main>
-		<H set:html={title} />
+		<h1 class="h" set:html={title} />
 		{tagline && <span class="h" set:html={tagline} />}
 		{association && <span class="h">{association}</span>}
 		{description && <span class="description" set:html={description} />}

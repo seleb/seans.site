@@ -1,16 +1,16 @@
 ---
 import { author, org } from "../content/jsonld";
-import { H } from "./h";
 import LinkList from "./linkList.astro";
 
 type Props = { seeMore?: boolean };
 const { seeMore } = Astro.props;
+const H = seeMore ? "h2" : "h1";
 ---
 
 <header class="bio">
 	<script type="application/ld+json" set:html={JSON.stringify([author, org])} />
 	<a href="/">
-		<H>Sean S. LeBlanc</H>
+		<H class="h">Sean S. LeBlanc</H>
 		<span class="h">I Make Stuff</span>
 	</a>
 	<p>

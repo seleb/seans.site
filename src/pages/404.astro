@@ -1,5 +1,4 @@
 ---
-import { contextHeading, H } from "../components/h";
 import Seo from "../components/seo.astro";
 import Layout from "../layouts/Layout.astro";
 ---
@@ -9,10 +8,8 @@ import Layout from "../layouts/Layout.astro";
 
 	<main class="index">
 		<header class="bio">
-			<contextHeading.Provider value={1}>
-				<H>404</H>
-				<span class="h">Not found</span>
-			</contextHeading.Provider>
+			<h1 class="h">404</h1>
+			<span class="h">Not found</span>
 			<p>
 				<a href="/">back to home</a>
 			</p>

@@ -1,6 +1,5 @@
 ---
 import Bio from "../../components/bio.astro";
-import { HLevel } from "../../components/h";
 import Preview from "../../components/preview.astro";
 import Seo from "../../components/seo.astro";
 import { getProject, getProjects } from "../../content";
@@ -39,8 +38,6 @@ if (!project) throw new Error("No project");
 			Javascript disabled - site may not appear as expected.
 		</noscript>
 		<Preview project={project} />
-		<HLevel>
-			<Bio seeMore />
-		</HLevel>
+		<Bio seeMore />
 	</div>
 </Layout>
