@@ -19,6 +19,7 @@ const { title, preview, tagline, association, description, links } = project;
 		preview.url.endsWith(".mp4") || preview.url.endsWith(".webm") ? (
 			<video
 				tabindex="-1"
+				aria-hidden="true"
 				class="preview"
 				src={preview.url}
 				width={preview.width}
@@ -32,7 +33,7 @@ const { title, preview, tagline, association, description, links } = project;
 			/>
 		) : (
 			<img
-				alt={`${title} preview`}
+				alt=""
 				class="preview"
 				src={preview.url}
 				width={preview.width}
