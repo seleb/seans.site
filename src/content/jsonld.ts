@@ -1,10 +1,11 @@
-import {
+import type {
   Organization,
   Person,
   SoftwareApplication,
   WithContext,
 } from "schema-dts";
 import { getProject } from ".";
+import { siteUrl } from "./url";
 
 export const author: WithContext<Person> = {
   "@context": "https://schema.org",
@@ -37,7 +38,7 @@ export function projectToJson(
     abstract: project.tagline,
     description: project.description,
     creator: author,
-    thumbnailUrl: project.preview.url,
+    thumbnailUrl: `${siteUrl}/${project.preview.url}`,
     applicationCategory:
       !project.tags?.length || project.tags.includes("game")
         ? "GameApplication"

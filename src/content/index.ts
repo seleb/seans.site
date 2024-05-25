@@ -1,6 +1,6 @@
 import fs from "fs";
 import sizeof from "image-size";
-import { ISizeCalculationResult } from "image-size/dist/types/interface";
+import type { ISizeCalculationResult } from "image-size/dist/types/interface";
 import path from "path";
 import sanitizeFilename from "sanitize-filename";
 import db from "./db";

@@ -1,9 +1,11 @@
-import { ComponentProps } from "react";
+---
+import type { HTMLAttributes } from "astro/types";
+type Props = { link: string | [string, HTMLAttributes<"a">] };
 
 function getIcon(link: string) {
   const { 1: domain } = link.match(/^(?:https?:\/\/)?(.+?)(?:\/|$)/) || [];
   if (!domain) {
-    return;
+    return "";
   }
   if (domain.startsWith("twitter")) {
     return "twitter";
@@ -35,38 +37,21 @@ function getIcon(link: string) {
   return "generic";
 }
 
-function Link({ link = "" }: { link: string | [string, ComponentProps<"a">] }) {
-  if (typeof link === "string") {
-    return (
-      <a
-        rel={link.includes(".social/") ? "me" : undefined}
-        className={getIcon(link)}
-        href={link}
-      >
-        {link}
-      </a>
-    );
-  }
-  return (
-    <a className={getIcon(link[0])} href={link[0]} {...link[1]}>
+const { link = "" } = Astro.props;
+---
+
+{
+  typeof link === "string" ? (
+    <a
+      rel={link.includes(".social/") ? "me" : undefined}
+      class={getIcon(link)}
+      href={link}
+    >
+      {link}
+    </a>
+  ) : (
+    <a class={getIcon(link[0])} href={link[0]} {...link[1]}>
       {link[0]}
     </a>
-  );
-}
-
-export default function LinkList({
-  links,
-  ...props
-}: ComponentProps<"ul"> & {
-  links: ComponentProps<typeof Link>["link"][];
-}) {
-  return (
-    <ul {...props} className="link-list">
-      {links.map((link) => (
-        <li key={typeof link === "string" ? link : link[0]}>
-          <Link link={link} />
-        </li>
-      ))}
-    </ul>
-  );
+  )
 }
