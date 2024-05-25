@@ -158,8 +158,13 @@ noscript {
 		padding: 1rem;
 		transition: opacity 0.1s ease-in-out;
 
-		&:hover:not(:active) {
+		&:hover,
+		&:focus {
 			opacity: 0.5;
+		}
+
+		&:active {
+			opacity: 1;
 		}
 	}
 }
