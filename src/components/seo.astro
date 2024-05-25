@@ -1,0 +1,38 @@
+---
+import { SEO } from "astro-seo";
+import { siteUrl } from "../content/url";
+type Props = {
+  description: string;
+  title?: string;
+  image?: {
+    url: string;
+    alt: string;
+  };
+  big?: boolean;
+};
+const { description, title, image, big } = Astro.props;
+const t = [title, "Sean's Site"].filter((i) => i).join(" | ");
+---
+
+<SEO
+  title={t}
+  description={description}
+  openGraph={{
+    basic: {
+      title: t,
+      type: "website",
+      image: image ? `${siteUrl}${image.url}` : "",
+    },
+    optional: {
+      description: description,
+      siteName: "Sean's Site",
+    },
+    image: image
+      ? { url: `${siteUrl}${image.url}`, alt: image.alt }
+      : undefined,
+  }}
+  twitter={{
+    creator: "@SeanSLeBlanc",
+    card: big ? "summary_large_image" : "summary",
+  }}
+/>

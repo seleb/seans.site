@@ -1,0 +1,18 @@
+---
+import type { ComponentProps, HTMLAttributes } from "astro/types";
+import Link from "./link.astro";
+type Props = HTMLAttributes<"ul"> & {
+  links: ComponentProps<typeof Link>["link"][];
+};
+const { links, ...props } = Astro.props;
+---
+
+<ul {...props} class="link-list">
+  {
+    links.map((link) => (
+      <li>
+        <Link link={link} />
+      </li>
+    ))
+  }
+</ul>

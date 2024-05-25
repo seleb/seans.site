@@ -1,0 +1,21 @@
+---
+import { contextHeading, H } from "../components/h";
+import Seo from "../components/seo.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <Seo slot="seo" title="404" description="Not found" />
+
+  <main class="index">
+    <header class="bio">
+      <contextHeading.Provider value={1}>
+        <H>404</H>
+        <span class="h">Not found</span>
+      </contextHeading.Provider>
+      <p>
+        <a href="/">back to home</a>
+      </p>
+    </header>
+  </main>
+</Layout>

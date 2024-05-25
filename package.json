@@ -7,26 +7,27 @@
   "repository": "github:seleb/seans.site",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "next dev -p 80",
-    "build": "next build",
-    "start": "npx serve@latest out -p 80",
-    "format": "prettier --write src/**/*.{ts,tsx,scss}"
+    "build": "astro build",
+    "start": "astro dev",
+    "preview": "astro preview",
+    "format": "prettier --write src/**/*.{astro,ts,tsx,scss}"
   },
-  "dependencies": {
-    "next": "^14.2.3",
-    "next-seo": "^6.5.0",
+  "devDependencies": {
+    "@astrojs/react": "^3.4.0",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/rss": "^0.0.32",
+    "astro": "^4.9.1",
+    "astro-seo": "^0.8.3",
+    "image-size": "^1.0.2",
     "normalize.css": "^8.0.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.14.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "rss": "^1.2.2",
-    "sanitize-filename": "^1.6.3"
-  },
-  "devDependencies": {
-    "@types/node": "^20.12.7",
-    "@types/react": "^18.3.1",
-    "@types/rss": "^0.0.32",
-    "image-size": "^1.0.2",
-    "prettier": "^3.2.5",
+    "sanitize-filename": "^1.6.3",
     "sass": "^1.75.0",
     "schema-dts": "^1.1.2",
     "typescript": "^5.4.5"
