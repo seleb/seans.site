@@ -1,5 +1,4 @@
 import Head from "next/head";
-import "normalize.css";
 import { siteUrl } from "../content/url";
 import "../styles/_app.scss";
 
