@@ -30,6 +30,7 @@ const [string, image] = showcase
 	{
 		image.url.endsWith(".mp4") || image.url.endsWith(".webm") ? (
 			<video
+				tabindex="-1"
 				class="thumbnail"
 				src={image.url}
 				width={image.width}
