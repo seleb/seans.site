@@ -1,9 +1,5 @@
-import {
-  ComponentProps,
-  createContext,
-  PropsWithChildren,
-  useContext,
-} from "react";
+import type { ComponentProps, PropsWithChildren } from "react";
+import { createContext, useContext } from "react";
 
 export const contextHeading = createContext(1);
 
