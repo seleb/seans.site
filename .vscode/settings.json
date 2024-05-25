@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": [
+        "source.organizeImports",
+        "source.fixAll",
+    ],
+    "files.insertFinalNewline": true,
+    "eslint.experimental.useFlatConfig": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "astro",
+        "typescript",
+        "typescriptreact",
+    ],
+}

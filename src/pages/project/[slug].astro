@@ -6,6 +6,7 @@ import Seo from "../../components/seo.astro";
 import { getProject, getProjects } from "../../content";
 import Layout from "../../layouts/Layout.astro";
 
+// eslint-disable-next-line astro/no-exports-from-components
 export async function getStaticPaths() {
 	return (await getProjects()).map(({ slug }) => ({
 		params: {
