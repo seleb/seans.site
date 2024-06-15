@@ -1,5 +1,20 @@
 export default [
 	{
+		title: "maproidvania",
+		thumbnail: "thumbnails/maproidvania/thumbnail.png",
+		preview: "thumbnails/maproidvania/thumbnail.png",
+		association: "Personal Project",
+		date: "2024 May 31",
+		tags: ["software", "tool"],
+		tagline: "a mapping tool for playing metroidvanias",
+		description:
+			"sometimes when you play a game, you want to draw a little map to help you work your way through it, and sometimes the game is la-mulana and you want to take screenshots of every single screen and directly annotate them with drawings and searchable notes",
+		links: [
+			"https://seleb.github.io/maproidvania",
+			"https://github.com/seleb/maproidvania",
+		],
+	},
+	{
 		title: "mastodon-archive-search",
 		thumbnail: "thumbnails/mastodon-archive-search/thumbnail.png",
 		preview: "thumbnails/mastodon-archive-search/thumbnail.png",
