@@ -1,5 +1,16 @@
 export default [
 	{
+		title: "BLOOD in the SKY: DEAD OR ALIVE",
+		thumbnail: "thumbnails/BLOOD in the SKY DEAD OR ALIVE/thumbnail.gif",
+		preview: "thumbnails/BLOOD in the SKY DEAD OR ALIVE/preview.gif",
+		association: "#mechjam",
+		date: "2024 July 18",
+		tagline: "A story-driven mech battler inspired by Battleship.",
+		description: "<p>BLOOD in the SKY: DEAD or ALIVE is a story-driven mech battler inspired by the board game Battleship. Build your mech using a variety of weapons, shields, and parts. Locate and destroy your opponent's cockpit before they get yours.</p><p>You are SONGBIRD, an up-and-coming mech fighter. You're having a casual match in the arena with your friend when everything changes. Rumours are exchanged, friendships are tested, and relationships are strained; but in the end, family is everything.</p>",
+		links: ["https://sweetheartsquad.itch.io/blood-in-the-sky", "https://github.com/SweetheartSquad/mech-jam-5"],
+		showcase: true,
+	},
+	{
 		title: "maproidvania",
 		thumbnail: "thumbnails/maproidvania/thumbnail.png",
 		preview: "thumbnails/maproidvania/thumbnail.png",
