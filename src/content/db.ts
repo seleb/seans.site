@@ -1,5 +1,24 @@
 export default [
 	{
+		title: "Joey Wamone's Improbably Inverse Archaeological Expedition",
+		thumbnail: "thumbnails/Joey Wamone's Improbably Inverse Archaeological Expedition/thumbnail.png",
+		preview: "thumbnails/Joey Wamone's Improbably Inverse Archaeological Expedition/preview.png",
+		association: "DOMINO CLUB",
+		date: "2024 October 07",
+		tagline: "mi-mi-mi-mi-mi-mi-mi-mi-microgames!",
+		description: "could this (⬆) be the key (🔑) to a higher (lower) knowledge (🧾)?",
+		links: ["https://dominoclub.itch.io/joey-wamones-improbably-inverse-archaeological-expedition"],
+	},
+	{
+		title: "C♥ntract",
+		thumbnail: "thumbnails/C♥ntract/thumbnail.png",
+		preview: "thumbnails/C♥ntract/preview.png",
+		association: "DOMINO CLUB",
+		date: "2024 October 07",
+		description: "artwork for the Solicitors of the Heart",
+		links: ["https://dominoclub.itch.io/cntract"],
+	},
+	{
 		title: "BLOOD in the SKY: DEAD OR ALIVE",
 		thumbnail: "thumbnails/BLOOD in the SKY DEAD OR ALIVE/thumbnail.gif",
 		preview: "thumbnails/BLOOD in the SKY DEAD OR ALIVE/preview.gif",
