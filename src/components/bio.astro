@@ -28,26 +28,43 @@ const H = seeMore ? "h2" : "h1";
 	<LinkList
 		id="contact"
 		links={[
-			["mailto:sean.s.leblanc@gmail.com", { "aria-label": "e-mail me" }],
+			[
+				"mailto:sean.s.leblanc@gmail.com",
+				{ "aria-label": "e-mail me", title: "e-mail" },
+			],
 			[
 				"https://seansleblanc.itch.io",
-				{ "aria-label": "play my games on itch.io" },
+				{ "aria-label": "play my games on itch.io", title: "itch.io" },
 			],
-			["https://github.com/seleb", { "aria-label": "view my code on github" }],
+			[
+				"https://github.com/seleb",
+				{ "aria-label": "view my code on github", title: "github" },
+			],
 			[
 				"https://timetheft.social/@sean",
-				{ rel: "me", "aria-label": "visit my mastodon profile" },
+				{
+					rel: "me",
+					"aria-label": "visit my mastodon profile",
+					title: "mastodon",
+				},
 			],
 			[
 				"https://bsky.app/profile/seans.site",
-				{ rel: "me", "aria-label": "visit my bluesky profile" },
+				{
+					rel: "me",
+					"aria-label": "visit my bluesky profile",
+					title: "bluesky",
+				},
 			],
-			["https://blog.seans.site", { "aria-label": "read my blog on tumblr" }],
+			[
+				"https://blog.seans.site",
+				{ "aria-label": "read my blog on tumblr", title: "tumblr" },
+			],
 			[
 				"https://twitter.com/seansleblanc",
-				{ "aria-label": "visit my twitter profile" },
+				{ "aria-label": "visit my twitter profile", title: "twitter" },
 			],
-			["/rss.xml", { "aria-label": "view my RSS feed" }],
+			["/rss.xml", { "aria-label": "view my RSS feed", title: "RSS" }],
 		]}
 	/>
 </header>
