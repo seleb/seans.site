@@ -23,12 +23,12 @@ const { title, preview, tagline, association, description, links } = project;
 				controls={false}
 				height={preview.height}
 				loop
-				tabindex="-1"
 				muted
-				src={preview.url}
 				poster={project.thumbnail.url}
-				width={preview.width}
 				preload="auto"
+				src={preview.url}
+				tabindex="-1"
+				width={preview.width}
 			/>
 		) : (
 			<img
