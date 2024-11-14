@@ -10,34 +10,34 @@ const { title, preview, tagline, association, description, links } = project;
 ---
 
 <script
-	type="application/ld+json"
 	set:html={JSON.stringify(projectToJson(project))}
+	type="application/ld+json"
 />
 <article class="project-page">
 	{
 		preview.url.endsWith(".mp4") || preview.url.endsWith(".webm") ? (
 			<video
-				tabindex="-1"
 				aria-hidden="true"
-				class="preview"
-				src={preview.url}
-				width={preview.width}
-				height={preview.height}
-				muted
 				autoplay
-				loop
+				class="preview"
 				controls={false}
-				preload="auto"
+				height={preview.height}
+				loop
+				tabindex="-1"
+				muted
+				src={preview.url}
 				poster={project.thumbnail.url}
+				width={preview.width}
+				preload="auto"
 			/>
 		) : (
 			<img
 				alt=""
 				class="preview"
-				src={preview.url}
-				width={preview.width}
 				height={preview.height}
 				loading="eager"
+				src={preview.url}
+				width={preview.width}
 			/>
 		)
 	}

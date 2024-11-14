@@ -12,7 +12,6 @@ const firstShowcase = projects.find((i) => i.showcase);
 
 <Layout>
 	<Seo
-		slot="seo"
 		description={pkg.description}
 		image={{
 			url:
@@ -22,6 +21,7 @@ const firstShowcase = projects.find((i) => i.showcase);
 					: firstShowcase.preview.url,
 			alt: `${firstShowcase.title} preview`,
 		}}
+		slot="seo"
 	/>
 
 	<main class="index">

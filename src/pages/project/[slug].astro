@@ -20,8 +20,6 @@ if (!project) throw new Error("No project");
 
 <Layout>
 	<Seo
-		slot="seo"
-		title={project.title}
 		description={project.tagline}
 		image={{
 			url:
@@ -31,6 +29,8 @@ if (!project) throw new Error("No project");
 					: project.preview.url,
 			alt: `${project.title} preview`,
 		}}
+		slot="seo"
+		title={project.title}
 	/>
 
 	<div class="index project">

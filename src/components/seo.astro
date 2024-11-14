@@ -15,7 +15,6 @@ const t = [title, "Sean's Site"].filter((i) => i).join(" | ");
 ---
 
 <SEO
-	title={t}
 	description={description}
 	openGraph={{
 		basic: {
@@ -31,6 +30,7 @@ const t = [title, "Sean's Site"].filter((i) => i).join(" | ");
 			? { url: `${siteUrl}${image.url}`, alt: image.alt }
 			: undefined,
 	}}
+	title={t}
 	twitter={{
 		creator: "@SeanSLeBlanc",
 		card: big ? "summary_large_image" : "summary",

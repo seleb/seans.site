@@ -6,15 +6,15 @@ import "../styles/_app.scss";
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="shortcut icon" href="/favicon-32x32.png" />
+		<meta content="width=device-width" name="viewport" />
+		<link href="/favicon-32x32.png" rel="shortcut icon" />
 		<link
-			rel="alternate"
-			type="application/rss+xml"
 			href={`${siteUrl}/rss.xml`}
+			rel="alternate"
 			title="Sean's Site's RSS Feed"
+			type="application/rss+xml"
 		/>
-		<meta name="generator" content={Astro.generator} />
+		<meta content={Astro.generator} name="generator" />
 		<slot name="seo" />
 	</head>
 	<body>

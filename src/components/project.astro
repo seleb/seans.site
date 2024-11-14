@@ -28,25 +28,25 @@ const id = `caption-${idx}`;
 		image.url.endsWith(".mp4") || image.url.endsWith(".webm") ? (
 			<video
 				aria-hidden="true"
-				tabindex="-1"
+				autoplay
 				class="thumbnail"
+				controls={false}
+				height={image.height}
+				loop
+				muted
+				tabindex="-1"
+				poster={project.thumbnail.url}
 				src={image.url}
 				width={image.width}
-				height={image.height}
-				muted
-				autoplay
-				loop
-				controls={false}
-				poster={project.thumbnail.url}
 			/>
 		) : (
 			<img
 				alt=""
 				class="thumbnail"
-				src={image.url}
-				width={image.width}
 				height={image.height}
 				loading={idx < 4 ? "eager" : "lazy"}
+				src={image.url}
+				width={image.width}
 			/>
 		)
 	}

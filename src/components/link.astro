@@ -43,9 +43,9 @@ const { link = "" } = Astro.props;
 {
 	typeof link === "string" ? (
 		<a
-			rel={link.includes(".social/") ? "me" : undefined}
 			class:list={getIcon(link)}
 			href={link}
+			rel={link.includes(".social/") ? "me" : undefined}
 		>
 			{link}
 		</a>

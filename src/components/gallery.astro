@@ -11,17 +11,17 @@ const { projects } = Astro.props;
 ---
 
 <script
-	type="application/ld+json"
 	set:html={JSON.stringify(projects.map(projectToJson))}
+	type="application/ld+json"
 />
 {
 	projects.map((p, idx) => (
 		// eslint-disable-next-line astro/jsx-a11y/control-has-associated-label
 		<a
-			href={`/project/${p.slug}/`}
 			class:list={["project", { showcase: p.showcase }]}
+			href={`/project/${p.slug}/`}
 		>
-			<Project project={p} idx={idx} />
+			<Project idx={idx} project={p} />
 		</a>
 	))
 }
