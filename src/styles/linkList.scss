@@ -71,6 +71,10 @@
 			mask-image: url(../images/icons/rss.svg);
 		}
 
+		&.bluesky:before {
+			mask-image: url(../images/icons/bluesky.svg);
+		}
+
 		&.mastodon:before {
 			mask-image: url(../images/icons/mastodon.svg);
 		}

@@ -28,6 +28,9 @@ function getIcon(link: string) {
 	if (domain.startsWith("tumblr.com") || domain.startsWith("blog.seans.site")) {
 		return "tumblr";
 	}
+	if (domain.startsWith("bsky.app")) {
+		return "bluesky";
+	}
 	if (domain.endsWith(".social")) {
 		return "mastodon";
 	}
