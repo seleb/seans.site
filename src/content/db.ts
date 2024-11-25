@@ -1,5 +1,15 @@
 export default [
 	{
+		title: "thunk",
+		thumbnail: "thumbnails/thunk/thumbnail.png",
+		preview: "thumbnails/thunk/preview.png",
+		association: "videotome jam",
+		date: "2024 November 25",
+		tagline: "hmm",
+		description: 'made for the "waiting" videotome jam',
+		links: ["https://seansleblanc.itch.io/thunk"],
+	},
+	{
 		title: "Joey Wamone's Improbably Inverse Archaeological Expedition",
 		thumbnail: "thumbnails/Joey Wamone's Improbably Inverse Archaeological Expedition/thumbnail.png",
 		preview: "thumbnails/Joey Wamone's Improbably Inverse Archaeological Expedition/preview.png",
