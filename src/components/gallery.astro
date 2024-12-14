@@ -16,7 +16,6 @@ const { projects } = Astro.props;
 />
 {
 	projects.map((p, idx) => (
-		// eslint-disable-next-line astro/jsx-a11y/control-has-associated-label
 		<a
 			class:list={["project", { showcase: p.showcase }]}
 			href={`/project/${p.slug}/`}
