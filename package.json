@@ -6,6 +6,7 @@
 	"author": "Sean S. LeBlanc <sean.s.leblanc@gmail.com>",
 	"repository": "github:seleb/seans.site",
 	"license": "UNLICENSED",
+	"type": "module",
 	"scripts": {
 		"build": "astro build",
 		"start": "astro dev",
