@@ -21,7 +21,9 @@
     "incremental": true,
     "jsxImportSource": "react"
   },
+  "include": [".astro/types.d.ts", "**/*"],
   "exclude": [
+    "dist",
     "node_modules"
   ]
 }
