@@ -18,7 +18,7 @@
 		"@types/node": "^20.12.12",
 		"@types/rss": "^0.0.32",
 		"@typescript-eslint/parser": "^8.18.0",
-		"astro": "^5.0.5",
+		"astro": "^5.0.8",
 		"astro-seo": "^0.8.3",
 		"eslint": "^9.17.0",
 		"eslint-config-prettier": "^9.1.0",
