@@ -1,5 +1,17 @@
 export default [
 	{
+		title: "How am I Still Waiting for the Bus?",
+		thumbnail: "thumbnails/How am I Still Waiting for the Bus/thumbnail.gif",
+		preview: "thumbnails/How am I Still Waiting for the Bus/preview.gif",
+		association: "#AGBIC",
+		date: "2024 December 21",
+		description: "<p>You've been waiting for your bus. And waiting. And waiting. And now  you're dead! Your soul is being drawn toward the afterlife, but you have  to fight the urge. You can't <em>die</em> -- you have to get to <strong><em>WORK!!</em></strong>&nbsp;</p><p>Prevent your ghost from floating to the top of the screen until your bus comes. To pass the time, listen in on other people's conversations.</p>",
+		links: [
+			"https://sweetheartsquad.itch.io/how-am-i-still-waiting-for-the-bus",
+		],
+		showcase: true,
+	},
+	{
 		title: "thunk",
 		thumbnail: "thumbnails/thunk/thumbnail.png",
 		preview: "thumbnails/thunk/preview.png",
