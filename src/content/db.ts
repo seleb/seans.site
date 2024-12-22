@@ -1382,7 +1382,7 @@ export default [
 		description: "",
 		links: [
 			"https://seansleblanc.itch.io/the-ladys-book-of-decency",
-			"https://github.com/SweetheartSquad/Gothic-Novel-Jam-2018",
+			"https://github.com/seleb/Gothic-Novel-Jam-2018",
 		],
 	},
 	{
