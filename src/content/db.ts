@@ -1,5 +1,18 @@
 export default [
 	{
+		title: "gimme-font",
+		tagline: "gimme five, gimme more on to decide",
+		thumbnail: "thumbnails/gimme-font/thumbnail.png",
+		preview: "thumbnails/gimme-font/thumbnail.png",
+		date: "2024 December 27",
+		tags: ["software", "tool"],
+		description: "a basic web ui for browsing fonts installed on your device",
+		links: [
+			"https://seleb.github.io/gimme-font/",
+			"https://github.com/seleb/gimme-font",
+		],
+	},
+	{
 		title: "How am I Still Waiting for the Bus?",
 		thumbnail: "thumbnails/How am I Still Waiting for the Bus/thumbnail.gif",
 		preview: "thumbnails/How am I Still Waiting for the Bus/preview.gif",
