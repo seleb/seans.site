@@ -1,4 +1,5 @@
-@import "normalize.css";
+@use "sass:meta";
+@include meta.load-css("normalize.css");
 
 html {
 	--bg: #211927;
@@ -63,6 +64,6 @@ hr {
 	color: #000;
 }
 
-@import "./index.scss";
-@import "./linkList.scss";
-@import "./projectPage.scss";
+@include meta.load-css("index.scss");
+@include meta.load-css("linkList.scss");
+@include meta.load-css("projectPage.scss");
